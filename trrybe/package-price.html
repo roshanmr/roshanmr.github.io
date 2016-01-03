@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Trrybe.com | plan price</title>    
+        <!-- css -->        
+        <link href="../css/font-awesome.css" rel="stylesheet">  
+        <link href="../css/main.css" rel="stylesheet">
+        <!-- js -->
+        <script type="text/javascript" src="../js/jquery.min.js"></script>
+        <script type="text/javascript" src="../js/custom.js"></script>  
+    </head>
+    <body>
+        <header class="top-nav">
+            <div class="container">
+                <a href="/trrybe/trrybe" class="logo">
+                    <img src="../images/logo.png" alt="trrybe logo">
+                </a>
+                <nav class="main-nav">
+                    <ul>                        
+                        <li><a href="#">How it work</a></li> 
+                        <li><a href="#" id="logoutLink" title="Logout"><i class="fa fa-sign-out"></i></a></li>
+                        <li><a href="#" class="more-link-btn"><i class="fa fa-bars"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="More-links">
+            <span class="close-menu"><i class="fa fa-times"></i></span>
+            <nav>
+                <ul>                    
+                    <li><a href="dashboard.html">Setting</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Lorem ipsuem</a></li>
+                    <li><a href="#">Lorem ipsuem</a></li>
+                    <li><a href="#">Lorem ipsuem</a></li>
+                </ul>
+            </nav>
+        </div>
+       
+        <section class="price-section clearfix" id="price-section">
+            <div class="container">
+                <h2>Plan That Meet Your Needs</h2>
+                <div class="price-items">
+                    <div class="item">
+                        <div class="plan">
+                            <h3>Trrybe Basic</h3>
+                            <p class="price"><strong>Free</strong></p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting </p>
+                        </div>
+                        <ul>
+                            <li>Lorem Ipsum is simply dummy</li>
+                            <li>Lorem Ipsum is </li>
+                            <li>Lorem Ipsum is simply </li>
+                            <li>Lorem Ipsum </li>
+                            <li>Lorem Ipsum is simply dummy</li>
+                            <li>Lorem Ipsum is </li>
+                            <li>Lorem Ipsum is simply</li>
+                        </ul>
+                        <input type="radio" name="choose-plan-radio" id="trrybeBasic">
+                        <label for="trrybeBasic">Join Now</label>
+                    </div> 
+                    <div class="item">
+                        <div class="plan">
+                            <h3>Trrybe Standard</h3>
+                            <p class="price"><sup>$</sup><strong>40</strong><sub>/Year</sub></p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting </p>
+                        </div>
+                        <ul>
+                            <li>Lorem Ipsum is simply dummy</li>
+                            <li>Lorem Ipsum is </li>
+                            <li>Lorem Ipsum is simply </li>
+                            <li>Lorem Ipsum </li>
+                            <li>Lorem Ipsum is simply dummy</li>
+                            <li>Lorem Ipsum is </li>
+                            <li>Lorem Ipsum is simply</li>
+                        </ul>
+                        <input type="radio" name="choose-plan-radio" id="trrybeStandard" >
+                        <label for="trrybeStandard">Get Standard</label>
+                    </div> 
+                    <div class="item">
+                        <div class="plan">
+                            <h3>Trrybe Pro</h3>
+                            <p class="price"><sup>$</sup><strong>60</strong><sub>/Year</sub></p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting </p>
+                        </div>
+                        <ul>
+                            <li>Lorem Ipsum is simply dummy</li>
+                            <li>Lorem Ipsum is </li>
+                            <li>Lorem Ipsum is simply </li>
+                            <li>Lorem Ipsum </li>
+                            <li>Lorem Ipsum is simply dummy</li>
+                            <li>Lorem Ipsum is </li>
+                            <li>Lorem Ipsum is simply</li>
+                        </ul>
+                        <input type="radio" name="choose-plan-radio" id="trrybePro">
+                        <label for="trrybePro">Get Pro</label>
+                    </div> 
+                </div>
+            </div>
+        </section>
+
+        <div class="container user-info-block">
+            <form method="post">
+                <div class="user-info-payment">
+                    <h3>You selected Trrybe Standard plan: $40/Year</h3>
+                    <div class="user-details">
+                        <fieldset>                   
+                            <label>Name</label>
+                            <input type="text" class="form-control" value="John Smith">
+                        </fieldset> 
+
+                         <fieldset>                   
+                            <label>E-Mail</label>
+                            <input type="text" class="form-control" value="john@company.com">
+                        </fieldset> 
+
+
+                        <fieldset>
+                            <label>Password</label>
+                            <input type="text" class="form-control" value="********">   
+                        </fieldset>            
+                    </div>    
+                </div>   
+                <div class="user-domain-name">
+                    <label><input type="radio" name="selectDomain"> I want a domain name</label>
+                    <input type="text" class="form-control" placeholder="user name" id="userNameText"><span>@trrybe.com</span> <br/>
+                    <label><input type="radio" class="own-domain-check" name="selectDomain"> I have own domain name</label>
+                    <input type="text" class="form-control own-domain-text" placeholder="Enter own domain name">
+                    <a href="#" class="btn btn-submit" id="proceed">Proceed</a>
+                </div>
+            </form>        
+        </div>
+        <div class="checkout clearfix">
+            <div class="container">
+                <div class="payment-option">
+                    <ul>
+                        <li>
+                            <label>
+                                <input type="radio" name="cardPayment" id="cardPayment" checked="checked">
+                                <img src="../images/card-payment.png" alt="master card">
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="cardPayment" id="paypalPayment">
+                                <img src="../images/paypal-payment-icon.png" alt="paypal payment">
+                            </label>
+                        </li>
+                    </ul>                        
+                    <form action="post">
+                        <div class="card-payment-block">
+                            <fieldset>
+                                <label>Billing name</label>
+                                <input type="text" class="form-control">
+                            </fieldset>
+                            <fieldset>
+                                <label>Credit card number</label>
+                                <input type="text" class="form-control">
+                            </fieldset>
+                            <fieldset class="expiry-date">
+                                <label>Expiration date</label>
+                                <input type="text" class="form-control" placeholder="MM">
+                                <span>/</span>
+                                <input type="text" class="form-control" placeholder="YY">
+                                <span class="secury-code">Security code</span>
+                                <input type="text" class="form-control">
+                            </fieldset>
+                            <fieldset>
+                                <label>Country</label>
+                                <select class="form-control">
+                                    <option>United States</option>
+                                    <option>India</option>
+                                    <option>Australia</option>
+                                </select>
+                            </fieldset>
+                            <fieldset>
+                                <label>Zip code</label>
+                                <input type="text" class="form-control">
+                            </fieldset>                                 
+                        </div>
+                        <div class="paypal-payment-block">
+                            <fieldset>
+                                <label>Country</label>
+                                <input type="text" class="form-control">
+                            </fieldset>
+                            <fieldset class="expiry-date">
+                                <label>Zip Code</label>
+                                <input type="text" class="form-control">
+                            </fieldset>
+                        </div>
+                        <div class="checkout-now">
+                            <input type="submit" class="btn btn-submit" value="CHECKOUT">
+                        </div>
+                    </form>                        
+                </div>
+            </div>
+        </div>
+        
+
+        <footer class="footer-section">
+            <div class="container">
+                <h4>Trrybe</h4>
+                <ul>
+                    <li><a href="#">About Trrybe</a></li>
+                    <li><a href="#">Trrybe Blog</a></li>
+                    <li><a href="#">Trrybe Guidelines</a></li>
+                    <li><a href="#">Developers</a></li>
+                    <li><a href="#">Career</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Loremm  ipsum let ded</a></li>
+                    <li><a href="#">Loremm  ipsum let ded</a></li>
+                    <li><a href="#">Loremm  ipsum let </a></li>
+                    <li><a href="#">Loremm  ipsum let </a></li>
+                    <li><a href="#">Loremm  ipsum let ded</a></li>
+                </ul>
+            </div>            
+        </footer>
+        <div class="copy-write-footer">
+            <div class="container">
+                <div class="copy-write">
+                    <p>&copy; 2015 Trrybe (India) Private Limited. All Rights Reserved.</p>
+                </div>
+                <div class="more-links-footer">
+                    <ul>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy</a></li>                       
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

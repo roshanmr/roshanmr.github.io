@@ -1,0 +1,52 @@
+.video-admin-add-video-form {
+	margin-bottom: 0px;
+	textarea {
+		width: 100%;
+	}		
+	label {
+		font-size: 1.4em;
+	}
+	fieldset.inline {
+		@include span(4);
+		label {
+			display: block;
+		}
+		.form-control {
+			width: 100%;
+		}
+	}
+	fieldset.block {
+		@include span(12);
+	}
+	hr {
+		margin-bottom: 15px;
+		margin-top: 15px;
+	}
+	.btn-submit {
+		margin-bottom: 15px;
+		margin-left: 8px;
+	}
+	.heading {
+		text-align: center;
+	    background-color: $gray-light-bg;
+	    font-size: 1.6em;
+	    padding: 8px;
+	    border-bottom: 1px solid $gray-dark;
+	}
+}
+
+.about-video {
+	p {
+		font-size: 14px;
+	}
+}
+
+.channel-videos-list {
+	background-color: $gray-light-bg;
+	padding: 30px;
+
+
+	.my-videos .item .action {
+		float: right;
+	}
+}

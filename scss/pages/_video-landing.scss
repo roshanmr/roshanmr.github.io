@@ -1,0 +1,244 @@
+/*================================ video landing pagge banner ============================*/
+.upload-video-banner {
+	background: $primary-bold url("../images/tour.jpg") center top no-repeat;
+	h2{
+		display: inline-block;
+		background-color: rgba(245, 245, 245, 0.22);
+		padding: 10px 20px;
+		text-transform: uppercase;
+		@include break;
+	}
+	p {
+		margin-top: 10px;
+	}
+	.btn {
+		@include button-style(2px solid $white, $size24, 5px 15px, $primary-bold);
+		background-color: rgba(255, 255, 255, 0.4);	
+	}
+}
+
+/*================================ video description section ============================*/
+.video-describe {
+	padding: 50px 0px;
+	background-color: $gray-light-bg;	
+	.posted-by {		
+		span {
+			float:right;
+		}
+		strong {
+			font-weight: bold;
+		}		
+		& + img {
+	 		margin: 15px auto;
+	 		display: block;
+	 		width: 100%;
+	 	}
+	}
+	.read-more {
+		a {
+			float: right;
+			text-decoration: underline;
+			font-size: 1.4em;
+		}
+	}	
+	.content {				
+		margin-bottom: 15px;		
+	}
+	.social-like {
+		@include breakpoint(768px){
+			@include span(6);
+		}		
+	} 
+	p {
+		font-size: 1.4em;
+	}	
+}
+
+
+.social-like-block {
+	text-align: right;
+	@include breakpoint(768px){
+		@include span(6);
+	}	
+
+	a {
+		font-size: 3em;
+		margin-left: 25px;
+		span {
+			margin-left: 5px;
+		    background-color: #fff;
+		    padding: 3px 10px;
+		    font-size: .8em;
+		}
+	}
+}
+
+
+.social-status {
+	p{
+		line-height: 36px;
+		font-weight: bold;
+		font-size: 1.4em;
+	}
+}
+
+.all-video-section {
+	.related-videos {
+		@include span(12);
+		margin-bottom: 20px;	
+		@include breakpoint(768px){
+			@include span(9);
+		}
+	}	
+
+	h2 {
+		text-align: center;
+	}
+}
+
+.follow-aside {
+	@include span(12);
+	@include breakpoint(768px){
+		@include span(3);
+	}
+	& > a {
+		display: block;
+		@include button-style(2px solid $primary-bold, $size16, 10px 15px, $white);
+		background-color: $primary-bold;
+		text-align: center;
+		@include break;
+	}
+	li {
+		line-height: 35px;
+		border-bottom: 1px dashed $gray-light;
+		font-size: $size18;			
+	}
+}
+
+.post-comment {
+	.posted-by {
+		@include span(2);
+		display: inline-block;
+		img {
+			float: right;
+		}
+	}
+	.comment {
+		@include span(10);
+		p:first-child{
+			strong {
+				margin-right: 10px;
+			}
+			span{
+				color: $gray-dark;
+			}
+		}
+	}
+	.comment-item {
+		padding-top: 20px;  
+		border-top: 1px dashed $gray-light;
+		&:first-child{
+			border-top: none;
+		}
+	}
+	.comment-item-reply {	
+		.comment-reply-form {
+			display: none;
+		}		
+		form {			
+			@include pre(2 of 12);
+			a {
+				font-size: 1.4em;
+			}
+		}
+		textarea {
+			width: 100%;
+		}
+		&>a {
+			margin-bottom: 20px;
+			font-size: 1.4em;
+			color: $gray-dark;
+		}
+		.commentReplyLink {
+			float: right;
+		}
+		span {
+			font-size: 1.2em;
+		}
+		.btn-default {
+			margin-right: 10px;
+		}
+	}
+	.comment-sm-img {
+		width: 32px;
+	}
+	.comment-lr-img {
+		width: 64px;
+	}
+}
+
+.social-like {
+	margin-bottom: 30px;
+	.social-item {
+		width: 90px;
+		float: left;
+    	margin-right: 15px;		
+		.social-id {
+			width: 90px;
+			height: 32px;
+			margin-top: 10px;
+		}
+	}
+	.count {
+		border: 1px solid $gray-light;
+		height: 30px;
+		position: relative;
+		background-color: $white;
+		text-align: center;
+
+		@include border-radius(4px);
+
+		&:after {
+			content: "";
+		    border-top: 10px solid $gray-light;
+		    border-bottom: 0;
+		    border-left: 10px solid transparent;
+		    border-right: 10px solid transparent;
+		    width: 0;
+		    height: 0;
+		    position: absolute;
+		    bottom: -10px;
+		    left: 35px;
+		}
+		&:before{
+			content: "";
+		    border-top: 9px solid $white;
+		    border-bottom: 0;
+		    border-left: 9px solid transparent;
+		    border-right: 9px solid transparent;
+		    width: 0;
+		    height: 0;
+		    position: absolute;
+		    bottom: -9px;
+		    left: 36px;
+		    z-index: 2;
+		}
+		span {
+			line-height: 30px;
+			font-size: 1.4em;
+		}
+	}
+}
+
+.facebook-icon {
+	background: $facebook;
+}
+
+.twitter-icon {
+	background: $twitter;
+}
+
+.pinterest-icon {
+	background: $pinterest;
+}
+

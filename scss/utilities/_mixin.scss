@@ -1,0 +1,18 @@
+
+@mixin button-style($border, $font-size, $btn-padding, $text-color){	
+	border: $border;
+	font-size: $font-size;
+	padding: $btn-padding;
+	color: $text-color;
+}
+
+@mixin transition($display, $time){
+	transition: $display $time;
+}
+
+@mixin transform($function){
+	-webkit-transform: $function;
+	-moz-transform: $function;
+	-o-transform: $function;
+	transform: $function;
+}

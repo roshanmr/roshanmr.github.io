@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Trrybe.com</title>    
+        <!-- css -->        
+        <link href="../css/font-awesome.css" rel="stylesheet">  
+        <link href="../css/main.css" rel="stylesheet">
+        <!-- js -->
+        <script type="text/javascript" src="../js/jquery.min.js"></script>
+        <script type="text/javascript" src="../js/custom.js"></script>  
+    </head>
+    <body>
+        <header class="top-nav">
+            <div class="container">
+                <a href="/trrybe/trrybe" class="logo">
+                    <img src="../images/logo.png" alt="trrybe logo">
+                </a>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="#price-section" class="priceSectionLink">Pricing</a></li>
+                        <li><a href="#">How it work</a></li>
+                        <li><a href="#" id="signUpForm" title="Sign Up">Sign in</a></li>
+                        <li><a href="#" class="search-btn-top" title="Search"><i class="fa fa-search"></i></a></li>
+                        <li><a href="#" class="more-link-btn" title="Quick links"><i class="fa fa-bars"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="search-box">
+            <div class="container">               
+                <form method="post">
+                    <input type="text" class="form-control search-text-box" placeholder="Search video, People and More.." id="searchBox" name="searchBox">
+                    <input type="submit" class="btn search-btn" id="submitBTN" name="submitBTN" value="Search">
+                    <input type="button" class="btn close-btn" id="closeBTN" name="closeBTN" value="null" >
+                </form>
+            </div>
+        </div>
+        <div class="More-links">
+            <span class="close-menu"><i class="fa fa-times"></i></span>
+            <nav>
+                <ul>
+                    <li><a href="#" class="login-link">Login</a></li>
+                    <li><a href="index.html">Join</a></li>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="../client/">Client Page</a></li>
+                    <li><a href="#">Lorem ipsuem</a></li>
+                    <li><a href="#">Lorem ipsuem</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <section class="Join-now-form">
+            <div class="container">
+                <h2>Make life worth watching</h2>
+                <form method="post">
+                    <input type="text" placeholder="Your Email Address" class="form-control" id="firstName" name="firstName">
+                    <input type="email" placeholder="Password" class="form-control" id="emailAddress" name="emailAddress">
+                    <a href="package-price.html" class="btn btn-submit">Join</a>
+                    <!-- <input type="submit" class="btn btn-submit" id="submitBTN2" name="submitBTN2" value="Join"> -->
+                    <span class="login-link">Or <a href="#">Login</a></span>
+                </form>
+                <div class="terms-agree">
+                    <p>By joining Trrybe, you agree to our <a href="#">Terms of Service</a></p>
+                </div>
+                <div class="join-with-facebook">
+                    <a href="#"><span class="facebook"></span>Join with Facebook</a>
+                    <a href="#"><span class="googleplus"></span>Join with Google Plus</a>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="video-category">
+            <div class="container">
+                <h2>Channels we love</h2>
+                <h3>Curated channels by Trrybe staff</h3>
+                <div class="video-item">
+                    <div class="content">
+                        <a href="technology-channel.html">
+                            <img src="../images/tech.jpg" alt="video cover image">
+                            <div class="item-body">
+                                <h3>Technology</h3>
+                                <p><span class="watch-now">View Channel</span></p> 
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="video-item">
+                    <div class="content">
+                        <a href="business-channel.html">
+                            <img src="../images/business.jpg" alt="video cover image">
+                            <div class="item-body">
+                                <h3>Business</h3>
+                                <p><span class="watch-now">View Channel</span></p>  
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="video-item">
+                    <div class="content">
+                        <a href="art-channel.html">
+                            <img src="../images/art.jpg" alt="video cover image">
+                            <div class="item-body">
+                                <h3>Art</h3>
+                                <p><span class="watch-now">View Channel</span></p>  
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="video-item">
+                    <div class="content">
+                        <a href="science-channel.html">
+                            <img src="../images/science.jpg" alt="video cover image">
+                            <div class="item-body">
+                                <h3>Science</h3>
+                                <p><span class="watch-now">View Channel</span></p>  
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="video-item">
+                    <div class="content">
+                        <a href="inspirational-channel.html">
+                            <img src="../images/inspirational.jpg" alt="video cover image">
+                            <div class="item-body">
+                                <h3>Inspirational</h3>
+                                <p><span class="watch-now">View Channel</span></p>  
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="video-item">
+                    <div class="content">
+                        <a href="news-channel.html">
+                            <img src="../images/news.jpg" alt="video cover image">
+                            <div class="item-body">
+                                <h3>News</h3>
+                                <p><span class="watch-now">View Channel</span></p>  
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section  class="upgrade-plan">
+            <div class="container">
+                <div class="plan-title">
+                    <h2>Trrybe Plus + PRO</h2>
+                    <h3>Just like regular Trrybe, only about a billion times better.</h3>
+                    <a href="#" class="btn learn-more">Learn More</a>
+                </div>
+                <div class="plan-feature">      
+                    <p>Trrybe Plus + PRO offer:</p> 
+                    <ul>
+                        <li>Up to 20GB / week storage space</li>
+                        <li>Priority video conversion</li>
+                        <li>More video privacy options</li>
+                        <li>Unlimited HD plays</li>
+                        <li>No banner ads</li>
+                    </ul>             
+                </div>
+            </div>
+        </section>
+
+        <section class="price-section clearfix" id="price-section">
+            <div class="container">
+                <h2>Plan That Meet Your Needs</h2>
+                <div class="price-items">
+                    <div class="item">
+                        <div class="plan">
+                            <h3>Trrybe Basic</h3>
+                            <p class="price"><strong>Free</strong></p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting </p>
+                        </div>
+                        <ul>
+                            <li>Lorem Ipsum is simply dummy</li>
+                            <li>Lorem Ipsum is </li>
+                            <li>Lorem Ipsum is simply </li>
+                            <li>Lorem Ipsum </li>
+                            <li>Lorem Ipsum is simply dummy</li>
+                            <li>Lorem Ipsum is </li>
+                            <li>Lorem Ipsum is simply</li>
+                        </ul>
+                        <input type="radio" name="choose-plan-radio" id="trrybeBasic">
+                        <label for="trrybeBasic">Join Now</label>
+                    </div> 
+                    <div class="item">
+                        <div class="plan">
+                            <h3>Trrybe Standard</h3>
+                            <p class="price"><sup>$</sup><strong>40</strong><sub>/Year</sub></p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting </p>
+                        </div>
+                        <ul>
+                            <li>Lorem Ipsum is simply dummy</li>
+                            <li>Lorem Ipsum is </li>
+                            <li>Lorem Ipsum is simply </li>
+                            <li>Lorem Ipsum </li>
+                            <li>Lorem Ipsum is simply dummy</li>
+                            <li>Lorem Ipsum is </li>
+                            <li>Lorem Ipsum is simply</li>
+                        </ul>
+                        <input type="radio" name="choose-plan-radio" id="trrybeStandard" >
+                        <label for="trrybeStandard">Get Standard</label>
+                    </div> 
+                    <div class="item">
+                        <div class="plan">
+                            <h3>Trrybe Pro</h3>
+                            <p class="price"><sup>$</sup><strong>60</strong><sub>/Year</sub></p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting </p>
+                        </div>
+                        <ul>
+                            <li>Lorem Ipsum is simply dummy</li>
+                            <li>Lorem Ipsum is </li>
+                            <li>Lorem Ipsum is simply </li>
+                            <li>Lorem Ipsum </li>
+                            <li>Lorem Ipsum is simply dummy</li>
+                            <li>Lorem Ipsum is </li>
+                            <li>Lorem Ipsum is simply</li>
+                        </ul>
+                        <input type="radio" name="choose-plan-radio" id="trrybePro">
+                        <label for="trrybePro">Get Pro</label>
+                    </div> 
+                </div>
+            </div>
+        </section>
+        
+        <div class="container user-info-block">
+            <form method="post">
+                <div class="user-info-payment">
+                    <h3>You selected Trrybe Standard plan: $40/Year</h3>
+                    <div class="user-details">
+                        <fieldset>                   
+                            <label>Name</label>
+                            <input type="text" class="form-control" value="John Smith">
+                        </fieldset> 
+                        <fieldset>
+                            <label>Domain</label>
+                            <input type="text" class="form-control" value="Your domain name">   
+                        </fieldset>            
+                    </div>    
+                </div>   
+                <div class="user-domain-name">
+                    <label><input type="radio" name="selectDomain"> I want a domain name</label>
+                    <input type="text" class="form-control" placeholder="user name" id="userNameText"><span>@trrybe.com</span> <br/>
+                    <label><input type="radio" class="own-domain-check" name="selectDomain"> I have own domain name</label>
+                    <input type="text" class="form-control own-domain-text" placeholder="Enter own domain name">
+                    <a href="#" class="btn btn-submit" id="proceed">Proceed</a>
+                </div>
+            </form>        
+        </div>
+        <div class="checkout clearfix">
+            <div class="container">
+                <div class="payment-option">
+                    <ul>
+                        <li>
+                            <label>
+                                <input type="radio" name="cardPayment" id="cardPayment" checked="checked">
+                                <img src="../images/card-payment.png" alt="master card">
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="cardPayment" id="paypalPayment">
+                                <img src="../images/paypal-payment-icon.png" alt="paypal payment">
+                            </label>
+                        </li>
+                    </ul>                        
+                    <form action="post">
+                        <div class="card-payment-block">
+                            <fieldset>
+                                <label>Billing name</label>
+                                <input type="text" class="form-control">
+                            </fieldset>
+                            <fieldset>
+                                <label>Credit card number</label>
+                                <input type="text" class="form-control">
+                            </fieldset>
+                            <fieldset class="expiry-date">
+                                <label>Expiration date</label>
+                                <input type="text" class="form-control" placeholder="MM">
+                                <span>/</span>
+                                <input type="text" class="form-control" placeholder="YY">
+                                <span class="secury-code">Security code</span>
+                                <input type="text" class="form-control">
+                            </fieldset>
+                            <fieldset>
+                                <label>Country</label>
+                                <select class="form-control">
+                                    <option>United States</option>
+                                    <option>India</option>
+                                    <option>Australia</option>
+                                </select>
+                            </fieldset>
+                            <fieldset>
+                                <label>Zip code</label>
+                                <input type="text" class="form-control">
+                            </fieldset>                                 
+                        </div>
+                        <div class="paypal-payment-block">
+                            <fieldset>
+                                <label>Country</label>
+                                <input type="text" class="form-control">
+                            </fieldset>
+                            <fieldset class="expiry-date">
+                                <label>Zip Code</label>
+                                <input type="text" class="form-control">
+                            </fieldset>
+                        </div>
+                        <div class="checkout-now">
+                            <input type="submit" class="btn btn-submit" value="CHECKOUT">
+                        </div>
+                    </form>                        
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer-section">
+            <div class="container">
+                <h4>Trrybe</h4>
+                <ul>
+                    <li><a href="#">About Trrybe</a></li>
+                    <li><a href="#">Trrybe Blog</a></li>
+                    <li><a href="#">Trrybe Guidelines</a></li>
+                    <li><a href="#">Developers</a></li>
+                    <li><a href="#">Career</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Loremm  ipsum let ded</a></li>
+                    <li><a href="#">Loremm  ipsum let ded</a></li>
+                    <li><a href="#">Loremm  ipsum let </a></li>
+                    <li><a href="#">Loremm  ipsum let </a></li>
+                    <li><a href="#">Loremm  ipsum let ded</a></li>
+                </ul>
+            </div>            
+        </footer>
+        <div class="copy-write-footer">
+            <div class="container">
+                <div class="copy-write">
+                    <p>&copy; 2015 Trrybe (India) Private Limited. All Rights Reserved.</p>
+                </div>
+                <div class="more-links-footer">
+                    <ul>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy</a></li>                       
+                    </ul>
+                </div>
+            </div>
+        </div>  
+        <!-- login form container -->       
+        <div class="login-form-wrapper popup-wrapper">
+            <div class="popup-container">
+                <h2>Welcome to Trrybe</h2>
+                <span class="close-pop"><i class="fa fa-times"></i></span>
+                <div class="register-wrap">
+                    <h3>User Register</h3>
+                    <form method="post">
+
+                        <input type="text" class="form-control" placeholder="username*">                        
+                        <input type="email" class="form-control" placeholder="email address*">
+                        <div class="user-domain-name">
+                            <label><input type="radio" name="selectDomain"> I want a domain name</label>
+                            <input type="text" class="form-control" placeholder="user name" id="userNameText"><span>@trrybe.com</span> <br>
+                            <label><input type="radio" class="own-domain-check" name="selectDomain"> I have own domain name</label>
+                            <input type="text" class="form-control own-domain-text" placeholder="Enter own domain name" style="display: inline-block;">
+                            <a href="#" class="btn btn-submit" id="proceed">Proceed</a>
+                        </div>
+                        <div class="password clearfix">
+                            <input type="password"  class="form-control" placeholder="password*">
+                            <input type="password"  class="form-control" placeholder="confirm password*">
+                        </div>
+                        <div class="password-strength">
+                            <p>Password strength: <span>week</span></p>
+                            <div class="password-indicator">
+                                <div class="indicator"></div>
+                            </div>
+                        </div>
+                        <input type="submit"  class="btn login-submit" name="login-submit" id="login-submit" value="Sign Up">
+                        <span class="join-link">Or <a href="#" id="LoginInLink">Alreay Register Login</a></span>
+                    </form>
+                </div>
+                <div class="login-wrap">
+                    <h3>User Login</h3>                    
+                    <form >
+                        <input type="email" class="form-control" name="login-emailid" id="login-emailid" placeholder="Email Address">
+                        <input type="password"  class="form-control" name="login-password" id="login-password" placeholder="Password">
+                        <a href="#" class="submit-btn" id="loginButton">Login</a>
+                        <span class="join-link">Or <a href="#" id="joinLink">Sign Up</a></span>
+                    </form>
+                    <a href="#" id="forgotPasswordLink">Forgot Password</a>
+                    <div class="forgot-password">
+                        <form >
+                            <input type="email" name="forgotpass-emailid" id="forgotpass-emailid" placeholder="Email Address">                            
+                            <input type="submit" name="forgotpass-submit" id="forgotpass-submit" value="Submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Welcome new joinee container -->    
+        <div class="welcome-screen popup-wrapper">
+            <div class="popup-container">
+                <h2>Welcome : <span>John Smith</span></h2>                
+                <span class="close-pop"><i class="fa fa-times"></i></span>
+                <p>Thanks for being cool and confirming your registration. What's next? You can <strong>invite your friends to Trrybe</strong>, because everything is better with pals. Or <strong>connect your facebook account</strong>to make sharing ridiculously easy. If you have your first video ready, <strong>Upload it now</strong>. Happy exploring!</p>
+                <div class="upload">
+                    <input type="file" name="newVideoUpload" id="newVideoUpload">
+                    <a href="#" class="btn btn-upload"><i class="fa fa-cloud-upload"></i> Upload a video</a>
+                </div>
+                
+            </div>
+        </div>  
+    </body>
+</html>

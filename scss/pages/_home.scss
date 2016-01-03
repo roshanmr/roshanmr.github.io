@@ -1,0 +1,197 @@
+/*================================ Join-now-form ============================*/
+.Join-now-form {
+	background: url("../images/join-now-bg.jpg") center top no-repeat;
+	min-height: 400px;
+	color: $white;	
+	box-sizing: border-box;
+	@include breakpoint(320px) {
+		padding: 20px 0px;
+	}
+	@include breakpoint(480px) {
+		padding: 80px 0px;
+	}
+	.container {
+		max-width: 715px;
+	}
+	h2 {
+		text-align: center;
+		color: $white;	
+		@include breakpoint(768px) {
+			margin-bottom: 40px;	
+		}		
+	}
+	.btn {
+		@include button-style(2px solid $secondry-bold, $size16, 9px 12px, $white);		
+	}
+	input[placeholder] {
+		font-size: $size20;
+	}
+	.form-control {
+		height: 40px;
+	}
+	form  { 
+		
+		input {
+			margin-left: 5px;
+			&:first-child {
+				@include breakpoint(1024px){
+					margin-left: 0px;
+				}	
+			}	
+		} 
+		.login-link {
+			margin-left: 15px;
+			display: inline-block;
+			a {
+				margin-left: 15px;
+				line-height: 37px;
+			}
+		}
+	}
+
+	.terms-agree {
+		box-sizing: border-box;
+		display: inline-block;
+		@include breakpoint($small){
+			@include span(12);
+		}
+		p {
+			margin-bottom: 5px;
+		}
+	}
+
+	.join-with-facebook {
+		box-sizing: border-box;
+		ext-align: right;
+		float: right;
+		@include breakpoint($small){
+			@include span(12);
+		}
+		@include breakpoint(768px){
+			padding-right: 3%;
+		}
+	}
+	a {
+		color: $white;
+		font-size: 1.4em;
+	}
+}
+
+/*================================ upgrade-plan ============================*/
+.upgrade-plan {
+	background-color: $gray-light-bg;	
+	.plan-title{
+		box-sizing: border-box;
+		@include breakpoint(320px){
+			@include span(12);
+		}
+		@include breakpoint(768px){
+			@include span(6);
+		}		
+		.learn-more{
+			@include button-style(2px solid $secondry-bold, $size24, 6px 12px, $white);
+			background-color: $secondry-bold;
+			margin-top: 15px;
+			display: inline-block;
+		}
+		
+	}
+	.plan-feature{	
+		box-sizing: border-box;
+		@include breakpoint(320px){
+			@include span(12);
+		}	
+		@include breakpoint(768px){
+			@include span(6);
+			padding-left: 10%;
+		}
+		& > p {
+			font-size: $size20;
+			font-weight: bold;
+
+		}
+		ul {
+			padding-left: 25px;			
+		}
+		li{
+			list-style-image: url("../images/list-icon.png");
+			line-height: 30px;
+			font-size: 1.4em;
+		}
+	}
+}
+
+
+.welcome-screen {
+	.btn-upload {
+		margin-top: 25px;
+	}	
+	input[type="file"] {
+		width: 100%;
+	}
+}
+
+/*================================ video-category ============================*/
+
+.video-category {	
+	h2 {
+		margin-bottom: 20px;
+		text-align: center;
+		text-transform: uppercase;
+	}	
+	h3 {
+		text-align: center;
+		font-size: 2em;
+		color: #9A9A9A;
+		margin-bottom: 30px;
+	}
+}
+.video-item {		
+	border: 1px solid $gray-light;
+	padding:  5px;
+	margin-bottom: 15px;
+	box-sizing: border-box;
+	@include breakpoint(480px){
+		@include span(6);
+	}
+	@include breakpoint(768px){
+		@include span(4);
+	}
+	img {
+		width: 100%;	
+	}
+	.content {
+		position: relative;					
+	}
+	.item-body {
+			position: absolute;
+		    width: 100%;
+		    background-color: rgba(10, 10, 10, 0.89);
+		    height: 100%;
+		    top: 0;
+		    left: 0px;
+		    text-align: center;
+		    padding-top: 30%;	
+		    border: 1px solid $gray-dark;
+			opacity: 0.7;
+			filter: alpha(opacity=70);	    				    	    
+		    h3 {
+		    	color: $white;
+		    }
+		    p {
+		    	margin-bottom: 15px;
+		    	font-size: 1.4em;
+		    	color: $gray-light;			    	
+		    }
+		    .watch-now {
+	    		border: 2px solid $white;
+			    padding: 6px 12px;
+			    background-color: transparent;
+			    display: inline-block;
+			    color: $white;
+	    	}
+		}
+	.content {
+		overflow: hidden;
+	}
+}

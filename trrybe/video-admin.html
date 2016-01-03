@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Trrybe.com | Video Landing page</title>
+        <!-- css -->        
+        <link href="../css/font-awesome.css" rel="stylesheet">  
+        <link href="../css/main.css" rel="stylesheet">
+        <!-- js -->
+        <script type="text/javascript" src="../js/jquery.min.js"></script>
+        <script type="text/javascript" src="../js/custom.js"></script>
+    </head>
+    <body>
+        <header class="top-nav">
+            <div class="container">
+                <a href="/trrybe/trrybe" class="logo">
+                    <img src="../images/logo.png" alt="trrybe logo">
+                </a>
+                <nav class="main-nav">
+                    <ul>                        
+                        <li><a href="#">How it work</a></li> 
+                        <li><a href="#" id="logoutLink" title="Logout"><i class="fa fa-sign-out"></i></a></li>
+                        <li><a href="#" class="more-link-btn"><i class="fa fa-bars"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="search-box">
+            <div class="container">
+                <form method="post">
+                    <input type="text" class="form-control search-text-box" placeholder="Search video, People and More.." id="searchBox" name="searchBox">
+                    <input type="submit" class="btn search-btn" id="submitBTN" name="submitBTN" value="Search">
+                    <input type="button" class="btn close-btn" id="closeBTN" name="closeBTN" value="null" >
+                </form>
+            </div>
+        </div>
+        <div class="More-links">
+            <span class="close-menu"><i class="fa fa-times"></i></span>
+            <nav>
+                <ul>
+                    <li><a href="dashboard.html">Setting</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Lorem ipsuem</a></li>
+                    <li><a href="#">Lorem ipsuem</a></li>
+                    <li><a href="#">Lorem ipsuem</a></li>
+                </ul>
+            </nav>
+        </div>
+        <section class="upload-video-banner">
+            <div class="container">
+                <h2>Channel : Induction of new joinee </h2>
+                <p><a href="#" class="btn btn-primary" id="addNewVideoLink">Add new video</a></p>
+            </div>            
+        </section>
+        <!-- add new  video form -->
+        <div class="container clearfix">
+            <div class="video-admin-add-video-form upload-video-form">                        
+                <p class="heading">Add New Video</p>
+                <form action="post">
+                    <fieldset class="radio-btn">
+                        <label><input type="radio" name="videoType" checked="checked">You Tube</label>
+                        <label><input type="radio" name="videoType">Vimeo</label>
+                        <label><input type="radio" name="videoType">TED</label>
+                        <label><input type="radio" name="videoType">Other</label>
+                    </fieldset>
+                    <hr/>
+                    <fieldset class="inline">
+                        <label>URL</label>
+                        <input type="text" class="form-control">
+                    </fieldset>
+                    <fieldset class="inline">
+                        <label>Select Channel</label>
+                        <select class="form-control">
+                            <option>Sale</option>
+                            <option>Wednesday Seminar</option>
+                            <option>Induction for new joinees</option>
+                        </select>
+                    </fieldset>
+                    <fieldset class="inline">
+                        <label>Title</label>
+                        <input type="text" class="form-control">
+                    </fieldset>
+                    <fieldset class="block">
+                        <label>Description</label>
+                        <textarea class="form-control" rows="3"></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <input type="submit" class="btn-submit" value="Add Video">
+                    </fieldset>  
+                </form>
+            </div>
+            <!-- added videos list -->
+            <div class="channel-videos-list">
+                <div class="my-videos">
+                    <div class="item clearfix">
+                        <div class="video">
+                            <div class="content">
+                                <a href="video-landing.html" target="_new">
+                                    <img src="../images/video-img.jpg" alt="video image">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="about-video">
+                            <h3 class="title">Lorem Ipsum is simply dummy text of the printing</h3>
+                            <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since </p>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-edit"><i class="fa fa-pencil-square-o"></i></button>
+                            <button class="btn btn-delete"><i class="fa fa-trash-o"></i></button>
+                        </div>
+                    </div>
+                    <div class="item clearfix">
+                        <div class="video">
+                            <div class="content">
+                                <a href="video-landing.html" target="_new">
+                                    <img src="../images/video-img-1.jpg" alt="video image">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="about-video">
+                            <h3 class="title">Lorem Ipsum is simply dummy text of the printing</h3>
+                            <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since </p>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-edit"><i class="fa fa-pencil-square-o"></i></button>
+                            <button class="btn btn-delete"><i class="fa fa-trash-o"></i></button>
+                        </div>
+                    </div>
+                    <div class="item clearfix">
+                        <div class="video">
+                            <div class="content">
+                                <a href="video-landing.html" target="_new">
+                                    <img src="../images/video-img-2.jpg" alt="video image">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="about-video">
+                            <h3 class="title">Lorem Ipsum is simply dummy text of the printing</h3>
+                            <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since </p>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-edit"><i class="fa fa-pencil-square-o"></i></button>
+                            <button class="btn btn-delete"><i class="fa fa-trash-o"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+        
+        <footer class="footer-section">
+            <div class="container">
+                <h4>Trrybe</h4>
+                <ul>
+                    <li><a href="#">About Trrybe</a></li>
+                    <li><a href="#">Trrybe Blog</a></li>
+                    <li><a href="#">Trrybe Guidelines</a></li>
+                    <li><a href="#">Developers</a></li>
+                    <li><a href="#">Career</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Loremm  ipsum let ded</a></li>
+                    <li><a href="#">Loremm  ipsum let ded</a></li>
+                    <li><a href="#">Loremm  ipsum let </a></li>
+                    <li><a href="#">Loremm  ipsum let </a></li>
+                    <li><a href="#">Loremm  ipsum let ded</a></li>
+                </ul>
+            </div>            
+        </footer>
+        <div class="copy-write-footer">
+            <div class="container">
+                <div class="copy-write">
+                    <p>&copy; 2015 Trrybe (India) Private Limited. All Rights Reserved.</p>
+                </div>
+                <div class="more-links-footer">
+                    <ul>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy</a></li>                       
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

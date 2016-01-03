@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Trrybe.com | Dashboard</title>
+        <!-- css -->        
+        <link href="../css/font-awesome.css" rel="stylesheet">  
+        <link href="../css/main.css" rel="stylesheet">
+        <!-- js -->
+        <script type="text/javascript" src="../js/jquery.min.js"></script>
+        <script type="text/javascript" src="../js/custom.js"></script>  
+    </head>
+    <body>
+        <header class="top-nav">
+            <div class="container">
+                <a href="/trrybe/trrybe" class="logo">
+                    <img src="../images/logo.png" alt="trrybe logo">
+                </a>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="#">How it work</a></li>
+                        <li><a href="#" id="logoutLink" title="Logout"><i class="fa fa-sign-out"></i></a></li>
+                        <li><a href="#" class="more-link-btn"><i class="fa fa-bars"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="search-box">
+            <div class="container">
+                <form method="post">
+                    <input type="text" class="form-control search-text-box" placeholder="Search video, People and More.." id="searchBox" name="searchBox">
+                    <input type="submit" class="btn search-btn" id="submitBTN" name="submitBTN" value="Search">
+                    <input type="button" class="btn close-btn" id="closeBTN" name="closeBTN" value="null" >
+                </form>
+            </div>
+        </div>
+        <div class="More-links">
+            <span class="close-menu"><i class="fa fa-times"></i></span>
+            <nav>
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Lorem ipsuem</a></li>
+                    <li><a href="#">Lorem ipsuem</a></li>
+                    <li><a href="#">Lorem ipsuem</a></li>
+                </ul>
+            </nav>
+        </div>
+       
+        <section class="dashboard-section">
+            <div class="container">
+                <h3>Welcome home, John Smith</h3>                
+                <div class="dashboard">
+                    <div class="custom-tab">
+                        <ul>
+                            <li><a href="#">My Account</a></li>
+                            <li><a href="#">Profile</a></li>
+                            <li class="active"><a href="#">Channels</a></li>            
+                        </ul>
+                        <div class="content-tabs">
+                            <div class="account-setting clearfix ">
+                                <div class="row">
+                                    <div class="profile-pic">
+                                        <div class="pic-wrap">
+                                            <img src="../images/profile-icon.png"  alt="profile picture">
+                                        </div>
+                                        <h3>John Smith</h3>
+                                    </div>
+                                    <div class="user-info">                                    
+                                        <p><strong>Trrybe URL: </strong><a href="">https://trrybe.com/user43894813</a></p> 
+                                        <p><strong>Email: </strong>johnsmith@srijan.com</p>
+                                        <p><strong>Joined: </strong>Sep 15, 2015</p>
+                                        <p><strong>Membership: </strong>Basic</p>
+                                        <a href="#" class="btn btn-upgrade">Upgrade Now</a>
+                                    </div>
+                                </div>
+
+                                <div class="edit-info clearfix">
+                                    <form action="post">
+                                        <fieldset>
+                                            <label for="userName">Name</label>
+                                            <p>This is your name on Trrybe. A lot of people use their real name, but anything you choose will probably be better than “user43894813.”</p>
+                                            <input type="text" class="form-control" name="userName" id="userName" value="John Smith">
+                                        </fieldset>
+                                        <fieldset class="added-mail">
+                                            <label for="userEmail">Email</label>
+                                            <p>Use this to log in to your account, and to receive email notifications and updates from us.</p>
+                                            <ul class="email">
+                                                <li>johnsmith@gmail.com</li>
+                                            </ul>
+                                            <a href="#" class="add-new-record-link">+ Add another email address</a>
+                                            <div class="add-new-record">
+                                                <form>
+                                                    <p>Any email address you add can be used to log in to your Vimeo account. You will need to use your main email address to confirm the email that you add. Note: All email addresses will use the same password to log in.</p>
+                                                    <label for="newEmail">Email address</label>
+                                                    <input type="email" class="form-control" name="newEmail" id="newEmail">
+                                                    <label for="newPassword">Confirm password</label>
+                                                    <input type="password" class="form-control" name="newPassword" id="newPassword">
+                                                    <input type="submit" class="btn btn-submit" id="newSubmit" value="Add email address"> 
+                                                    <span>Or</span>
+                                                    <a href="#" class="btn btn-close">Cancel</a>
+                                                </form>
+                                            </div>
+                                            
+                                        </fieldset>
+                                        
+                                        <fieldset>
+                                            <label for="userPassword">Password</label>
+                                            <p>Keep your account secure with a tough-to-crack password (hint: “V1m30” is not a good choice).</p>
+                                            <a href="#" class="add-new-record-link">Change password</a>
+                                            <div class="add-new-record">
+                                                <form>
+                                                    <label for="currentPassword">Current password</label>
+                                                    <input type="password" class="form-control" name="currentPassword" id="currentPassword">
+                                                    <label for="changePassword">New password</label>
+                                                    <input type="password" class="form-control" name="changePassword" id="changePassword"><br>
+                                                    <label for="confirmPassword">Confirm new</label>
+                                                    <input type="password" class="form-control"  name="confirmPassword" id="confirmPassword">
+                                                    <input type="submit" class="btn btn-submit" id="newSubmit2" value="Change password"> 
+                                                    <span>Or</span>
+                                                    <a href="#" class="btn btn-close">Cancel</a>
+                                                </form>
+                                            </div>
+                                        </fieldset>
+                                        <fieldset>
+                                            <label>Account Status</label>
+                                            <p>Your Basic account is currently Active. Do you want to <a href="#">delete your account?</a></p>
+                                            <p>PERMANENTLY remove this account and all associated videos from Vimeo. This action cannot be undone, so please proceed with caution and don't say we didn't warn you.</p>
+                                        </fieldset>
+                                        <fieldset>
+                                            <input type="submit" class="btn btn-submit" id="updateInfo" name="updateInfo" value="Save Changes">
+                                        </fieldset>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="profile-setting clearfix">
+                                <form method="post">
+                                    <fieldset>
+                                        <label class="display-block">Portrait</label>
+                                        <p>Many people use a real picture of themselves. On the Internet. Imagine that. JPG/GIF/PNG only. ../images sized to 600x600 pixels work best.</p>
+                                        <div class="update-picture">
+                                            <ul>
+                                                <li class="default-picture">
+                                                    <i class="fa fa-times"></i>
+                                                </li>
+                                                <li class="new-picture">
+                                                    <input type="file" name="uploadFile2" id="uploadFile2" />
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </fieldset>
+                                    <fieldset>
+                                        <label class="display-block">Your Bio</label>
+                                        <textarea rows="3"  class="form-control"></textarea>
+                                    </fieldset>
+                                    <fieldset>
+                                        <label class="display-block">Location</label>
+                                        <p>Share your geographic coordinates, home town, or state of mind.</p>
+                                        <input type="text" class="form-control" name="location" id="location">
+                                    </fieldset>
+                                    <fieldset>
+                                        <label class="display-block">Vimeo URL</label>
+                                        <p>Create a unique URL for your profile page. Many people use their Vimeo name.</p>
+                                        <span class="prefix-url">trrybe.com/</span>
+                                        <input type="text" class="form-control" name="location" id="location" value="user43894813">
+                                    </fieldset>
+                                    <fieldset>
+                                        <label class="display-block">Gender</label>
+                                        <p>Let us know so we can call you by the appropriate pronoun.</p>
+                                        <select class="form-control">
+                                            <option>N/A</option>
+                                            <option>Female</option>
+                                            <option>Male</option>
+                                        </select>
+                                    </fieldset>
+                                    <fieldset>
+                                        <label class="display-block">Language</label>
+                                        <p>Let us know what language you want to use on Vimeo.</p>
+                                        <select class="form-control">
+                                            <option>English</option>
+                                            <option>Hindi</option>
+                                        </select>
+                                    </fieldset>
+                                    <fieldset>
+                                        <label class="display-block">Your Websites</label>
+                                        <p>Show off your other Internet creations (Tumblr, Flickr, etc.)</p>
+                                    </fieldset>
+                                    <a href="#" class="add-new-record-link">Add a new link</a>
+                                    <div class="add-new-record">
+                                        <label>Title</label>
+                                        <input type="text" class="form-control" name="webtitle" id="webtitle">
+                                        <label>URL</label>
+                                        <input type="text" class="form-control" name="weburl" id="webtitle"><br/>
+                                        <label>Description</label>
+                                        <input type="text" class="form-control" name="webdescription" id="webdescription">
+                                        <input type="submit" class="btn btn-submit" value="Add" name="addWebsiteLink" id="addWebsiteLink">
+                                        <span>Or</span>
+                                        <a href="#" class="btn btn-close">Cancel</a>
+                                    </div>
+                                    <br/>
+                                    <input type="submit" class="btn btn-submit" value="Save Changes" name="saveProfileForm" id="saveProfileForm">
+                                </form>
+                            </div>
+                            <div class="my-videos clearfix active">
+                                <div class="video-channels-created">
+                                    <div class="add-new-video clearfix">
+                                        <p><a href="#" class="btn" id="addNewChannelLink">Create Channel</a>
+                                        <a href="#" class="btn" id="addNewVideoLink">Add New Video</a></p>
+                                    </div>
+                                    <div class="create-channel-block">
+                                        <p class="heading">Create Channel</p>
+                                        <form action="post">                                            
+                                            <fieldset>
+                                                <label>Channel Name</label>
+                                                <input type="text" class="form-control">
+                                            </fieldset> 
+                                            <fieldset>
+                                                <label>Description</label>
+                                                <textarea class="form-control" rows="3"></textarea>
+                                            </fieldset> 
+                                            <fieldset>
+                                                <label>../images</label>
+                                                <input type="file">
+                                            </fieldset>                                            
+                                            <input type="submit" class="btn-submit" value="Create">
+                                        </form>
+                                    </div>
+                                    <div class="upload-video-form">                        
+                                        <p class="heading">Add New Video</p>
+                                        <form action="post">
+                                            <fieldset class="radio-btn">
+                                                <label><input type="radio" name="videoType" checked="checked">You Tube</label>
+                                                <label><input type="radio" name="videoType">Vimeo</label>
+                                                <label><input type="radio" name="videoType">TED</label>
+                                                <label><input type="radio" name="videoType">Other</label>
+                                            </fieldset>
+                                            <hr/>
+                                            <fieldset>
+                                                <label>URL</label>
+                                                <input type="text" class="form-control">
+                                            </fieldset>
+                                            <fieldset>
+                                                <label>Select Channel</label>
+                                                <select class="form-control">
+                                                    <option>Sale</option>
+                                                    <option>Wednesday Seminar</option>
+                                                    <option>Induction for new joinees</option>
+                                                </select>
+                                            </fieldset>
+                                            <fieldset>
+                                                <label>Title</label>
+                                                <input type="text" class="form-control">
+                                            </fieldset>
+                                            <fieldset>
+                                                <label>Description</label>
+                                                <textarea class="form-control" rows="3"></textarea>
+                                            </fieldset>
+                                            <input type="submit" class="btn-submit" value="Add Video">
+                                        </form>
+                                    </div> 
+                                </div>
+
+                                <div class="all-channel-block clearfix">
+                                    <div class="video-item">
+                                        <div class="content">
+                                            <a href="technology-admin.html">
+                                                <img src="../images/tech.jpg" alt="video cover image">
+                                                <div class="item-body">
+                                                    <h3>Technology</h3>
+                                                    <p><span class="watch-now">View Channel</span></p> 
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="video-item">
+                                        <div class="content">
+                                            <a href="business-admin.html">
+                                                <img src="../images/business.jpg" alt="video cover image">
+                                                <div class="item-body">
+                                                    <h3>Business</h3>
+                                                    <p><span class="watch-now">View Channel</span></p>  
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="video-item">
+                                        <div class="content">
+                                            <a href="art-admin.html">
+                                                <img src="../images/art.jpg" alt="video cover image">
+                                                <div class="item-body">
+                                                    <h3>Art</h3>
+                                                    <p><span class="watch-now">View Channel</span></p>  
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="video-item">
+                                        <div class="content">
+                                            <a href="science-admin.html">
+                                                <img src="../images/science.jpg" alt="video cover image">
+                                                <div class="item-body">
+                                                    <h3>Science</h3>
+                                                    <p><span class="watch-now">View Channel</span></p>  
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="video-item">
+                                        <div class="content">
+                                            <a href="inspirational-admin.html">
+                                                <img src="../images/inspirational.jpg" alt="video cover image">
+                                                <div class="item-body">
+                                                    <h3>Inspirational</h3>
+                                                    <p><span class="watch-now">View Channel</span></p>  
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="video-item">
+                                        <div class="content">
+                                            <a href="news-admin.html">
+                                                <img src="../images/news.jpg" alt="video cover image">
+                                                <div class="item-body">
+                                                    <h3>News</h3>
+                                                    <p><span class="watch-now">View Channel</span></p>  
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="video-sorting-block">                                   
+                                    <select class="form-control">
+                                        <option>Technology</option>
+                                        <option>Business</option>
+                                        <option>Art</option>
+                                        <option>Science</option>
+                                        <option>Inspirational</option>
+                                        <option>News</option>                                       
+                                    </select>
+                                    <label>All uploaded videos sort by select Channel</label>
+                                </div>
+
+                                <div class="item clearfix">
+                                    <div class="video">
+                                        <div class="content">
+                                            <a href="best-of-2015.html" target="_new">
+                                                <img src="../images/dope-1.jpg" alt="video">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="about-video">
+                                        <h3 class="title">Dope Tech: Best of 2015!</h3>
+                                        <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since </p>
+                                        <a href="best-of-2015.html">Read more..</a>
+                                    </div>
+                                    <div class="action">
+                                        <button class="btn btn-edit"><i class="fa fa-pencil-square-o"></i></button>
+                                        <button class="btn btn-delete"><i class="fa fa-trash-o"></i></button>
+                                    </div>
+                                </div>
+                                <div class="item clearfix">
+                                    <div class="video">
+                                        <div class="content">
+                                            <a href="customs.html" target="_new">
+                                                <img src="../images/dope-2.jpg" alt="video">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="about-video">
+                                        <h3 class="title">Dope Tech #2: Customs!</h3>
+                                        <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since </p>
+                                        <a href="customs.html">Read more..</a>
+                                    </div>
+                                    <div class="action">
+                                        <button class="btn btn-edit"><i class="fa fa-pencil-square-o"></i></button>
+                                        <button class="btn btn-delete"><i class="fa fa-trash-o"></i></button>
+                                    </div>
+                                </div>
+                                <div class="item clearfix">
+                                    <div class="video">
+                                        <div class="content">
+                                            <a href="weapon.html" target="_new">
+                                                <img src="../images/dope-3.jpg" alt="video">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="about-video">
+                                        <h3 class="title">Dope Tech #1: Weapon!</h3>
+                                        <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since </p>
+                                        <a href="weapon.html">Read more..</a>
+                                    </div>
+                                    <div class="action">
+                                        <button class="btn btn-edit"><i class="fa fa-pencil-square-o"></i></button>
+                                        <button class="btn btn-delete"><i class="fa fa-trash-o"></i></button>
+                                    </div>
+                                </div>                                
+                            </div>
+                            
+                        </div>
+                    </div>                    
+                </div>
+                <aside class="follow-aside">                                      
+                    <div class="side-content">
+                        <h3>ACCOUNT SETTINGS</h3>
+                        <div class="content">
+                            <p>This is the home for all your vital Trrybe info, including your passwords, preferences, and what appears in your profile. And you can change any of it, any time you want.</p>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+        
+        <footer class="footer-section">
+            <div class="container">
+                <h4>Trrybe</h4>
+                <ul>
+                    <li><a href="#">About Trrybe</a></li>
+                    <li><a href="#">Trrybe Blog</a></li>
+                    <li><a href="#">Trrybe Guidelines</a></li>
+                    <li><a href="#">Developers</a></li>
+                    <li><a href="#">Career</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Loremm  ipsum let ded</a></li>
+                    <li><a href="#">Loremm  ipsum let ded</a></li>
+                    <li><a href="#">Loremm  ipsum let </a></li>
+                    <li><a href="#">Loremm  ipsum let </a></li>
+                    <li><a href="#">Loremm  ipsum let ded</a></li>
+                </ul>
+            </div>            
+        </footer>
+        <div class="copy-write-footer">
+            <div class="container">
+                <div class="copy-write">
+                    <p>&copy; 2015 Trrybe (India) Private Limited. All Rights Reserved.</p>
+                </div>
+                <div class="more-links-footer">
+                    <ul>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy</a></li>                       
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

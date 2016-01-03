@@ -1,0 +1,84 @@
+/*================================ Font-family variables ============================*/
+$small        : 320px 767px;
+$fontRegular  : Roboto-Regular;
+$fontMedium   : Roboto-Medium;
+$fontLight    : Roboto-Light;
+$fontBold     : Roboto-Bold;
+
+/*================================ Color swatch ============================*/ 
+$primary-bold 	: #545454;
+$primary-medium : #a3b1b2;
+$primary-light	: #bdc3c7;
+$secondry-bold 	: #545454;
+$white 			    : #ffffff;
+$success-btn 	  : #27ae60;
+$primary-btn	  : #2980b9;
+$gray-light     : #dddddd;
+$gray-dark      : #444444;
+$gray-light-bg  : #F5F5F5;
+$color-gray-400 : #999;
+
+/*================================ Font size ============================*/ 
+
+$size16 : 1.6em;
+$size18 : 1.8em;
+$size20 : 2.0em;
+$size24 : 2.4em; 
+$size28 : 2.8em;
+$size32 : 3.2em;
+$size36 : 3.6em;
+$size46 : 4.6em;
+$size50 : 5.0em;
+
+
+/*================================ Background images ============================*/ 
+$facebook: url(../images/facebook-1.png) center top no-repeat;
+$twitter: url(../images/twitter-1.png) center top no-repeat;
+$pinterest: url(../images/pinterest-1.png) center top no-repeat;
+
+
+/*================================ Custom fonts ============================*/ 
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../font/Roboto/Roboto-Regular.eot');
+    src: url('../font/Roboto/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../font/Roboto/Roboto-Regular.woff') format('woff'),
+         url('../font/Roboto/Roboto-Regular.ttf') format('truetype'),
+         url('../font/Roboto/Roboto-Regular.svg#Roboto-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../font/Roboto/Roboto-Bold.eot');
+    src: url('../font/Roboto/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../font/Roboto/Roboto-Bold.woff') format('woff'),
+         url('../font/Roboto/Roboto-Bold.ttf') format('truetype'),
+         url('../font/Roboto/Roboto-Bold.svg#Roboto-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url('../font/Roboto/Roboto-Light.eot');
+    src: url('../font/Roboto/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+         url('../font/Roboto/Roboto-Light.woff') format('woff'),
+         url('../font/Roboto/Roboto-Light.ttf') format('truetype'),
+         url('../font/Roboto/Roboto-Light.svg#Roboto-Light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url('../font/Roboto/Roboto-Medium.eot');
+  src: url('../font/Roboto/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+       url('../font/Roboto/Roboto-Medium.woff') format('woff'),
+       url('../font/Roboto/Roboto-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+

@@ -1,0 +1,10 @@
+.channel-videos-list {
+	h2 {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	.my-videos .about-video {
+		@include span(9);
+	}
+}

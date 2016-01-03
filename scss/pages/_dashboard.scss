@@ -1,0 +1,330 @@
+/*================================ Dashboard section ============================*/
+.dashboard-section{
+	.dashboard {
+		@include span(9);
+	}
+	.follow-aside{
+		@include span(3);
+	}
+	h3 {
+		margin-left: 10px;
+	}
+}
+.custom-tab {
+	& > ul {
+		background-color: $primary-bold;
+		height: 46px;
+		li {
+			float: left;
+			a {
+				font-size: 1.6em;
+				display: block;
+				padding: 15px 30px;
+				color: $white;
+			}
+			&.active {
+				background-color: $gray-light-bg;
+				border-left: 3px solid $gray-dark;
+				a {
+					color: $gray-dark;
+				}
+			}
+		}		
+	}
+	.content-tabs {
+		& > div {
+			padding: 15px;
+			border: 1px solid $gray-light;
+			display: none;
+			&.active {
+				display: block;
+			}
+		}		
+		label, p, span, a, li {
+			font-size: 14px;
+		}
+	}		
+}
+
+.btn-submit {
+	@include button-style(1px solid $primary-bold, 14px, 6px 15px, $white);
+	background-color: $primary-bold;
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+/*================================ account setting ============================*/
+.account-setting {
+	.profile-pic {
+		@include span(4);
+		text-align: center;
+		margin-bottom: 20px;
+		.pic-wrap {
+			width: 128px;
+			height: 128px;
+			@include border-radius(50%);
+			border: 1px solid $gray-light;
+		    margin-left: auto;
+		    margin-right: auto;
+		    overflow: hidden;
+			img {
+				width: 100%;
+			}
+		}
+		h3{
+			font-size: $size16;
+			margin-top: 10px;
+		}
+	}
+	.user-info {
+		@include span(8);
+		p strong{
+			margin-right: 10px;
+		}
+	}	
+}
+
+.btn-upgrade {
+	@include button-style(1px solid $primary-bold, 16px, 10px 15px, $white);
+	background-color: $primary-bold;
+	cursor: pointer;
+	line-height: 41px;
+}
+
+.side-content {
+	h3 {
+		font-size: $size16;
+		margin-left:0px;
+		background-color: $primary-bold;
+		color: $white;
+		padding: 10px;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.content {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	p {
+		font-size: 14px;
+	}
+}
+
+.edit-info {
+	border-top: 1px solid $gray-light;
+	label {
+		font-weight: bold;
+		font-size: 14px;
+	}
+	fieldset  {
+		margin-top: 20px;
+		margin-bottom: 15px;
+	}
+	
+	.added-mail {
+		ul {
+			margin-bottom: 15px;
+			font-weight: bold;
+		}
+	}	
+	a {
+		color: blue;
+	}	
+}
+
+.add-new-record {
+	border: 1px solid $gray-light;
+	background-color: $gray-light-bg;
+	padding: 10px;
+	margin-top: 15px;
+	display: none;
+}
+
+/* profile-setting */
+.profile-setting {
+	label{
+		font-weight: bold;
+	}
+	.display-block{
+		display: block;
+	}
+	fieldset input[type="text"],
+	textarea {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	select {
+		margin-bottom: 15px;
+	}
+	#location {
+		padding-left: 85px;
+	}
+	.prefix-url {
+		position: absolute;
+	    line-height: 30px;
+	    padding-left: 10px;
+	    font-weight: bold;
+	}
+
+	p {
+		color: $color-gray-400;
+	}
+
+	#saveProfileForm {
+		margin-top: 15px;
+	}
+
+	.update-picture {
+		margin-bottom: 20px;
+		li {
+			display: inline-block;
+			width: 65px;
+			height: 65px;
+			padding: 10px;
+			border: 1px solid $gray-light;
+			margin-right: 15px;
+			position: relative;
+
+			@include border-radius(4px);
+
+			&.default-picture {
+				background: url("../images/smile-icon.png") center center no-repeat;
+				.fa-times {
+					position: absolute;
+				    right: -1px;
+				    padding: 5px;
+				    top: -2px;
+				    font-size: 16px;
+				    cursor: pointer;
+				    display: none;
+				}
+				
+				&:hover .fa-times {
+					display: inline-block;
+				}				
+			}
+
+			&.new-picture {
+				input {
+					opacity: 0;
+					height: 85px;
+					width: 85px;
+					top: 0;
+					left: 0;
+					position: absolute;
+					cursor: pointer;
+				}
+
+				background: url("../images/upload-icon.png") center center no-repeat;
+			}
+		}		
+	}
+}
+
+.add-new-record-link {
+	color: blue;
+}
+
+.video-channels-created {
+	.heading {
+		text-align: center;
+	    background-color: $gray-light-bg;
+	    font-size: 1.6em;
+	    padding: 8px;
+	    border-bottom: 1px solid $gray-dark;
+	}
+	label {
+		font-size: 1.4em;
+		display: block;
+		margin-bottom: 5px;
+	}
+	.form-control {
+		width: 100%;
+	}
+	textarea {
+		resize: none;
+	}
+	a {
+		color: blue;
+	}
+}
+
+.video-sorting-block {
+	background-color: $gray-light-bg;
+    padding: 15px 8px 0px 8px;
+    margin-bottom: 15px;
+    select {
+    	margin-right: 15px;
+    }
+}
+
+.upload-video-form {
+	margin-bottom: 20px;
+	display: none;
+
+	.radio-btn {
+		margin-top: 15px;
+		label {
+			display: inline-block;
+		}
+	}		
+
+	hr {
+		border-top: 1px solid $gray-light-bg;
+		margin-bottom: 15px;
+	}	
+}
+
+.create-channel-block {
+	margin-bottom: 20px;
+	display: none;
+
+	.btn-submit {
+		margin-top: 15px;
+	}
+}
+
+.my-videos {
+	.video-item {
+		.item-body {			
+			display: block;
+		}
+	}
+	.item {
+		border-bottom: 1px solid $gray-light;
+		padding-bottom: 15px;
+		margin-bottom: 15px;
+		.video {
+			@include span(3);
+			img {
+				width: 100%;
+				border: 1px solid $gray-light;
+			}
+		}
+		.about-video {
+			@include span(7);
+			h3 {
+				margin-left: 0;
+			}
+			a {
+				color: blue;
+				font-size: 1.2em;
+			}
+		}
+		.action {
+			@include span(2);
+
+			border-left: 1px solid $gray-light-bg;
+			box-sizing: border-box;
+			.btn {
+				border: 0;
+				background-color: transparent;
+				font-size: $size20;			
+			}
+		}
+
+		&:last-child {
+			border: none;
+		}
+	}			
+}

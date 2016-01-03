@@ -1,0 +1,74 @@
+.clearfix {
+	clear: both;
+	&:after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+	&:before {
+		content: " "; 
+		visibility: hidden;
+		display: block;
+		height: 0;
+		clear: both;
+	}
+}
+
+.row {
+	&:after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+}
+
+.container {
+	@include container(1024px);
+}
+
+.form-control {
+	padding: 6px 12px;
+	margin-bottom: 15px;
+}
+
+.btn {
+	@extend .form-control;
+	cursor: pointer;
+}
+
+.btn-submit {	
+	background-color: $secondry-bold;
+} 
+
+.btn-default {
+	background-color: $gray-light;
+	color: $gray-dark;
+}
+
+.facebook {
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+	background: url("../images/facebook.png") center center no-repeat;
+	vertical-align: middle;
+    margin-right: 5px;
+}
+
+.googleplus {
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+	background: url("../images/google-plus.png") center center no-repeat;
+	vertical-align: middle;
+    margin-right: 5px;
+    margin-left: 15px;
+}
+
+.btn-upload {
+	@include button-style(2px solid $primary-bold, $size16, 10px 15px, $white);
+	background-color: $primary-bold;
+	text-align: center;
+	text-transform: uppercase;
+	display: block;	
+}
+

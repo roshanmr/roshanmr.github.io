@@ -1,0 +1,121 @@
+/*================================ Login screen ============================*/
+.login-form-wrapper {
+	a {
+		font-size: 1.4em;
+	}
+}
+.popup-wrapper {
+	width: 100%;
+	position: fixed;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.84);	
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	display: none;
+	.popup-container{
+		max-width: 480px;		
+		margin: 50px auto auto auto;
+		background-color: $white;
+		padding: 30px;
+		border: 1px solid $gray-dark;
+		position: relative;
+		h2, h3 {
+			text-align: center;
+		}		
+		h2 span {
+			font-size: 22px;
+			color: #888;
+			vertical-align: middle;
+		}
+	}
+	input[type="email"], input[type="text"], input[type="password"] {
+		width: 100%;
+		padding: 6px 12px;
+		margin-bottom: 15px;
+	}
+	input[placeholder]{
+		font-size: 1.4em;
+	}
+	input[type="submit"] {
+		@include button-style(1px solid $primary-bold, $size16, 10px 15px, $white);
+		background-color: $primary-bold;
+		cursor: pointer;
+		width: 50%;
+		margin-right: 15px;
+	}
+
+	.submit-btn {
+		@include button-style(1px solid $primary-bold, $size16, 10px 15px, $white);
+		background-color: $primary-bold;
+		cursor: pointer;
+		width: 50%;
+		margin-right: 15px;
+		display: inline-block;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	p {
+		font-size: 1.4em;
+	}
+	.forgot-password {
+		margin-top: 20px;
+		border: 1px solid $gray-light;
+	    background-color: $gray-light-bg;
+	    padding: 20px;
+	    display: none;
+	}
+	.close-pop {
+		position: absolute;
+	    right: -14px;
+	    top: -14px;
+	    font-size: $size20;
+	    border: 1px solid $gray-dark;
+	    padding: 5px;
+	    border-radius: 50%;
+	    width: 30px;
+	    height: 30px;
+	    line-height: 30px;
+	    text-align: center;
+	    background-color: #fff;
+	    cursor: pointer;
+	}
+	.join-link {
+		font-size: 1.4em;
+		a {
+			margin-left: 15px;
+		}
+	}
+}
+
+.register-wrap {
+	display: none;
+	.password {
+		@include span(6);
+	}
+	.password-strength {
+		@include span(6);
+		padding-top: 10px;
+		p span {
+			float: right;
+		}
+	}
+	.user-domain-name {
+		@include span(12);
+		label {
+		  display: inline-block;
+		}
+		#userNameText {
+			display: inline-block;
+			
+		}
+	}
+}
+.password-indicator {
+	height: 5px;
+	background-color: $gray-dark;
+	.indicator {
+		background-color: $secondry-bold;
+	}
+}

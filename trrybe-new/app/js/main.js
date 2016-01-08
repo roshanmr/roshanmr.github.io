@@ -42,5 +42,77 @@ $(document).ready(function() {
   	};
   });
  
+  $('.tab-nav li:first-child').addClass('active');
+
+  var tabnavItem  = $('.tab-nav li a'),
+      tabItem     = $('.tab-wrap .tab'),
+      firstTab    = $('.tab-wrap .tab:first-child');
+
+  $(firstTab).addClass('active');
+
+  $(tabnavItem).click(function(e) {
+    e.preventDefault();
+    $(this).parent('li').siblings('li.active').removeClass("active"); 
+    $(this).parent('li').addClass("active"); 
+    $(tabItem).removeClass('active');
+
+    var activeTab = $(this).attr('href');
+    $(activeTab).addClass('active');
+    return false;
+  });
+
+  $('#addChannel .button-row .create-channel').click(function(e) {
+    e.preventDefault();
+    $(this).parents('.channel-form').addClass('done');
+    $(this).parents('.channel-form').siblings('.channel-created').addClass('done');
+  });
+
+  $('.public-setting-toggle li a').click(function(e) {
+    e.preventDefault();
+    $(this).addClass('active');
+    $(this).parents('li').siblings('li').children('a.active').removeClass('active');
+
+    if ($(this).hasClass('some-private')) {
+      $(this).parents('.panel').find('.option-box').addClass('active');
+    } else {
+      $(this).parents('.panel').find('.option-box').removeClass('active');
+    }
+  });
+  $('.channel-list li a span.channel-status').html('public');
+  $('.channel-list li a.locked span.channel-status').html('Private');
+
+  $('.channel-list li a').click(function(e) {
+    e.preventDefault();
+    if ($(this).hasClass('locked')) {
+      $(this).removeClass('locked');
+      $(this).children('.channel-status').html('Public');
+      $(this).children('.fa').attr('class', 'fa fa-unlock');    
+    } else{
+      $(this).addClass('locked')
+      $(this).children('.channel-status').html('Private')
+      $(this).children('.fa').attr('class', 'fa fa-lock');    
+    };
+  });
+
+   $('.radio-toggle li a').click(function(e) {
+    e.preventDefault();
+    if ($(this).hasClass('active')) {
+      e.preventDefault
+    } else{
+      $(this).addClass('active')
+      $(this).parents('li').siblings('li').find('a.active').removeClass('active')
+    };
+  });
+
+   $('.check-toggle li a').click(function(e) {
+    e.preventDefault();
+    $(this).toggleClass('active')
+  });
+
+   $('.sort-btn').click(function(e) {
+     e.preventDefault();
+     $(this).toggleClass('active');
+     $(this).siblings('a.sort-btn.active').removeClass('active');
+   });
 
 })

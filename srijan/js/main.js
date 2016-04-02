@@ -30,6 +30,7 @@ $(document).ready(function() {
 			var scroll = $(window).scrollTop();
 			$(".parallax").css('transform', 'translate3d(0,' +  (scroll/4)  + 'px, 0)');
 		}
+
 	})
 
 	$('.video-play').click(function(e) {
@@ -181,6 +182,13 @@ $(function(){
      
     ink.css({top: y+'px', left: x+'px'}).addClass("animate");
 });
+});
+
+$('.home-slider').bxSlider({
+	auto: true,
+	mode: 'fade',
+	nextText: '<i class="fa fa-angle-right"></i>',
+    prevText: '<i class="fa fa-angle-left"></i>'
 });
 
 

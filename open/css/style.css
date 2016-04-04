@@ -1,0 +1,13 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900,100italic,300italic,400italic,500italic,700italic,900italic|Roboto+Slab:400,700,300,100);
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css');
+@import url('normalize.css');
+@import url('share.css');
+@import url('main.css');
+@import url('jquery.bxslider.css');
+@import url('open.css');
+@import url('mediaqueries.css');
+
+/*added by rajbir*/
+
+@import url('custom.css');
+@import url('custom-media.css');

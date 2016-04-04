@@ -2476,7 +2476,7 @@ figure {
   box-shadow: content-box;
 }
 
-.process-steps li > div {
+.process-steps li .colwrap {
   display: block;
   position: absolute;
   width: 100px;
@@ -2491,20 +2491,14 @@ figure {
   transition: all 0.2s ease-in-out;
   overflow-x: hidden;
   box-sizing: border-box;
-  padding: 15px;
   border: solid 5px #fff;
-  box-shadow: 1px 1px 10px rgba(0,0,0,0)
+  box-shadow: 1px 1px 10px rgba(0,0,0,0);
+  cursor: pointer;
 }
 
-.process-steps li > div h3 .txt {
+.process-steps li .colwrap h3 .txt {
   display: none;
   opacity: 0;
-  transition: opacity 0.5s ease-in-out;
-}
-
-.process-steps li:hover > div h3 .txt {
-  display: block;
-  opacity: 1;
 }
 
 .process-steps li:before {
@@ -2530,23 +2524,23 @@ figure {
   display: none;
 }
 
-.process-steps li:nth-child(odd) > div {
+.process-steps li:nth-child(odd) > div.colwrap {
   background: #f2a428;
 }
 
-.process-steps li:nth-child(even) > div {
+.process-steps li:nth-child(even) > div.colwrap {
   background: #284d8d;
 }
 
 
-.process-steps li:last-child > div {
+.process-steps li:last-child > div.colwrap {
   margin-left: 0;
   left: auto;
   right: 50%;
   margin-right: -50px;
 }
 
-.process-steps li:hover > div {
+.process-steps li:hover > div.colwrap {
   width: 280px;
   height: 280px;
   margin-left: -140px;
@@ -2556,12 +2550,12 @@ figure {
   box-shadow: 1px 1px 10px rgba(0,0,0,2)
 }
 
-.process-steps li:first-child:hover > div {
+.process-steps li:first-child:hover > div.colwrap {
   left: 0;
   margin-left: 0;
 }
 
-.process-steps li:last-child:hover > div {
+.process-steps li:last-child:hover > div.colwrap {
   right: 0;
   margin-right: 0;
 }
@@ -2576,7 +2570,14 @@ figure {
 .process-steps li h3 .process-icon {
   display: block;
   font-size: 32px;
+  padding-top: 10px;
 }
+
+.process-steps > li:hover h3 .process-icon {
+  opacity: 0;
+  display: none;
+}
+
 
 .article-wrap .article-item {
   padding: 20px;
@@ -2911,6 +2912,86 @@ figure {
 .fat-nav .menu li a .fa {
     margin-right: 10px;
 }
+
+
+.process-steps li > div > .block-slider-wrap {
+  z-index: -10;
+  opacity: 0;
+  overflow: hidden;
+  position: relative;
+  width: 270px;
+  height: 270px;
+}
+
+.process-steps li:hover > div > .block-slider-wrap {
+  z-index: 15;
+  opacity: 1; 
+}
+
+.process-steps li:hover > div > .block-slider-wrap .feature-slider {
+  width: 270px;
+  height: 270px;
+  border-radius: 270px;
+  position: relative;
+  overflow: hidden;
+}
+
+.process-steps li:hover > div > .block-slider-wrap .feature-slider > article {
+  border-radius: 270px;
+  width: 270px;
+  height: 270px;
+  top: 0;
+  left: 0;
+}
+
+.block-slider-wrap .feature-slider > article > .slide-wrap {
+  width: 270px;
+  height: 270px;
+  background: #000;
+  border-radius: 270px;
+  display: block;
+}
+
+.process-steps li .bx-wrapper {
+  margin: 0;
+  height: 270px !important;
+  width: 270px !important;
+}
+.process-steps li .bx-wrapper .bx-viewport {
+  height: 270px !important;
+  width: 270px !important;
+}
+
+.process-steps li:hover h3 {
+  display: none;
+}
+
+.process-steps .bx-wrapper .bx-pager {
+    position: absolute;
+    bottom: 40px;
+    text-align: center;
+    left: 20px;
+    right: 20px;
+    width: auto;
+}
+
+
+.process-steps li:nth-child(odd) > div.colwrap .feature-slider article:nth-child(even) > .slide-wrap{
+  background: #f2a428;
+}
+
+.process-steps li:nth-child(even) > div.colwrap .feature-slider article:nth-child(even) > .slide-wrap{
+  background: #284d8d;
+}
+
+.process-steps li:nth-child(odd) > div.colwrap .feature-slider article:nth-child(odd) > .slide-wrap{
+  background: #284d8d;
+}
+
+.process-steps li:nth-child(even) > div.colwrap .feature-slider article:nth-child(odd) > .slide-wrap{
+  background: #f2a428;
+}
+
 
 @media (min-width: 1440px) {
   html {

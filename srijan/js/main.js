@@ -191,6 +191,11 @@ $('.home-slider').bxSlider({
     prevText: '<i class="fa fa-angle-left"></i>'
 });
 
+$('.feature-slider').bxSlider({
+	nextText: '<i class="fa fa-angle-right"></i>',
+    prevText: '<i class="fa fa-angle-left"></i>'
+});
+
 
 });
 

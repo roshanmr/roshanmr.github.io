@@ -475,3 +475,8 @@ footer .footer-below {
     margin-bottom: 20px;
     font-size: 24px;
 }
+
+/*-----------*/
+
+.circle-bdr { border:2px solid #FFFFFF; padding:4px; border-radius:100%}
+

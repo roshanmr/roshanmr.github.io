@@ -685,6 +685,12 @@
             </nav>
 
 
+            <nav class="pagination-nav fixed-page-nav">
+              <a href="process.php" class="previous"> <span class="s-icon"><i class="fa fa-chevron-circle-left"></i> </span> <strong>Previous:</strong> Empowered Teams</a>
+              <a href="process-scrum-team.php" class="next"><strong>Next:</strong> Ideal Scrum Team <span class="s-icon"> <i class="fa fa-chevron-circle-right"></i></span></a>
+            </nav>
+
+
           </article>
         </div>
       </section>

@@ -216,8 +216,21 @@ if ($('.sticky').length) {
  
 stickyNav();
  
+var pageHeight = $(".ps-main").outerHeight();
+
 $(window).scroll(function() {
     stickyNav();
+    if ($('.top-banner').hasClass('nav-up')) {
+    	$('nav.fixed-page-nav').addClass('fixed-bottom');
+    } else {
+    	$('nav.fixed-page-nav').removeClass('fixed-bottom');
+    }
+
+    if($(window).scrollTop() > (pageHeight - 300)){
+    	$('nav.fixed-page-nav').addClass('hide');
+    } else {
+    	$('nav.fixed-page-nav').removeClass('hide');
+    }
 });
 
 

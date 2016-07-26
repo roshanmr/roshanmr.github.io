@@ -702,14 +702,15 @@ nav ul li {
     position: absolute;
     top: 5px;
     right: 0;
-    width: 230px;
+    width: auto;
 }
 
 .secondary-nav .search .search-bar {
     height: 40px;
     display: block;
     margin-top: 4px;
-    border-bottom: solid 2px #fff;
+    border-bottom: solid 2px transparent;
+    transition: all 0.2s ease-in-out;
 }
 
 .secondary-nav .search .search-bar input {
@@ -718,34 +719,47 @@ nav ul li {
   height: 40px;
   background: transparent;
   color: #fff;
-  width: 190px;
+  width: 0px;
+  opacity: 0;
+  transition: all 0.1s ease-in-out;
 }
 
-.secondary-nav .search .search-bar button {
+.secondary-nav .search .search-bar.opened {
+  border-bottom: solid 2px #fff;
+}
+
+.secondary-nav .search .search-bar.opened input {
+    width: 190px;
+    opacity: 1;
+}
+
+.secondary-nav .search .search-bar .search-icon {
   display: inline-block;
   width: 28px;
   height: 40px;
   color: #fff;
   border: none;
   background: transparent;
+  cursor: pointer;
 }
 
 li.search .search-result {
   position: absolute;
   right: 0;
-  max-width: 300px;
+  width: 230px;
   top: 50px;
   background: #fff;
   z-index: 999;
   text-align: left;
   font-size: 14px;
   border: solid 1px #eee;
-  max-height: 480px;
+  height: 320px;
   overflow: auto;
   box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
   display: none;
   opacity: 0;
   transition: opacity 0.2s ease-in-out;
+  font-size: 11px;
 }
 
 li.search .search-result .item {
@@ -754,6 +768,14 @@ li.search .search-result .item {
   opacity: 0;
   transition: opacity 0.2s ease-in-out;
   border-bottom: solid 1px #ddd;
+}
+
+li.search .search-result .item .keyword {
+  font-style: italic;
+  background: #ffc;
+  columns: #000;
+  display: inline-block;
+  padding: 0 2px;
 }
 
 li.search .search-result .all-results {
@@ -780,15 +802,16 @@ li.search.search-active .search-result {
 }
 
 .search-result h3 {
-  display: block;
-  font-size: 14px;
-  font-weight: 500;
-  color: #284d8d;
-  padding-bottom: 6px;
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    color: #284d8d;
+    padding: 10px 10px 5px;
+    border-bottom: solid 1px #ddd;
 }
 
 .search-result p {
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .search-result a {
@@ -3105,55 +3128,12 @@ figure {
   display: none;
 }
 
-.testimonial-block {
-  padding: 40px 0;
-}
-
-.testimonial-block .user-img {
-  overflow: hidden;
-  width: 200px;
-  height: 200px;
-  border-radius: 200px;
-  border: solid 1px #ddd;
-}
-
-.testimonial-block .user-img img {
-  width: 100%;
-  height: 100%;
-}
-
-.testimonial-block blockquote {
-  padding: 20px 0 20px 40px;
-  margin-left: 40px;
-  position: relative;
-  box-sizing: border-box;
-  color: #fff;
-}
-
-.testimonial-block blockquote:before {
-  content: open-quote;
-  font-size: 60px;
-  position: absolute;
-  left: 0;
-  top: 20px;
-}
 
 .blue-bg {
   background: #284d8d;
 }
 
-.testimonial-block .case-study-link {
-  color: #fff;
-  font-family: "Roboto";
-  display: inline-block;
-  padding: 0 20px;
-  font-style: normal;
-}
 
-
-.testimonial-block .case-study-link .fa {
-  margin-left: 10px;
-}
 
 .process-wrap .process-item {
   margin: 10px;
@@ -4377,6 +4357,60 @@ section.subscribe h3 .fa {
   border-radius: 25px;
 }
 
+.border-top {
+  border-top: solid 1px #ddd;
+  margin-top: 40px;
+}
+
+.solution-wrap {
+  padding: 5px 10px;
+  background: #f4f4f4;
+  margin: 20px 0;
+  border-top: solid 1px #ddd;
+  border-bottom: solid 1px #ddd;
+}
+
+.solution-wrap .solution-box {
+  margin: 10px;
+  background: #fff;
+  padding: 15px;
+}
+
+.process-side-nav.page-side-nav li.active a {
+  border-right: solid 5px #284d8d;
+}
+
+blockquote.callout {
+    border-left: solid 5px #f2a428;
+    padding-left: 30px;
+    color: #f2a428;
+}
+
+.testimonial-block {
+  margin: 20px 0;
+  border-top: solid 1px #ddd;
+  border-bottom: solid 1px #ddd;
+  padding: 20px;
+}
+
+.testimonial-block figure.client-img {
+    display: inline-block;
+    vertical-align: top;
+    width: 70px;
+    border: solid 1px #ddd;
+}
+
+.testimonial-block .testimonial {
+  width: calc(100% - 90px);
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  padding: 0 0 0 20px;
+}
+
+.testimonial p {
+  font-weight: 300;
+}
 
 @media (min-width: 1440px) {
 
@@ -4531,9 +4565,6 @@ section.subscribe h3 .fa {
     padding: 40px 20px;
   }
 
-  .testimonial-block .user-img {
-    margin-top: 30px;
-  }
 
   .footer-bottom {
     padding: 10px;
@@ -4762,28 +4793,7 @@ section.subscribe h3 .fa {
     display: block;
   }
 
-  .row.page-wrap.testimonial-block {
-    text-align: center;
-    padding: 30px;
-  }
 
-  .testimonial-block .user-img {
-    display: inline-block;
-  }
-
-  .testimonial-block blockquote {
-    padding: 0;
-    margin: 0;
-  }
-
-.testimonial-block blockquote:before {
-  display: none;
-}
-
-.testimonial-block .case-study-link {
-  display: block;
-  margin: 20px auto;
-}
   .home-header  {
     background: url('../img/header-bg.jpg') no-repeat;
     background-size: auto 100%;

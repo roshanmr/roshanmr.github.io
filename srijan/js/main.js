@@ -249,17 +249,29 @@ $(window).scroll(function(){
     	$(this).parent('li').siblings('li.search').toggleClass('show');
     });
 
-    $('.secondary-nav .search .search-bar input').focusin(function(e) {
+    $('.secondary-nav .search .search-bar input').keypress(function(e) {
     	$(this).parents('.search').addClass('search-active');
     });
 
-    $('.secondary-nav .search .search-result').on('mouseout', function(e) {
-    	$(this).parents('.search').removeClass('search-active');
+    $('.secondary-nav .search .search-bar .search-icon').click(function(e) {
+    	$(this).parent('.search-bar').toggleClass('opened');
+    	if ($(this).parent('.search-bar').hasClass('opened')) {
+    		$(this).parent('.search-bar').find('input').focus();
+    	} else {
+    		$(this).parent('.search-bar').find('input').focusout();
+    	}
     });
+
+    $('.secondary-nav .search .search-bar input').on('focusout', function(e) {
+    	$(this).parents('.search').removeClass('search-active');
+    	$(this).val('');
+    });
+
+	$('ul.main-nav > li > a[href^="' + location.pathname.substring(location.pathname.lastIndexOf("/") + 1) +'"]').parent('li').addClass('active');
 
     $('.process-side-nav').Stickyfill();
 
-    $('.process-side-nav > li > a').click(function(e) {
+    $('.process-nav > ul:not(.page-side-nav) > li > a').click(function(e) {
     	e.preventDefault();
     	if ($(this).parent('li').hasClass('active')) {
     		$(this).addClass('opened-active');

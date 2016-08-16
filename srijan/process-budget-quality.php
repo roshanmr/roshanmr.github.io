@@ -7,12 +7,12 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <!-- Place favicon.ico in the root directory -->
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 <body class="inner-page">
     <div class="canvas">
@@ -31,27 +31,27 @@
                   <span class="title"><strong>1.</strong> Pre-Engagement</span>
                 </a>
                 <ul class="child-menu">
-                  <li><a href="process.php">
+                  <li><a href="/process.php">
                     <i class="fa fa-arrow-right"></i>
                     <span>Empowered Teams</span>
                     </a>
                   </li>
-                  <li><a href="process-weekly-burn-rate.php">
+                  <li><a href="/process-weekly-burn-rate.php">
                     <i class="fa fa-arrow-right"></i>
                     <span>Weekly Burn Rate Model</span>
                     </a>
                   </li>
-                  <li><a href="process-scrum-team.php">
+                  <li><a href="/process-scrum-team.php">
                     <i class="fa fa-arrow-right"></i>
                     <span>Ideal Scrum Team</span>
                     </a>
                   </li>
-                  <li><a href="process-agile-waterfall.php">
+                  <li><a href="/process-agile-waterfall.php">
                     <i class="fa fa-arrow-right"></i>
                     <span>Agile Over Waterfall</span>
                     </a>
                   </li>
-                  <li class="current"><a href="process-budget-quality.php">
+                  <li class="current"><a href="/process-budget-quality.php">
                     <i class="fa fa-arrow-right"></i>
                     <span>Meeting budget without compromising quality</span>
                     </a>
@@ -67,22 +67,22 @@
                 </a>
 
                 <ul class="child-menu">
-                  <li><a href="process.php">
+                  <li><a href="/process.php">
                     <i class="fa fa-arrow-right"></i>
                     <span>UX Discovery</span>
                     </a>
                   </li>
-                  <li><a href="process-weekly-burn-rate.php">
+                  <li><a href="/process-weekly-burn-rate.php">
                     <i class="fa fa-arrow-right"></i>
                     <span>User Research</span>
                     </a>
                   </li>
-                  <li><a href="process-scrum-team.php">
+                  <li><a href="/process-scrum-team.php">
                     <i class="fa fa-arrow-right"></i>
                     <span>UX Design &amp; Wireframing</span>
                     </a>
                   </li>
-                  <li><a href="process-agile-waterfall.php">
+                  <li><a href="/process-agile-waterfall.php">
                     <i class="fa fa-arrow-right"></i>
                     <span>UI Design</span>
                     </a>
@@ -98,13 +98,13 @@
                   <span class="title"><strong>3.</strong> Prototyping</span>
                 </a>
                  <ul class="child-menu">
-                  <li><a href="process.php">
+                  <li><a href="/process.php">
                     <i class="fa fa-arrow-right"></i>
                     <span>Click-Through Prototypes</span>
                     </a>
                   </li>
 
-                  <li><a href="process.php">
+                  <li><a href="/process.php">
                     <i class="fa fa-arrow-right"></i>
                     <span>HTML, CSS &amp; JS Prototypes</span>
                     </a>
@@ -119,19 +119,19 @@
                   <span class="title"><strong>4.</strong> Tech Discovery</span>
                 </a>
                 <ul class="child-menu">
-                  <li><a href="process.php">
+                  <li><a href="/process.php">
                     <i class="fa fa-arrow-right"></i>
                     <span>Project Estimation</span>
                     </a>
                   </li>
 
-                  <li><a href="process.php">
+                  <li><a href="/process.php">
                     <i class="fa fa-arrow-right"></i>
                     <span>Audit - Paid &amp; Free</span>
                     </a>
                   </li>
 
-                  <li><a href="process.php">
+                  <li><a href="/process.php">
                     <i class="fa fa-arrow-right"></i>
                     <span>POC - Spike</span>
                     </a>
@@ -148,25 +148,25 @@
                 </a>
 
                 <ul class="child-menu">
-                  <li><a href="process.php">
+                  <li><a href="/process.php">
                     <i class="fa fa-arrow-right"></i>
                     <span>Tracking Development on JIRA</span>
                     </a>
                   </li>
 
-                  <li><a href="process.php">
+                  <li><a href="/process.php">
                     <i class="fa fa-arrow-right"></i>
                     <span>Backlog &amp; Sprint Planning</span>
                     </a>
                   </li>
 
-                  <li><a href="process.php">
+                  <li><a href="/process.php">
                     <i class="fa fa-arrow-right"></i>
                     <span>Demos</span>
                     </a>
                   </li>
 
-                  <li><a href="process.php">
+                  <li><a href="/process.php">
                     <i class="fa fa-arrow-right"></i>
                     <span>Retrospectives</span>
                     </a>
@@ -184,18 +184,18 @@
                 </a>
 
                 <ul class="child-menu">
-                  <li><a href="process.php">
+                  <li><a href="/process.php">
                     <i class="fa fa-arrow-right"></i>
                     <span>Infrastructure</span>
                     </a>
                   </li>
-                  <li><a href="process.php">
+                  <li><a href="/process.php">
                     <i class="fa fa-arrow-right"></i>
                     <span>Platform.sh</span>
                     </a>
                   </li>
 
-                  <li><a href="process.php">
+                  <li><a href="/process.php">
                     <i class="fa fa-arrow-right"></i>
                     <span>Aquia Cloud</span>
                     </a>
@@ -211,48 +211,48 @@
                   <span class="title"><strong>7.</strong> QA and Testing</span>
                 </a>
                 <ul class="child-menu">
-                  <li><a href="process.php">
+                  <li><a href="/process.php">
                     <i class="fa fa-arrow-right"></i>
                     <span>Realtime User Testing with Demo Script</span>
                     </a>
                   </li>
-                  <li><a href="process.php">
+                  <li><a href="/process.php">
                     <i class="fa fa-arrow-right"></i>
                     <span>JMeter, New Relic, Blazemeter-Improving performance of a website</span>
                     </a>
                   </li>
 
-                  <li><a href="process.php">
+                  <li><a href="/process.php">
                     <i class="fa fa-arrow-right"></i>
                     <span>Manual Testing</span>
                     </a>
                   </li>
 
-                  <li><a href="process.php">
+                  <li><a href="/process.php">
                     <i class="fa fa-arrow-right"></i>
                     <span>Automated Testing</span>
                     </a>
                   </li>
 
-                  <li><a href="process.php">
+                  <li><a href="/process.php">
                     <i class="fa fa-arrow-right"></i>
                     <span>Definition of Done</span>
                     </a>
                   </li>
 
-                  <li><a href="process.php">
+                  <li><a href="/process.php">
                     <i class="fa fa-arrow-right"></i>
                     <span>Acceptance Criteria </span>
                     </a>
                   </li>
 
-                  <li><a href="process.php">
+                  <li><a href="/process.php">
                     <i class="fa fa-arrow-right"></i>
                     <span>Performance Testing - Backfire </span>
                     </a>
                   </li>
 
-                  <li><a href="process.php">
+                  <li><a href="/process.php">
                     <i class="fa fa-arrow-right"></i>
                     <span>Penetration Testing - Qwalus </span>
                     </a>
@@ -269,17 +269,17 @@
                   <span class="title"><strong>8.</strong> Communication</span>
                 </a>
                  <ul class="child-menu">
-                  <li><a href="process.php">
+                  <li><a href="/process.php">
                     <i class="fa fa-arrow-right"></i>
                     <span>Single View Status Report</span>
                     </a>
                   </li>
-                  <li><a href="process.php">
+                  <li><a href="/process.php">
                     <i class="fa fa-arrow-right"></i>
                     <span>Retros and tools</span>
                     </a>
                   </li>
-                  <li><a href="process.php">
+                  <li><a href="/process.php">
                     <i class="fa fa-arrow-right"></i>
                     <span>Burndown Charts for Agile Reporting</span>
                     </a>
@@ -294,19 +294,19 @@
                   <span class="title"><strong>9.</strong> Support</span>
                 </a>
                 <ul class="child-menu">
-                  <li><a href="process.php">
+                  <li><a href="/process.php">
                     <i class="fa fa-arrow-right"></i>
                     <span>Model</span>
                     </a>
                   </li>
 
-                  <li><a href="process.php">
+                  <li><a href="/process.php">
                     <i class="fa fa-arrow-right"></i>
                     <span>Sprint Planning</span>
                     </a>
                   </li>
 
-                  <li><a href="process.php">
+                  <li><a href="/process.php">
                     <i class="fa fa-arrow-right"></i>
                     <span>Reporting</span>
                     </a>
@@ -318,10 +318,9 @@
           </aside>
           <article class="ps-main col-9">
            
-           
-
+          
             <section class="article-subsection" id="budgetQuality">
-              <h4>Pre-Engagement</h4>
+              <h4 class="section-title"><span class="small-icon"><?php echo file_get_contents("icons/idea.svg"); ?></span>Pre-Engagement</h4>
               <h1>Meeting Budgets Without Compromising Quality</h1>
               <header class="sub-header">
                 <?php echo file_get_contents("img/team.svg"); ?>
@@ -352,7 +351,7 @@
                     <h3>Thought Article</h3>
                     <a href="#">
                     <figure class="thumbnail">
-                      <img src="img/outsource.jpg" alt="">
+                      <img src="/img/outsource.jpg" alt="">
                     </figure>
                     <h4>Why Outsourcing to India Will Prevail</h4>
                     <p>And how companies like Srijan will crack the code for quality, transparency and accountability.</p>
@@ -365,7 +364,7 @@
                     <h3>Whitepaper</h3>
                     <a href="#">
                     <figure class="thumbnail">
-                      <img src="img/wp-srijanteam.jpg" alt="">
+                      <img src="/img/wp-srijanteam.jpg" alt="">
                     </figure>
                     <h4>Srijan's Scrum Teams</h4>
                     <p>Learn how Srijan's Scrum Teams Seamlessly augmenting enterprise Drupal projects</p>
@@ -379,7 +378,7 @@
                     <h3>Case Study</h3>
                     <a href="#">
                     <figure class="thumbnail">
-                      <img src="img/flight.jpg" alt="">
+                      <img src="/img/flight.jpg" alt="">
                     </figure>
                     <h4>OnCorps: Scalable Big Data Analytics Platform in Drupal </h4>
                     <p>complex analytics platform built on Drupal, using agile development methodology and dedicated teams</p>
@@ -389,11 +388,27 @@
                 </div>
               </div>
             </section>
-            <nav class="pagination-nav">
-              <a href="#" class="previous"> <span class="s-icon"><i class="fa fa-chevron-circle-left"></i> </span> <strong>Previous:</strong> Ideal Scrum Team</a>
-              <a href="#" class="next"><strong>Next:</strong> Weekly Burn Rate Model <span class="s-icon"> <i class="fa fa-chevron-circle-right"></i></span></a>
-            </nav>
+           <nav class="pagination-nav">
+              <div class="row">
 
+                <div class="col-6 item">
+                  <a href="/process-weekly-burn-rate.php">
+                    <i class="fa fa-angle-left"></i>
+                    <em>Pre-Engagement</em>
+                    Empowered Teams
+                  </a>
+                </div>
+
+                <div class="col-6 item">
+                  <a href="/process-weekly-burn-rate.php">
+                    <em>Pre-Engagement</em>
+                    Weekly Burn Rate Model
+                    <i class="fa fa-angle-right"></i>
+                  </a>
+                </div>
+
+              </div>
+            </nav>
 
 
           </article>
@@ -425,9 +440,9 @@
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
-<script src="js/plugins.js"></script>
-<script src="js/main.js"></script>
+<script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+<script src="/js/plugins.js"></script>
+<script src="/js/main.js"></script>
 
 </body>
 </html>

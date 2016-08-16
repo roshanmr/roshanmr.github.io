@@ -7,10 +7,10 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <!-- Place favicon.ico in the root directory -->
-  <link rel="stylesheet" href="css/style.css">
-  <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+  <script src="/js/vendor/modernizr-2.8.3.min.js"></script>
+  <link rel="stylesheet" href="/css/style.css" />
 </head>
 <body class="home-page">
 
@@ -191,7 +191,7 @@
       <div class="box-wrap row">
         <article class="box col-4 capability-item orange">
           <figure class="poster">
-            <img src="img/cap-bg.png" alt="img">
+            <img src="/img/cap-bg.png" alt="img">
           </figure>
           <div class="content">
             <div class="heading">
@@ -209,7 +209,7 @@
 
         <article class="box col-4 capability-item blue">
           <figure class="poster">
-            <img src="img/cap-bg.png" alt="img">
+            <img src="/img/cap-bg.png" alt="img">
           </figure>
           <div class="content">
             <div class="heading">
@@ -227,7 +227,7 @@
 
         <article class="box col-4 capability-item red">
           <figure class="poster">
-            <img src="img/cap-bg.png" alt="img">
+            <img src="/img/cap-bg.png" alt="img">
           </figure>
           <div class="content">
             <div class="heading">
@@ -248,7 +248,7 @@
       <div class="box-wrap row">
         <article class="box col-4 capability-item turquoise">
           <figure class="poster">
-            <img src="img/cap-bg.png" alt="img">
+            <img src="/img/cap-bg.png" alt="img">
           </figure>
           <div class="content">
             <div class="heading">
@@ -266,7 +266,7 @@
 
         <article class="box col-4 capability-item green">
           <figure class="poster">
-            <img src="img/cap-bg.png" alt="img">
+            <img src="/img/cap-bg.png" alt="img">
           </figure>
           <div class="content">
             <div class="heading">
@@ -284,7 +284,7 @@
 
         <article class="box col-4 capability-item purple">
           <figure class="poster">
-            <img src="img/cap-bg.png" alt="img">
+            <img src="/img/cap-bg.png" alt="img">
           </figure>
           <div class="content">
             <div class="heading">
@@ -417,7 +417,7 @@
                   <a href="#">
                     <div class="cs-col-wrap">
                       <figure class="main-image">
-                        <img src="img/pf-open.png" alt="open magazine">
+                        <img src="/img/pf-open.png" alt="open magazine">
                       </figure>
                       <span class="logo">
                         <svg version="1.1" class="cs-logo" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -445,7 +445,7 @@
                 <a href="#">
                   <div class="cs-col-wrap">
                     <figure class="main-image">
-                      <img src="img/pf-cleartrip.png" alt="cleartrip">
+                      <img src="/img/pf-cleartrip.png" alt="cleartrip">
                     </figure>
                     <span class="logo">
 
@@ -502,7 +502,7 @@
               <a href="#">
                 <div class="cs-col-wrap">
                   <figure class="main-image">
-                    <img src="img/pf-tui.png" alt="TUI">
+                    <img src="/img/pf-tui.png" alt="TUI">
                   </figure>
                   <span class="logo">
 
@@ -565,7 +565,7 @@
           <a href="#">
             <div class="blog-wrap">
               <figure class="featured-img">
-                <img src="img/article1.jpg" alt="">
+                <img src="/img/article1.jpg" alt="">
               </figure>
               <div class="excerpt">
                 <h2>5 things decision makers need to know about Drupal</h2>
@@ -579,7 +579,7 @@
           <a href="#">
             <div class="blog-wrap">
               <figure class="featured-img">
-                <img src="img/article2.jpg" alt="">
+                <img src="/img/article2.jpg" alt="">
               </figure>
               <div class="excerpt">
                 <h2>Don't outsource your startup, but Outsource its Engineering</h2>
@@ -594,7 +594,7 @@
           <a href="#">
             <div class="blog-wrap">
               <figure class="featured-img">
-                <img src="img/article3.jpg" alt="">
+                <img src="/img/article3.jpg" alt="">
               </figure>
               <div class="excerpt">
                 <h2>7 things a Media Website owner should ask a Drupal Company</h2>
@@ -635,10 +635,10 @@
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
-<script src="js/plugins.js"></script>
-<script src="js/jquery.bxslider.min.js"></script>
-<script src="js/main.js"></script>
+<script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+<script src="/js/plugins.js"></script>
+<script src="/js/jquery.bxslider.min.js"></script>
+<script src="/js/main.js"></script>
 
 </body>
 </html>

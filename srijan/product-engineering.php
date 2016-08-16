@@ -7,12 +7,12 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <!-- Place favicon.ico in the root directory -->
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 <body class="inner-page">
     <div class="canvas">
@@ -23,13 +23,13 @@
           <aside class="process-nav col-3">
             <ul class="process-side-nav page-side-nav">
               <li>
-                <a href="solutions.php">
+                <a href="/solutions.php">
                  <strong>Solutions</strong>
                 </a>
               </li>
 
               <li class="active">
-                <a href="product-engineering.php">
+                <a href="/product-engineering.php">
                  Product Engineering
                 </a>
               </li>
@@ -70,7 +70,7 @@
 
               <div class="testimonial-block">
                 <figure class="client-img">
-                  <img src="img/steve.jpg" alt="">
+                  <img src="/img/steve.jpg" alt="">
                 </figure>
                 <div class="testimonial">
                   <p>"The team maintained consistent communication throughout the project, which was very helpful in the absence of in-person meetings. Daily stand up calls and frequent demonstrations allowed us to maintain visibility into the project, and provide any clarifications before the team invested a lot of effort in an undesired direction. Further, it allowed us flexibility in case we missed something about a requirement laid out and needed to change it, or had to introduce another requirement independently, or as a fall over effect of fixing something else. Any questions were timely answered, and more importantly, the team was always willing to provide an explanation about why to/why not to do something. This allowed a comfortable and effective communication loop."</p>
@@ -113,7 +113,7 @@
                     
                     <a href="#">
                     <figure class="thumbnail">
-                      <img src="img/outsource.jpg" alt="">
+                      <img src="/img/outsource.jpg" alt="">
                     </figure>
                     <h4>Why Outsourcing to India Will Prevail</h4>
                     <p>And how companies like Srijan will crack the code for quality, transparency and accountability.</p>
@@ -126,7 +126,7 @@
                     
                     <a href="#">
                     <figure class="thumbnail">
-                      <img src="img/wp-srijanteam.jpg" alt="">
+                      <img src="/img/wp-srijanteam.jpg" alt="">
                     </figure>
                     <h4>Srijan's Scrum Teams</h4>
                     <p>Learn how Srijan's Scrum Teams Seamlessly augmenting enterprise Drupal projects</p>
@@ -140,7 +140,7 @@
                     
                     <a href="#">
                     <figure class="thumbnail">
-                      <img src="img/flight.jpg" alt="">
+                      <img src="/img/flight.jpg" alt="">
                     </figure>
                     <h4>OnCorps: Scalable Big Data Analytics Platform in Drupal </h4>
                     <p>complex analytics platform built on Drupal, using agile development methodology and dedicated teams</p>
@@ -151,13 +151,13 @@
               </div>
             </section>
             <nav class="pagination-nav">
-              <a href="process-weekly-burn-rate.php" class="next"><strong>Next:</strong> Weekly Burn Rate Model <span class="s-icon"> <i class="fa fa-chevron-circle-right"></i></span></a>
+              <a href="/process-weekly-burn-rate.php" class="next"><strong>Next:</strong> Weekly Burn Rate Model <span class="s-icon"> <i class="fa fa-chevron-circle-right"></i></span></a>
             </nav>
 
 
             <nav class="pagination-nav fixed-page-nav">
-              <a href="solutions.php" class="previous"> <span class="s-icon"><i class="fa fa-chevron-circle-left"></i> </span> <strong>Previous:</strong> Solutions</a>
-              <a href="software-prototyping" class="next"><strong>Next:</strong> Software Prototyping <span class="s-icon"> <i class="fa fa-chevron-circle-right"></i></span></a>
+              <a href="/solutions.php" class="previous"> <span class="s-icon"><i class="fa fa-chevron-circle-left"></i> </span> <strong>Previous:</strong> Solutions</a>
+              <a href="/software-prototyping" class="next"><strong>Next:</strong> Software Prototyping <span class="s-icon"> <i class="fa fa-chevron-circle-right"></i></span></a>
             </nav>
 
 
@@ -175,7 +175,7 @@
                     <div class="box-wrap row page-wrap">
                       <article class="box col-4 capability-item orange">
                         <figure class="poster">
-                          <img src="img/cap-bg.png" alt="img">
+                          <img src="/img/cap-bg.png" alt="img">
                         </figure>
                         <div class="content">
                           <div class="heading">
@@ -193,7 +193,7 @@
 
                       <article class="box col-4 capability-item blue">
                         <figure class="poster">
-                          <img src="img/cap-bg.png" alt="img">
+                          <img src="/img/cap-bg.png" alt="img">
                         </figure>
                         <div class="content">
                           <div class="heading">
@@ -211,7 +211,7 @@
 
                       <article class="box col-4 capability-item red">
                         <figure class="poster">
-                          <img src="img/cap-bg.png" alt="img">
+                          <img src="/img/cap-bg.png" alt="img">
                         </figure>
                         <div class="content">
                           <div class="heading">
@@ -232,7 +232,7 @@
                     <div class="box-wrap row page-wrap">
                       <article class="box col-4 capability-item turquoise">
                         <figure class="poster">
-                          <img src="img/cap-bg.png" alt="img">
+                          <img src="/img/cap-bg.png" alt="img">
                         </figure>
                         <div class="content">
                           <div class="heading">
@@ -250,7 +250,7 @@
 
                       <article class="box col-4 capability-item green">
                         <figure class="poster">
-                          <img src="img/cap-bg.png" alt="img">
+                          <img src="/img/cap-bg.png" alt="img">
                         </figure>
                         <div class="content">
                           <div class="heading">
@@ -268,7 +268,7 @@
 
                       <article class="box col-4 capability-item purple">
                         <figure class="poster">
-                          <img src="img/cap-bg.png" alt="img">
+                          <img src="/img/cap-bg.png" alt="img">
                         </figure>
                         <div class="content">
                           <div class="heading">
@@ -314,9 +314,9 @@
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
-<script src="js/plugins.js"></script>
-<script src="js/main.js"></script>
+<script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+<script src="/js/plugins.js"></script>
+<script src="/js/main.js"></script>
 
 </body>
 </html>

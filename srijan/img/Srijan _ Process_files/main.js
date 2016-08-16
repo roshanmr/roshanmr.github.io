@@ -32,7 +32,7 @@ $(document).ready(function() {
 		e.preventDefault();
 		$(this).parents('.video-intro').find('.video-wrap').fadeIn();
 		$(this).parents('.video-intro').addClass('video-playing')
-		$(this).parents('.video-intro').find('.video-wrap #vid').html('<iframe width="600" height="338" id="ytvideo" frameborder="0" allowfullscreen src="http://www.youtube.com/embed/'+$(this).attr("data-vidid")+'?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1"></iframe>').show();
+		$(this).parents('.video-intro').find('.video-wrap #vid').html('<iframe width="600" height="338" id="ytvideo" frameborder="0" allowfullscreen src="/http://www.youtube.com/embed/'+$(this).attr("data-vidid")+'?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1"></iframe>').show();
 	});
 
 	$('.close-btn').click(function(e) {

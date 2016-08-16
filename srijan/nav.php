@@ -10,10 +10,10 @@
         <div class="col-7">
           <nav class="secondary-nav nav">
             <ul class="nav-list">
-              <li><a href="webinars.php">Webinars</a></li>
-              <li><a href="thought-articles.php">Thought Articles</a></li>
-              <li><a href="about.php">About</a></li>
-              <li><a href="careers.php">Careers</a></li>
+              <li><a href="/webinars">Webinars</a></li>
+              <li><a href="/thought-articles">Thought Articles</a></li>
+              <li><a href="/about">About</a></li>
+              <li><a href="/careers">Careers</a></li>
 
               <li class="search"><form action="#">
                 <div class="search-bar">
@@ -88,8 +88,8 @@
     </div>
   </div>
   <div class="row page-wrap header-top">
-    <a class="col-2 logo" href="index.php" title="Srijan">
-      <img src="img/logo.png" alt="srijan logo">
+    <a class="col-2 logo" href="/" title="Srijan">
+      <img src="/img/logo.png" alt="srijan logo">
       <span class="name">Srijan</span>
     </a>
     <div class="col-10">
@@ -102,7 +102,7 @@
           </span>
         </a>
         <ul class="main-nav">
-          <li><a href="drupal.php">Drupal <i class="fa fa-angle-down"></i></a>
+          <li><a href="/drupal">Drupal <i class="fa fa-angle-down"></i></a>
             <div class="fat-nav">
               <div class="row">
                 <div class="col-3">
@@ -132,7 +132,7 @@
                   <h2>Success Story</h2>
                   <article class="case-study-item">
                     <figure class="thumb">
-                      <img src="img/tuilogo.png" alt="">
+                      <img src="/img/tuilogo.png" alt="">
                     </figure>
                     <div class="cs-text">
                       <h3><a href="#">
@@ -149,7 +149,7 @@
                   <h2>From the Blog</h2>
                   <article class="case-study-item">
                     <figure class="thumb">
-                      <img src="img/d8blog.png" alt="">
+                      <img src="/img/d8blog.png" alt="">
                     </figure>
                     <div class="cs-text">
                       <h3><a href="#">
@@ -165,7 +165,7 @@
               </div>
             </div>
           </li>
-          <li><a href="solutions.php">Solutions <i class="fa fa-angle-down"></i></a>
+          <li><a href="/solutions">Solutions <i class="fa fa-angle-down"></i></a>
             <div class="fat-nav">
               <div class="row">
                 <div class="col-3">
@@ -196,7 +196,7 @@
                             <h2>Success Story</h2>
                             <article class="case-study-item">
                               <figure class="thumb">
-                                <img src="img/tuilogo.png" alt="">
+                                <img src="/img/tuilogo.png" alt="">
                               </figure>
                               <div class="cs-text">
                                 <h3><a href="#">
@@ -216,7 +216,7 @@
                             <h2>From the Blog</h2>
                             <article class="case-study-item">
                               <figure class="thumb">
-                                <img src="img/d8blog.png" alt="">
+                                <img src="/img/d8blog.png" alt="">
                               </figure>
                               <div class="cs-text">
                                 <h3><a href="#">
@@ -234,7 +234,7 @@
                         </div>
                       </div>
                     </li>
-                    <li><a href="technologies.php">Technologies <i class="fa fa-angle-down"></i></a>
+                    <li><a href="/technologies">Technologies <i class="fa fa-angle-down"></i></a>
                       <div class="fat-nav">
                         <div class="row">
                           <div class="col-3">
@@ -266,7 +266,7 @@
                                       <h2>Success Story</h2>
                                       <article class="case-study-item">
                                         <figure class="thumb">
-                                          <img src="img/tuilogo.png" alt="">
+                                          <img src="/img/tuilogo.png" alt="">
                                         </figure>
                                         <div class="cs-text">
                                           <h3><a href="#">
@@ -286,7 +286,7 @@
                                       <h2>From the Blog</h2>
                                       <article class="case-study-item">
                                         <figure class="thumb">
-                                          <img src="img/d8blog.png" alt="">
+                                          <img src="/img/d8blog.png" alt="">
                                         </figure>
                                         <div class="cs-text">
                                           <h3><a href="#">
@@ -304,17 +304,17 @@
                                   </div>
                                 </div>
                               </li>
-                              <li><a href="process.php">Process <i class="fa fa-angle-down"></i></a>
+                              <li><a href="/process">Process <i class="fa fa-angle-down"></i></a>
                                 <div class="fat-nav">
 
                                 </div>
                               </li>
-                              <li><a href="clients.php">Clients <i class="fa fa-angle-down"></i></a>
+                              <li><a href="/clients">Clients <i class="fa fa-angle-down"></i></a>
                                 <div class="fat-nav">
 
                                 </div>
                               </li>
-                              <li><a href="contact.php">Contact <i class="fa fa-angle-down"></i></a>
+                              <li><a href="/contact">Contact <i class="fa fa-angle-down"></i></a>
                                 <div class="fat-nav">
 
                                 </div>

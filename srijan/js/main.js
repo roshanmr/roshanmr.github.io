@@ -32,7 +32,7 @@ $(document).ready(function() {
 		e.preventDefault();
 		$(this).parents('.video-intro').find('.video-wrap').fadeIn();
 		$(this).parents('.video-intro').addClass('video-playing')
-		$(this).parents('.video-intro').find('.video-wrap #vid').html('<iframe width="600" height="338" id="ytvideo" frameborder="0" allowfullscreen src="http://www.youtube.com/embed/'+$(this).attr("data-vidid")+'?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1"></iframe>').show();
+		$(this).parents('.video-intro').find('.video-wrap #vid').html('<iframe width="600" height="338" id="ytvideo" frameborder="0" allowfullscreen src="/http://www.youtube.com/embed/'+$(this).attr("data-vidid")+'?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1"></iframe>').show();
 	});
 
 	$('.close-btn').click(function(e) {
@@ -48,8 +48,6 @@ $(document).ready(function() {
 	var navbarHeight = $('.page-nav').outerHeight();
 	var mainnavHeight = $('.top-banner').outerHeight();
 	var delta = navbarHeight/2;
-
-	console.log(navbarHeight);
 
 
 	setInterval(function() {
@@ -177,7 +175,7 @@ var $window = $(window);
 function checkWidth() {
 	var windowsize = $window.width();
 	if (windowsize > 700) {
-		$('.home-header .parallax').html("<figure class='bg-video'><video src='img/bg_1.mp4' autoplay loop> Sorry, your browser doesn't support embedded videos</video></figure>");
+		$('.home-header .parallax').html("<figure class='bg-video'><video src='/img/bg_1.mp4' autoplay loop> Sorry, your browser doesn't support embedded videos</video></figure>");
 		$(window).on("scroll", function () {
 			var scroll = $(window).scrollTop();
 			if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
@@ -191,9 +189,7 @@ function checkWidth() {
 	}
 
 }
-    // Execute on load
     checkWidth();
-    // Bind event listener
     $(window).load(checkWidth);
 
 if ($('.sticky').length) {
@@ -221,15 +217,13 @@ var pageHeight = $(".ps-main").outerHeight();
 $(window).scroll(function() {
     stickyNav();
     if ($('.top-banner').hasClass('nav-up')) {
-    	$('nav.fixed-page-nav').addClass('fixed-bottom');
+    	$('.pagination-nav').addClass('fixed-bottom');
     } else {
-    	$('nav.fixed-page-nav').removeClass('fixed-bottom');
+    	$('.pagination-nav').removeClass('fixed-bottom');
     }
 
-    if($(window).scrollTop() > (pageHeight - 300)){
-    	$('nav.fixed-page-nav').addClass('hide');
-    } else {
-    	$('nav.fixed-page-nav').removeClass('hide');
+    if($(window).scrollTop() > (pageHeight - 500 )){
+    $('.pagination-nav').removeClass('fixed-bottom');
     }
 });
 
@@ -267,11 +261,24 @@ $(window).scroll(function(){
     	$(this).val('');
     });
 
-	$('ul.main-nav > li > a[href^="' + location.pathname.substring(location.pathname.lastIndexOf("/") + 1) +'"]').parent('li').addClass('active');
+	$('ul.child-menu > li > a[href^="' + location.pathname.split("/")[2] + '"]').parent('li').addClass('active');
+
+	if ($('.child-menu > li').hasClass('active')) {
+		//do nothing
+		//this is temporary code. do not use these
+	} else {
+		$('.child-menu > li:first-child').addClass('active');
+	}
+
+	$(document).activeNavigation(".main-nav");
+	
+/*	$('.child-menu li a').filter(function() {
+      return (this.href == location.href);
+    }).parent('li').addClass('active'); */
 
     $('.process-side-nav').Stickyfill();
 
-    $('.process-nav > ul:not(.page-side-nav) > li > a').click(function(e) {
+    $('.accordion-nav > li > a').click(function(e) {
     	e.preventDefault();
     	if ($(this).parent('li').hasClass('active')) {
     		$(this).addClass('opened-active');
@@ -284,6 +291,21 @@ $(window).scroll(function(){
     	$(this).parents('li').siblings('li').children('ul.child-menu').removeClass('expand')
     });
 
-    $('.process-side-nav > li.active').children('ul.child-menu').addClass('expand');
+    $('.accordion-nav > li.active').children('ul.child-menu').addClass('expand');
+
+   	$('.download-form button').click(function(e) {
+   		e.preventDefault();
+   		$(this).parents('.download-form').find('.confirm-txt').addClass('show');
+   	});
+
+   	$('.download-form input').keypress(function(e) {
+   		$(this).next('button').removeClass('disabled');
+   	});
+
+   	$(".text-rotator .text-rotate").textrotator({
+        animation: "fade",
+        speed: 1500
+      });
+
 });
 

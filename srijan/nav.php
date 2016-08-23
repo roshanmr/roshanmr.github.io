@@ -306,11 +306,113 @@
                               </li>
                               <li><a href="/process">Process <i class="fa fa-angle-down"></i></a>
                                 <div class="fat-nav">
+                        <div class="row">
+                          <div class="col-6">
+                            <h2>Processes</h2>
+                            <ul class="menu multi-col-menu">
+                              <li><a href="#">
+                                <i class="fa fa-caret-right"></i>
+                                Pre-Engagement</a></li>
+                                <li><a href="#">
+                                  <i class="fa fa-caret-right"></i>
+                                  UI &amp; UX Design</a></li>
 
+                                  <li><a href="#">
+                                    <i class="fa fa-caret-right"></i>
+                                    Prototyping</a></li>
+
+                                    <li><a href="#">
+                                      <i class="fa fa-caret-right"></i>
+                                      Tech Discovery</a></li>
+
+                                      <li><a href="#">
+                                        <i class="fa fa-caret-right"></i>
+                                        Development Sprints</a></li>
+
+                                          <li><a href="#">
+                                          <i class="fa fa-caret-right"></i>
+                                          DevOps</a></li>
+
+                                    <li><a href="#">
+                                      <i class="fa fa-caret-right"></i>
+                                      QA &amp; Testing</a></li>
+
+                                      <li><a href="#">
+                                        <i class="fa fa-caret-right"></i>
+                                        Communication</a></li>
+
+                                          <li><a href="#">
+                                          <i class="fa fa-caret-right"></i>
+                                          Support</a></li>
+                                  </ul>
+                                    </div>
+              
+                                    <div class="col-6">
+                                      <h2>From the Blog</h2>
+                                      <article class="case-study-item">
+                                        <figure class="thumb">
+                                          <img src="/img/d8blog.png" alt="">
+                                        </figure>
+                                        <div class="cs-text">
+                                          <h3><a href="#">
+                                            Technical Discovery for Drupal 8 Project
+
+                                          </a></h3>
+                                          <p>
+                                            Our case-study was aimed at the companies/developers who are starting with Drupal 8 projects for the first time..
+                                          </p>
+                                          <a href="#" class="more-link">Read More <i class="fa fa-chevron-right"></i></a>
+                                        </div>
+
+                                      </article>
+                                    </div>
+                                  </div>  
                                 </div>
                               </li>
                               <li><a href="/clients">Clients <i class="fa fa-angle-down"></i></a>
                                 <div class="fat-nav">
+                                                        <div class="row">
+                          <div class="col-8">
+                            <h2>Filter Case Studies by:</h2>
+                            <ul class="menu multi-three-col-menu">
+                                <li><a href="filter.php"><i class="fa fa-caret-right"></i> Business Services</a></li>
+                                <li><a href="filter.php"><i class="fa fa-caret-right"></i> Community</a></li>
+                                <li><a href="filter.php"><i class="fa fa-caret-right"></i> Customer Services</a></li>
+                                <li><a href="filter.php"><i class="fa fa-caret-right"></i> Education</a></li>
+                                <li><a href="filter.php"><i class="fa fa-caret-right"></i> Finance</a></li>
+                                <li><a href="filter.php"><i class="fa fa-caret-right"></i> Government</a></li>
+                                <li><a href="filter.php"><i class="fa fa-caret-right"></i> Healthcare</a></li>
+                                <li><a href="filter.php"><i class="fa fa-caret-right"></i> Hospitality</a></li>
+                                <li><a href="filter.php"><i class="fa fa-caret-right"></i> Information Technology</a></li>
+                                <li><a href="filter.php"><i class="fa fa-caret-right"></i> Legal</a></li>
+                                <li><a href="filter.php"><i class="fa fa-caret-right"></i> Media &amp; Entertainment</a></li>
+                                <li><a href="filter.php"><i class="fa fa-caret-right"></i> Non-profit</a></li>
+                                <li><a href="filter.php"><i class="fa fa-caret-right"></i> Retail</a></li>
+                                <li><a href="filter.php"><i class="fa fa-caret-right"></i> Telecommunications</a></li>
+                                <li><a href="filter.php"><i class="fa fa-caret-right"></i> Travel</a></li>
+                            </ul>
+                                    </div>
+                                    
+                                    <div class="col-4">
+                                      <h2>From the Blog</h2>
+                                      <article class="case-study-item">
+                                        <figure class="thumb">
+                                          <img src="/img/d8blog.png" alt="">
+                                        </figure>
+                                        <div class="cs-text">
+                                          <h3><a href="#">
+                                            Technical Discovery for Drupal 8 Project
+
+                                          </a></h3>
+                                          <p>
+                                            Our case-study was aimed at the companies/developers who are starting with Drupal 8 projects for the first time..
+                                          </p>
+                                          <a href="#" class="more-link">Read More <i class="fa fa-chevron-right"></i></a>
+                                        </div>
+
+                                      </article>
+                                    </div>
+                                  </div>
 
                                 </div>
                               </li>

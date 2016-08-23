@@ -20,11 +20,10 @@
     <?php include '../nav.php';?>
     <header class="section-page-header">
       <figure class="parallax">
-        <img src="/img/clients.jpg" alt="graphics">
+        <img src="/img/technologies2.jpg" alt="graphics">
       </figure>
       <div class="page-wrap">
-        <h1>Thought partners to our clients</h1>
-        <p>Solutions &amp; Products designed to deliver business outcomes</p>
+        <h1 class="text-rotator"><span class="text-rotate">Passionate engineering teams, Mature Agile processes, Flexible staffing models </span> for Enterprises</h1>
       </div>
     </header>
 

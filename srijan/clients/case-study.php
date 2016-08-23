@@ -24,7 +24,7 @@
       </figure>
       <div class="page-wrap">
         <div class="main-text">
-        <h1><span>Open The Magazine</span> Bringing design into a redesign project!</h1>
+        <h1>Case Study : Open The Magazine </h1>
         <p>See how UX rapid prototyping helped India’s leading current affairs and features magazine redesign their website.</p>
         </div>
       </div>
@@ -51,6 +51,7 @@
 
         <div class="testimonial page-wrap">
           <blockquote class="testimonial-text">
+            <span class="quote-icon"><i class="fa fa-quote-left"></i></span>
             <p>One of the biggest challenges we faced prior to contracting with Srijan was fixing one feature in TCRO2 would break two others. This put us in a vicious cycle where we could never move to the next level of feature set. The development and testing process at Srijan allowed us to come out of this, as existing features continued to work well along with new or improved features. So from a functional perspective – great development work.</p>
           </blockquote>
           <div class="client-author">

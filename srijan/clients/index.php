@@ -23,8 +23,10 @@
         <img src="/img/clients.jpg" alt="graphics">
       </figure>
       <div class="page-wrap">
+        <div class="header-content-wrap">
         <h1>Thought partners to our clients</h1>
         <p>Solutions &amp; Products designed to deliver business outcomes</p>
+        </div>
       </div>
     </header>
 
@@ -451,9 +453,27 @@
 
 
 </div>
-
-
 </section>
+
+<section class="testimonial-cta">
+    <img src="/img/testimonial.jpg" alt="" class="testimonial-bg">
+     <div class="testimonial page-wrap">
+          <blockquote class="testimonial-text">
+            <span class="quote-icon"><i class="fa fa-quote-left"></i></span>
+            <p>One of the biggest challenges we faced prior to contracting with Srijan was fixing one feature in TCRO2 would break two others. This put us in a vicious cycle where we could never move to the next level of feature set. The development and testing process at Srijan allowed us to come out of this, as existing features continued to work well along with new or improved features. So from a functional perspective – great development work.</p>
+          </blockquote>
+          <div class="client-author">
+          <figure class="author-img">
+            <img src="../img/steve2.jpg" alt="steve">
+          </figure>
+          <div class="author-info">
+            <strong>Steve Townsend</strong>
+            <em>CEO, AVTranz</em>
+          </div>
+          </div>
+      </div>
+</section>
+
 
 <section class="client-logo-list">
   <header class="section-subheader">

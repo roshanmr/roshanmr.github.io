@@ -27,7 +27,7 @@
           <article class="ps-main col-9">
             <section class="article-subsection" id="empoweredTeams">
               <h4 class="section-title">Solutions</h4>
-              <h1>Performance Audit</h1>
+              <h1>Scrum Teams</h1>
               <header class="sub-header">
                 <?php echo file_get_contents("../img/team.svg"); ?>
               </header>

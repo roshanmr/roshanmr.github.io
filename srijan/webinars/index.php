@@ -41,20 +41,35 @@
     </header>
 
     <main class="page section-landing webinars-listing">
-      
-      <section class="generic-intro">
-        <div class="page-wrap">
-        <p>The Srijan Wednesday Webinars is an initiative to build a community that encourages a free flow knowledge and expertise. With over seventy webinars since its inception in 2013, we have covered a wide variety of tech and business issues:
-        </p>
-
-        <figure class="infographics">
-          <figcaption class="temp">placeholder for infographics</figcaption>
-        </figure>
-
+      <section class="content-block webinar-listing">
+        <header class="section-subheader">
+          <h2>Upcoming Webinars</h2>
+        </header>
+        <div class="search-webinars page-wrap">
+          <form action="#" class="webinar-search">
+            <div class="search-bar">
+              <input type="text" placeholder="Keywords" name="webinarSearch" id="webinarSearch" /> <input type="button" class="btn searchbtn" value="Search">
+            </div>
+          </form>
         </div>
       </section>
 
-      section.content-block.
+
+      <section class="generic-intro">
+        <div class="page-wrap">
+        <p>The Srijan Wednesday Webinars is an initiative to build a community that encourages a free flow knowledge and expertise. With over seventy webinars since its inception in 2013, we have covered a wide variety of tech and business issues
+        </p>
+
+        <a href="#" class="btn cta-btn">Become a Speaker</a>
+        </div>
+      </section>
+
+      <section class="content-block infographic-block page-wrap">
+         <figure class="infographics">
+          <?php echo file_get_contents("../img/webinar-graphics.svg"); ?>
+        </figure>
+
+      </section>
 
       <section class="content-block grey-bg">
         <header class="section-subheader">

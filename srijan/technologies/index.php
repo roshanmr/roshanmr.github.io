@@ -49,7 +49,7 @@
               </div>
               <div class="excerpt">
                 <p>Nullam id volutpat est. Aliquam pretium sapien ut tellus tristique ullamcorper. </p>
-                <a href="#nogo" class="btn ghost-btn more">Learn More</a>
+                <a href="drupal-dev.php" class="btn ghost-btn more">Learn More</a>
               </div>
             </div>
           </article>
@@ -67,7 +67,7 @@
               </div>
               <div class="excerpt">
                 <p>Nullam id volutpat est. Aliquam pretium sapien ut tellus tristique ullamcorper. </p>
-                <a href="#nogo" class="btn ghost-btn more">Learn More</a>
+                <a href="angular-mv.php" class="btn ghost-btn more">Learn More</a>
               </div>
             </div>
           </article>
@@ -85,7 +85,7 @@
               </div>
               <div class="excerpt">
                 <p>Nullam id volutpat est. Aliquam pretium sapien ut tellus tristique ullamcorper. </p>
-                <a href="#nogo" class="btn ghost-btn more">Learn More</a>
+                <a href="javascript.php" class="btn ghost-btn more">Learn More</a>
               </div>
             </div>
           </article>
@@ -106,7 +106,7 @@
               </div>
               <div class="excerpt">
                 <p>Nullam id volutpat est. Aliquam pretium sapien ut tellus tristique ullamcorper. </p>
-                <a href="#nogo" class="btn ghost-btn more">Learn More</a>
+                <a href="ror.php" class="btn ghost-btn more">Learn More</a>
               </div>
             </div>
           </article>
@@ -124,7 +124,7 @@
               </div>
               <div class="excerpt">
                 <p>Nullam id volutpat est. Aliquam pretium sapien ut tellus tristique ullamcorper. </p>
-                <a href="#nogo" class="btn ghost-btn more">Learn More</a>
+                <a href="ux-design.php" class="btn ghost-btn more">Learn More</a>
               </div>
             </div>
           </article>
@@ -142,7 +142,7 @@
               </div>
               <div class="excerpt">
                 <p>Nullam id volutpat est. Aliquam pretium sapien ut tellus tristique ullamcorper. </p>
-                <a href="#nogo" class="btn ghost-btn more">Learn More</a>
+                <a href="product-engg.php" class="btn ghost-btn more">Learn More</a>
               </div>
             </div>
           </article>

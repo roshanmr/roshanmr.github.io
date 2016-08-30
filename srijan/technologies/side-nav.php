@@ -12,7 +12,7 @@
   <li>
     <a href="drupal-dev.php">
       <span class="icon-small">
-        <?php echo file_get_contents("../icons/performance.svg"); ?>
+        <?php echo file_get_contents("../icons/drupal.svg"); ?>
       </span>
       <span class="title">Drupal Development</span>
     </a>
@@ -21,7 +21,7 @@
   <li class="active">
     <a href="angular-mv.php">
       <span class="icon-small">
-        <?php echo file_get_contents("../icons/scrum-team.svg"); ?>
+        <?php echo file_get_contents("../icons/angular.svg"); ?>
       </span>
       <span class="title">Angular &amp; MV*</span>
     </a>
@@ -30,7 +30,7 @@
    <li>
     <a href="javascript.php">
       <span class="icon-small">
-        <?php echo file_get_contents("../icons/continuous.svg"); ?>
+        <?php echo file_get_contents("../icons/js.svg"); ?>
       </span>
       <span class="title">Javascript Technologies</span>
     </a>
@@ -39,7 +39,7 @@
   <li>
     <a href="ror.php">
       <span class="icon-small">
-        <?php echo file_get_contents("../icons/autoqa.svg"); ?>
+        <?php echo file_get_contents("../icons/ror.svg"); ?>
       </span>
       <span class="title">Ruby on Rails</span>
     </a>
@@ -48,7 +48,7 @@
   <li>
     <a href="ux-design.php">
       <span class="icon-small">
-        <?php echo file_get_contents("../icons/design.svg"); ?>
+        <?php echo file_get_contents("../icons/ux-logo.svg"); ?>
       </span>
       <span class="title">Experience Design</span>
     </a>
@@ -57,7 +57,7 @@
   <li>
     <a href="product-engg.php">
       <span class="icon-small">
-        <?php echo file_get_contents("../icons/ecomm.svg"); ?>
+        <?php echo file_get_contents("../icons/product-engg.svg"); ?>
       </span>
       <span class="title">Product Engineerng</span>
     </a>

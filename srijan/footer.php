@@ -2,7 +2,7 @@
     <div class="row page-wrap">
         <div class="col-4">
             <div class="address-block">
-                <h3>Delhi</h3>
+                <h3><i class="fa fa-location"></i>Delhi</h3>
                 <p> 8A, Vandana building, 11 - Tolstoy road,
                     Connaught place, Delhi - 110001, INDIA, <br />
                     <i class="fa fa-phone"></i> +91 11 40680241
@@ -10,7 +10,7 @@
             </div>
 
             <div class="address-block">
-                <h3>Gurgaon</h3>
+                <h3><i class="fa fa-location"></i>Gurgaon</h3>
                 <p> Second Floor, Plot 121,
                     Sector 44, Gurgaon,
                     Haryana -​ 122003
@@ -18,7 +18,7 @@
             </div>
 
             <div class="address-block">
-                <h3>Goa</h3>
+                <h3><i class="fa fa-location"></i>Goa</h3>
                 <p> 759/38 Shanti Nagar,
                     Alto Porvorim, Socorro,
                     Goa - 403501
@@ -26,7 +26,7 @@
             </div>
 
             <div class="address-block">
-                <h3>Bangalore</h3>
+                <h3><i class="fa fa-location"></i>Bangalore</h3>
                 <p> 204 Evoma Facilities,
                     #88, Borewell Road, Whitefield, Bangalore,
                     560066
@@ -34,7 +34,7 @@
             </div>
 
             <div class="address-block">
-                <h3>San Francisco</h3>
+                <h3><i class="fa fa-location"></i>San Francisco</h3>
                 <p>
                     5112 Montiano Lane,
                     Dublin,
@@ -45,12 +45,12 @@
         <div class="col-4">
             <ul class="footer-nav">
                 <li><h3>Solutions</h3></li>
-                <li><a href="#nogo">E-Commerce Development</a></li>
-                <li><a href="#nogo">Drupal Solutions</a></li>
-                <li><a href="#nogo">UX &amp; UI Design</a></li>
-                <li><a href="#nogo">Outsourced Product Development</a></li>
-                <li><a href="#nogo">Trustworthy Tech Solutions For B2B Marketers</a></li>
-                <li><a href="#nogo">Strengthening Digital Revenues For Media &amp; Entertainment</a></li>
+                <li><a href="/solutions">E-Commerce Development</a></li>
+                <li><a href="/solutions">Drupal Solutions</a></li>
+                <li><a href="/solutions">UX &amp; UI Design</a></li>
+                <li><a href="/solutions">Outsourced Product Development</a></li>
+                <li><a href="/solutions">Trustworthy Tech Solutions For B2B Marketers</a></li>
+                <li><a href="/solutions">Strengthening Digital Revenues For Media &amp; Entertainment</a></li>
             </ul>
 
 
@@ -59,14 +59,11 @@
         <div class="col-2">
             <ul class="footer-nav">
                 <li><h3>Hub</h3></li>
-                <li><a href="#nogo">Clients</a></li>
-                <li><a href="#nogo">Events</a></li>
-                <li><a href="#nogo">Whitepapers</a></li>
-                <li><a href="#nogo">Presentations</a></li>
-                <li><a href="#nogo">Case Studies</a></li>
-                <li><a href="#nogo">Modules</a></li>
-                <li><a href="#nogo">Partners</a></li>
-                <li><a href="#nogo">Srijan Wednesday Webinars</a></li>
+                <li><a href="/clients">Case Studies</a></li>
+                <li><a href="#presentations">Presentations</a></li>
+                <li><a href="/drupal/#modules">Modules</a></li>
+                <li><a href="/about/#parters">Partners</a></li>
+                <li><a href="/webinars">Srijan Wednesday Webinars</a></li>
             </ul>
         </div>
 
@@ -74,11 +71,10 @@
         <div class="col-2">
             <ul class="footer-nav">
                 <li><h3>About</h3></li>
-                <li><a href="#nogo">About Srijan</a></li>
-                <li><a href="#nogo">Blog</a></li>
-                <li><a href="#nogo">Careers</a></li>
-                <li><a href="#nogo">Team</a></li>
-                <li><a href="#nogo">Contact Us</a></li>
+                <li><a href="/about">About Srijan</a></li>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/careers">Careers</a></li>
+                <li><a href="/contact">Contact Us</a></li>
             </ul>
         </div>
     </div>

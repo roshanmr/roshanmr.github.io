@@ -6,21 +6,16 @@
   <title>Srijan | Prototype</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <!-- Place favicon.ico in the root directory -->
   <script src="/js/vendor/modernizr-2.8.3.min.js"></script>
   <link rel="stylesheet" href="/css/style.css" />
 </head>
 <body class="home-page">
-
   <div class="canvas">
-
     <?php include 'nav.php';?>
-
     <header class="home-header page-header">
       <div class="parallax">
-
       </div>
       <div class="slider-wrap hero-content">
         <ul class="home-slider">
@@ -120,8 +115,10 @@
                         <span>Success Stories</span>Increased Leads on New Drupal Website for TUI India
                       </h3>
                     </div>
-                  </a></li>
-                  <li><a href="#">
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
                     <div class="box">
                       <div class="icon-block">
                         <i class="li li-bulb"></i>
@@ -130,64 +127,57 @@
                         <span>Thought Article</span>Increased Leads on New Drupal Website for TUI India
                       </h3>
                     </div>
-                  </a></li>
-
-                </ul>
-              </div>
+                  </a>
+                </li>
+              </ul>
             </div>
-          </li>
-          <li class="item">
-            <div class="row">
-              <div class="left col-7">
-                <h2>
-                  We are Asia's Largest Drupal Company
-                  <span>
-                    Delivering valuable software using Drupal &amp; JS
-                  </span>
-                </h2>
-                <a href="#" class="btn contact-btn">Let's Talk</a>
-              </div>
-              <div class="right col-5">
-                <ul class="related-links">
-                  <li><a href="#">
-                    <div class="box">
-                      <div class="icon-block">
-                        <i class="li li-star"></i>
-                      </div>
-                      <h3>
-                        <span>Success Stories</span>Increased Leads on New Drupal Website for TUI India
-                      </h3>
-                    </div>
-                  </a></li>
-                  <li><a href="#">
-                    <div class="box">
-                      <div class="icon-block">
-                        <i class="li li-bulb"></i>
-                      </div>
-                      <h3>
-                        <span>Thought Article</span>Increased Leads on New Drupal Website for TUI India
-                      </h3>
-                    </div>
-                  </a></li>
-                </ul>
-              </div>
+          </div>
+        </li>
+        <li class="item">
+          <div class="row">
+            <div class="left col-7">
+              <h2>
+                We are Asia's Largest Drupal Company
+                <span>
+                  Delivering valuable software using Drupal &amp; JS
+                </span>
+              </h2>
+              <a href="#" class="btn contact-btn">Let's Talk</a>
             </div>
-          </li>
-
-        </ul>
-
-      </div>
-
-
-    </header>
-    <main class="page">
-
-     <section class="page-wrap guttered box-animate" id='capabilities'>
+            <div class="right col-5">
+              <ul class="related-links">
+                <li><a href="#">
+                  <div class="box">
+                    <div class="icon-block">
+                      <i class="li li-star"></i>
+                    </div>
+                    <h3>
+                      <span>Success Stories</span>Increased Leads on New Drupal Website for TUI India
+                    </h3>
+                  </div>
+                </a></li>
+                <li><a href="#">
+                  <div class="box">
+                    <div class="icon-block">
+                      <i class="li li-bulb"></i>
+                    </div>
+                    <h3>
+                      <span>Thought Article</span>Increased Leads on New Drupal Website for TUI India
+                    </h3>
+                  </div>
+                </a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <main class="page">
+    <section class="page-wrap guttered box-animate" id='capabilities'>
       <header class="section-subheader">
         <h2>Capabilities</h2>
       </header>
-
-
       <div class="box-wrap row">
         <article class="box col-4 capability-item orange">
           <figure class="poster">
@@ -196,7 +186,6 @@
           <div class="content">
             <div class="heading">
               <span class="c-icon drupal">
-
               </span>
               <h3>Drupal<br/>Development</h3>
             </div>
@@ -206,7 +195,6 @@
             </div>
           </div>
         </article>
-
         <article class="box col-4 capability-item blue">
           <figure class="poster">
             <img src="/img/cap-bg.png" alt="img">
@@ -214,7 +202,6 @@
           <div class="content">
             <div class="heading">
               <span class="c-icon angular">
-
               </span>
               <h3>Angular<br/>and MV *</h3>
             </div>
@@ -224,7 +211,6 @@
             </div>
           </div>
         </article>
-
         <article class="box col-4 capability-item red">
           <figure class="poster">
             <img src="/img/cap-bg.png" alt="img">
@@ -232,7 +218,6 @@
           <div class="content">
             <div class="heading">
               <span class="c-icon node">
-
               </span>
               <h3>JavaScript<br/>Technologies</h3>
             </div>
@@ -243,8 +228,6 @@
           </div>
         </article>
       </div>
-
-
       <div class="box-wrap row">
         <article class="box col-4 capability-item turquoise">
           <figure class="poster">
@@ -253,7 +236,6 @@
           <div class="content">
             <div class="heading">
               <span class="c-icon ror">
-
               </span>
               <h3>Ruby on<br/>Rail</h3>
             </div>
@@ -263,7 +245,6 @@
             </div>
           </div>
         </article>
-
         <article class="box col-4 capability-item green">
           <figure class="poster">
             <img src="/img/cap-bg.png" alt="img">
@@ -271,7 +252,6 @@
           <div class="content">
             <div class="heading">
               <span class="c-icon uiux">
-
               </span>
               <h3>Experience<br/>Design</h3>
             </div>
@@ -281,7 +261,6 @@
             </div>
           </div>
         </article>
-
         <article class="box col-4 capability-item purple">
           <figure class="poster">
             <img src="/img/cap-bg.png" alt="img">
@@ -289,7 +268,6 @@
           <div class="content">
             <div class="heading">
               <span class="c-icon drupal">
-
               </span>
               <h3>Product<br/>Engineering</h3>
             </div>
@@ -301,13 +279,10 @@
         </article>
       </div>
     </section>
-
     <section class="content-block process-bg">
-
       <header class="section-header">
         <h2 class="section-heading">Our Process</h2>
       </header>
-
       <div class="page-wrap row process-wrap">
         <div class="process-item col-3 orange">
           <div class="item-wrap">
@@ -325,7 +300,6 @@
             <ul class="action-menu">
               <li><a href="#">UX Discovery <i class="fa fa-angle-right"></i></a></li>
               <li><a href="#">Technical Discovery <i class="fa fa-angle-right"></i></a></li>
-
             </ul>
           </div>
         </div>
@@ -336,10 +310,8 @@
                 <span class="icon">
                   <?php echo file_get_contents("img/development.svg"); ?>
                 </span>
-
                 <h2>
                   Development</h2>
-
                 </header>
                 <div class="intro-txt">
                   <p>Learn more about our Agile development and engagement model and Scrum teams.</p>
@@ -358,23 +330,19 @@
                   <span class="icon">
                     <?php echo file_get_contents("img/quality.svg"); ?>
                   </span>
-
                   <h2>
                     Quality</h2>
-
                   </header>
                   <div class="intro-txt">
                     <p>Find out how we ensure product development success with our mature processes and testing techniques.</p>
                   </div>
                 </a>
-
                 <ul class="action-menu">
                   <li><a href="#">Real Time User Testing<i class="fa fa-angle-right"></i></a></li>
                   <li><a href="#">Quality meeting budget <i class="fa fa-angle-right"></i></a></li>
                 </ul>
               </div>
             </div>
-
             <div class="process-item col-3 green">
               <div class="item-wrap">
                 <header>
@@ -382,10 +350,8 @@
                     <span class="icon">
                       <?php echo file_get_contents("img/cd.svg"); ?>
                     </span>
-
                     <h2>
                       Support</h2>
-
                     </header>
                     <div class="intro-txt">
                       <p>Get an idea of how we deploy products and applications, and deliver support to your Drupal websites.</p>
@@ -394,23 +360,16 @@
                   <ul class="action-menu">
                     <li><a href="#">Performance<i class="fa fa-angle-right"></i></a></li>
                     <li><a href="#">Continued Developement <i class="fa fa-angle-right"></i></a></li>
-
                   </ul>
                 </div>
               </div>
-
-
             </div>
-
             <a href="#" class="section-cta">Learn more about our process <i class="fa fa-chevron-right"></i></a>
           </section>
-
-
           <section class="page-wrap guttered case-study animate">
             <header class="section-subheader">
               <h2>Featured Case Studies</h2>
             </header>
-
             <div class="cs-wrapper">
               <div class="row">
                 <article class="col-4">
@@ -435,7 +394,6 @@
                     </span>
                     <div class="cs-more-content">
                       <p>Digital publishing solutions for Open: SEO-friendly mobile website with infinite scroll using Sarus, reduced bounce rate, increased page views</p>
-
                       <span class="read-case-study">Read Case Study</span>
                     </div>
                   </div>
@@ -448,7 +406,6 @@
                       <img src="/img/pf-cleartrip.png" alt="cleartrip">
                     </figure>
                     <span class="logo">
-
                       <svg version="1.1" class="cs-logo" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                       viewBox="0 0 200 100" style="enable-background:new 0 0 200 100;" xml:space="preserve">
                       <path d="M30.1,37.4c0.1-0.1,0.1-0.2,0.2-0.3c0.5-1.5,1.1-1.9,2.6-1.9c5.9,0,11.8,0,17.7,0c1.8,0,2.8,1,2.8,2.7c0,2.4,0,4.9,0,7.3
@@ -488,11 +445,9 @@
                       c-0.4,0-0.6-0.1-0.6-0.5c0-5,0-10.1,0-15.1C146.5,42.8,146.5,42.7,146.5,42.6z"/>
                       <path d="M146.2,38c0-1.3,1-2.2,2.3-2.1c1.2,0,2.2,0.9,2.2,2.2c0,1.2-1,2.2-2.3,2.2C147.1,40.1,146.2,39.2,146.2,38z"/>
                     </svg>
-
                   </span>
                   <div class="cs-more-content">
                     <p>Simplified content management, uniform UX for different countries, and use of readymade templates through Drupal enable Cleartrip to deliver relevant offers quickly to prospects</p>
-
                     <span class="read-case-study">Read Case Study</span>
                   </div>
                 </div>
@@ -505,7 +460,6 @@
                     <img src="/img/pf-tui.png" alt="TUI">
                   </figure>
                   <span class="logo">
-
                     <svg version="1.1" id="Layer_1" class="cs-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                     viewBox="0 0 200 100" xml:space="preserve">
                     <g>
@@ -531,35 +485,22 @@
                       <path d="M96.3,19c-3.8,0-6.9,3-6.9,6.9c0,3.8,3.1,6.8,6.9,6.8c3.8,0,6.8-3.1,6.8-6.9C103.2,22,100.1,19,96.3,19z"/>
                     </g>
                   </svg>
-
                 </span>
                 <div class="cs-more-content">
                   <p>Drupal website development with upgraded UX and multiple functionalities and integrations improves customer experience and simplifies lead capturing</p>
-
                   <span class="read-case-study">Read Case Study</span>
                 </div>
               </div>
             </a>
           </article>
         </div>
-
         <a href="#" class="section-cta">View more case studies <i class="fa fa-angle-right"></i></a>
       </div>
-
-
     </section>
-
-
-
-
-
-
-
     <section class="content-block blog-section">
       <header class="section-subheader">
         <h2>Thought Articles</h2>
       </header>
-
       <div class="page-wrap row article-wrap">
         <article class="col-4 article-item">
           <a href="#">
@@ -589,7 +530,6 @@
             </div>
           </a>
         </article>
-
         <article class="col-4 article-item">
           <a href="#">
             <div class="blog-wrap">
@@ -607,38 +547,15 @@
       </div>
       <a href="#" class="section-cta">More Thought Articles <i class="fa fa-angle-right"></i></a>
     </section>
-
     <?php include 'contact-form.php';?>
-
   </main>
-
   <?php include 'footer.php';?>
-
 </div>
-<div class="off-canvas">
-  <div class="mobile-search">
-    <input type="text" placeholder="Search" /> <span class="search-icon"><i class="fa fa-search"></i></span>
-  </div>
-  <ul class="menu-panel">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Drupal</a></li>
-    <li><a href="#">Solutions</a></li>
-    <li><a href="#">Technologies</a></li>
-    <li><a href="#">Processes</a></li>
-    <li><a href="#">Clients</a></li>
-    <li><a href="#">Contact</a></li>
-    <li><a href="#">Webinars</a></li>
-    <li><a href="#">Blog</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Careers</a></li>
-  </ul>
-</div>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
-<script src="/js/plugins.js"></script>
-<script src="/js/jquery.bxslider.min.js"></script>
-<script src="/js/main.js"></script>
-
+<?php include 'mobile-nav.php';?>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+  <script src="/js/plugins.js"></script>
+  <script src="/js/jquery.bxslider.min.js"></script>
+  <script src="/js/main.js"></script>
 </body>
 </html>

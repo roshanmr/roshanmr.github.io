@@ -130,21 +130,7 @@
 
 
 </div>
-<div class="off-canvas">
-  <ul class="menu-panel">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Drupal</a></li>
-    <li><a href="#">Solutions</a></li>
-    <li><a href="#">Technologies</a></li>
-    <li><a href="#">Processes</a></li>
-    <li><a href="#">Clients</a></li>
-    <li><a href="#">Contact</a></li>
-    <li><a href="#">Webinars</a></li>
-    <li><a href="#">Blog</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Careers</a></li>
-  </ul>
-</div>
+<?php include '../mobile-nav.php';?>
 
 
 

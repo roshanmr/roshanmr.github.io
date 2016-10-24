@@ -1,152 +1,304 @@
 <!doctype html>
 <html class="no-js" lang="">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Srijan | Solutions</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Srijan | Solutions</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-    <!-- Place favicon.ico in the root directory -->
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <!-- Place favicon.ico in the root directory -->
 
-    <link rel="stylesheet" href="/css/style.css">
-    
-    <script src="/js/vendor/modernizr-2.8.3.min.js"></script>
+  <link rel="stylesheet" href="/css/style.css">
+
+  <script src="/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 <body class="inner-page">
-    <div class="canvas">
+  <div class="canvas">
 
     <?php include '../nav.php';?>
-    <main class="page process-page">
-      <section class="process-section">
-        <div class="ps-wrap row">
-          <aside class="process-nav col-3">
-            <?php include 'side-nav.php';?>
-          </aside>
-          <article class="ps-main col-9">
-            <section class="article-subsection" id="empoweredTeams">
-              <h4 class="section-title"><span class="small-icon"><?php echo file_get_contents("../icons/idea.svg"); ?></span>Pre-Engagement</h4>
-              <h1>Empowered Teams</h1>
-              <header class="sub-header">
-                <?php echo file_get_contents("../img/team.svg"); ?>
-              </header>
+    <header class="section-page-header">
+      <figure class="parallax">
+        <img src="/img/solutions.jpg" alt="graphics">
+      </figure>
+      <div class="page-wrap">
+        <h1 class="text-rotator"><span class="text-rotate">Passionate engineering teams, Mature Agile processes, Flexible staffing models </span> for Enterprises</h1>
+      </div>
+    </header>
 
-              <p>Being an Agile-Scrum development company, Srijan has a transparent and communicative work culture. We do not hide our developers behind managers; all team members are encouraged to be on client calls, and take turns in giving project demos every two weeks. This makes all members of a team become comfortable with client managers, be communicative, ask questions, challenge decisions, and most importantly get a first-hand understanding of the client’s business needs.</p>
+    <main class="page section-landing solutions-page">
+      <section class="page-wrap">
+        <div class="row item-listing">
+          <div class="col-4 item ">
+            <div class="item-wrap">
+              <a href="#">
+                <header>
+                  <span class="icon">
+                    <?php echo file_get_contents("../icons/performance.svg"); ?>
+                  </span>
 
-              <h3>This behavior</h3>
-              <ul>
-                <li>helps maintain their focus on business outcomes</li>
-                <li>makes them care for what they are building, the business problem they are solving</li>
-              </ul>
-
-              <p>This creates a positive cycle of continuous improvement.</p>
-
-              <h2>Focus on lean teams</h2>
-              <p>At Srijan, we staff Agile project teams with the right mix of skills, for the entire duration of the project.</p>
-
-              <p>We spend a lot of time, effort and money in cross-training our members across development and front-end engineering to bring them close to being full-stack developers. This helps increase project efficiencies and helps reduce the cost of development by reducing the members on the team.</p>
-
-              <p>Learn more about an ideal Scrum Team in the following section.</p>
-            </section>
-
-            <section class="related-content">
-              <div class="row">
-                <div class="col-4 rc-wrap blog">
-                  <div class="rc-box">
-                    <a href="#">
-                    <figure class="thumbnail">
-                      <img src="/img/outsource.jpg" alt="">
-                    </figure>
-                    <h4>Why Outsourcing to India Will Prevail</h4>
-                    <p>And how companies like Srijan will crack the code for quality, transparency and accountability.</p>
-                    <span class="btn-span"><i class="fa fa-lightbulb-o"></i> Read Blog</span>
-                    </a>
-                  </div>
+                  <h2>Performance Audit</h2>
+                </header>
+                <div class="intro-txt">
+                  <p>Go from product idea to a prototype, swiftly, with Srijan’s Discovery Workshops.</p>
                 </div>
-                <div class="col-4 rc-wrap download">
-                  <div class="rc-box">
-                    <a href="#">
-                    <figure class="thumbnail">
-                      <img src="/img/wp-srijanteam.jpg" alt="">
-                    </figure>
-                    <h4>Srijan's Scrum Teams</h4>
-                    <p>Learn how Srijan's Scrum Teams Seamlessly augmenting enterprise Drupal projects</p>
-                    <span class="btn-span"><i class="fa fa-file-pdf-o"></i> Download</span>
-                    </a>
-                  </div>
+              </a>
+              <a href="performance-audit.php" class="cta-btn">Learn More <i class="fa fa-angle-right"></i></a>
+              <div class="pdf-download"> 
+                <span class="download-icon"><i class="fa fa-download"></i></span>
+                <figure class="pdf-thumb">
+                  <img src="/img/flyer.jpg" alt="">
+                </figure>
+                <div class="download-text">
+                  <p>Download a comprehensive document peformance audit</p>
                 </div>
 
-                <div class="col-4 rc-wrap case-study">
-                  <div class="rc-box">
-                    <a href="#">
-                    <figure class="thumbnail">
-                      <img src="/img/flight.jpg" alt="">
-                    </figure>
-                    <h4>OnCorps: Scalable Big Data Analytics Platform in Drupal </h4>
-                    <p>complex analytics platform built on Drupal, using agile development methodology and dedicated teams</p>
-                    <span class="btn-span">View Case Study</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </section>
-
-            <nav class="pagination-nav">
-              <div class="row">
-
-                <div class="col-6 item">
-                  <a href="/process-weekly-burn-rate.php">
-                    <i class="fa fa-angle-left"></i>
-                    <em>Pre-Engagement</em>
-                    Empowered Teams
-                  </a>
-                </div>
-
-                <div class="col-6 item">
-                  <a href="/process-weekly-burn-rate.php">
-                    <em>Pre-Engagement</em>
-                    Weekly Burn Rate Model
-                    <i class="fa fa-angle-right"></i>
-                  </a>
+                <div class="download-form">
+                  <form action="#" class="validate-form download-form">
+                    <input type="email" id ="email" class="email" placeholder="Your E-Mail Address">
+                    <button class="disabled"><i class="fa fa-file-pdf-o"></i> Download PDF</button>
+                  </form>
+                  <div class="confirm-txt">
+                    <p>Thank you for downloading! We have sent the download link to your email.</p>
+                  </div>   
                 </div>
 
               </div>
-            </nav>
-          </article>
+              
+            </div>
+          </div>
+          <div class="col-4 item ">
+            <div class="item-wrap">
+              <a href="#">
+                <header>
+                  <span class="icon">
+                    <?php echo file_get_contents("../icons/scrum-team.svg"); ?>
+                  </span>
+
+                  <h2>Scrum Teams</h2>
+                </header>
+                <div class="intro-txt">
+                  <p>Go from product idea to a prototype, swiftly, with Srijan’s Discovery Workshops.</p>
+                </div>
+              </a>
+              <a href="performance-audit.php" class="cta-btn">Learn More <i class="fa fa-angle-right"></i></a>
+              <div class="pdf-download"> 
+                <span class="download-icon"><i class="fa fa-download"></i></span>
+                <figure class="pdf-thumb">
+                  <img src="/img/flyer.jpg" alt="">
+                </figure>
+                <div class="download-text">
+                  <p>Download a comprehensive document peformance audit</p>
+                </div>
+
+
+                <div class="download-form">
+                  <form action="#" class="validate-form download-form">
+                    <input type="email" id ="email" class="email error" placeholder="Your E-Mail Address">
+                    <div class="error-callout">
+                      <span>Please enter a valid E-mail Address</span>
+                    </div>
+                    <button class="disabled"><i class="fa fa-file-pdf-o"></i> Download PDF</button>
+                  </form>
+                  <div class="confirm-txt">
+                    <p>Thank you for downloading! We have sent the download link to your email.</p>
+                  </div>   
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+          <div class="col-4 item ">
+            <div class="item-wrap">
+              <a href="#">
+                <header>
+                  <span class="icon">
+                    <?php echo file_get_contents("../icons/continuous.svg"); ?>
+                  </span>
+
+                  <h2>Continuous Development</h2>
+                </header>
+                <div class="intro-txt">
+                  <p>Go from product idea to a prototype, swiftly, with Srijan’s Discovery Workshops.</p>
+                </div>
+              </a>
+              <a href="performance-audit.php" class="cta-btn">Learn More <i class="fa fa-angle-right"></i></a>
+              <div class="pdf-download"> 
+                <span class="download-icon"><i class="fa fa-download"></i></span>
+                <figure class="pdf-thumb">
+                  <img src="/img/flyer.jpg" alt="">
+                </figure>
+                <div class="download-text">
+                  <p>Download a comprehensive document peformance audit</p>
+                </div>
+
+                <div class="download-form">
+                  <form action="#" class="validate-form download-form">
+                    <input type="email" id ="email" class="email" placeholder="Your E-Mail Address">
+                    <button class="disabled"><i class="fa fa-file-pdf-o"></i> Download PDF</button>
+                  </form>
+                  <div class="confirm-txt">
+                    <p>Thank you for downloading! We have sent the download link to your email.</p>
+                  </div>   
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row item-listing">
+          <div class="col-4 item ">
+            <div class="item-wrap">
+              <a href="#">
+                <header>
+                  <span class="icon">
+                    <?php echo file_get_contents("../icons/autoqa.svg"); ?>
+                  </span>
+
+                  <h2>Automation QA</h2>
+                </header>
+                <div class="intro-txt">
+                  <p>Go from product idea to a prototype, swiftly, with Srijan’s Discovery Workshops.</p>
+                </div>
+              </a>
+              <a href="performance-audit.php" class="cta-btn">Learn More <i class="fa fa-angle-right"></i></a>
+              <div class="pdf-download"> 
+                <span class="download-icon"><i class="fa fa-download"></i></span>
+                <figure class="pdf-thumb">
+                  <img src="/img/flyer.jpg" alt="">
+                </figure>
+                <div class="download-text">
+                  <p>Download a comprehensive document peformance audit</p>
+                </div>
+
+                <div class="download-form">
+                  <form action="#" class="validate-form download-form">
+                    <input type="email" id ="email" class="email" placeholder="Your E-Mail Address">
+                    <button class="disabled"><i class="fa fa-file-pdf-o"></i> Download PDF</button>
+                  </form>
+                  <div class="confirm-txt">
+                    <p>Thank you for downloading! We have sent the download link to your email.</p>
+                  </div>   
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-4 item ">
+            <div class="item-wrap">
+              <a href="#">
+                <header>
+                  <span class="icon">
+                    <?php echo file_get_contents("../icons/ecomm.svg"); ?>
+                  </span>
+
+                  <h2>PIM / E-Commerce</h2>
+                </header>
+                <div class="intro-txt">
+                  <p>Go from product idea to a prototype, swiftly, with Srijan’s Discovery Workshops.</p>
+                </div>
+              </a>
+              <a href="performance-audit.php" class="cta-btn">Learn More <i class="fa fa-angle-right"></i></a>
+              <div class="pdf-download"> 
+                <span class="download-icon"><i class="fa fa-download"></i></span>
+                <figure class="pdf-thumb">
+                  <img src="/img/flyer.jpg" alt="">
+                </figure>
+                <div class="download-text">
+                  <p>Download a comprehensive document peformance audit</p>
+                </div>
+
+                <div class="download-form">
+                  <form action="#" class="validate-form download-form">
+                    <input type="email" id ="email" class="email" placeholder="Your E-Mail Address">
+                    <button class="disabled"><i class="fa fa-file-pdf-o"></i> Download PDF</button>
+                  </form>
+                  <div class="confirm-txt">
+                    <p>Thank you for downloading! We have sent the download link to your email.</p>
+                  </div>   
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-4 item ">
+            <div class="item-wrap">
+              <a href="#">
+                <header>
+                  <span class="icon">
+                    <?php echo file_get_contents("../icons/ecomm.svg"); ?>
+                  </span>
+
+                  <h2>UI / UX Design</h2>
+                </header>
+                <div class="intro-txt">
+                  <p>Go from product idea to a prototype, swiftly, with Srijan’s Discovery Workshops.</p>
+                </div>
+              </a>
+              <a href="performance-audit.php" class="cta-btn">Learn More <i class="fa fa-angle-right"></i></a>
+              <div class="pdf-download"> 
+                <span class="download-icon"><i class="fa fa-download"></i></span>
+                <figure class="pdf-thumb">
+                  <img src="/img/flyer.jpg" alt="">
+                </figure>
+                <div class="download-text">
+                  <p>Download a comprehensive document peformance audit</p>
+                </div>
+
+                <div class="download-form">
+                  <form action="#" class="validate-form download-form">
+                    <input type="email" id ="email" class="email" placeholder="Your E-Mail Address">
+                    <button class="disabled"><i class="fa fa-file-pdf-o"></i> Download PDF</button>
+                  </form>
+                  <div class="confirm-txt">
+                    <p>Thank you for downloading! We have sent the download link to your email.</p>
+                  </div>   
+                </div>
+
+              </div>
+            </div>
+          </div>
         </div>
       </section>
+
+      <section class="testimonial-cta">
+    <img src="/img/testimonial.jpg" alt="" class="testimonial-bg">
+     <div class="testimonial page-wrap">
+          <blockquote class="testimonial-text">
+            <span class="quote-icon"><i class="fa fa-quote-left"></i></span>
+            <p>One of the biggest challenges we faced prior to contracting with Srijan was fixing one feature in TCRO2 would break two others. This put us in a vicious cycle where we could never move to the next level of feature set. The development and testing process at Srijan allowed us to come out of this, as existing features continued to work well along with new or improved features. So from a functional perspective – great development work.</p>
+          </blockquote>
+          <div class="client-author">
+          <figure class="author-img">
+            <img src="../img/steve2.jpg" alt="steve">
+          </figure>
+          <div class="author-info">
+            <strong>Steve Townsend</strong>
+            <em>CEO, AVTranz</em>
+          </div>
+          </div>
+      </div>
+</section>
 
 
     </main>
 
- <?php include '../contact-form.php';?>
+    <?php include '../contact-form.php';?>
     <?php include '../footer.php';?>
 
 
-</div>
-<div class="off-canvas">
-  <ul class="menu-panel">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Drupal</a></li>
-    <li><a href="#">Solutions</a></li>
-    <li><a href="#">Technologies</a></li>
-    <li><a href="#">Processes</a></li>
-    <li><a href="#">Clients</a></li>
-    <li><a href="#">Contact</a></li>
-    <li><a href="#">Webinars</a></li>
-    <li><a href="#">Blog</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Careers</a></li>
-  </ul>
-</div>
+  </div>
 
+<?php include '../mobile-nav.php';?>
 
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
-<script src="/js/plugins.js"></script>
-<script src="/js/main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+  <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.js"></script>
+  <script src="/js/plugins.js"></script>
+  <script src="/js/main.js"></script>
 
 </body>
 </html>

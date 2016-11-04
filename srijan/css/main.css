@@ -5349,22 +5349,22 @@ a.cta-btn .fa {
     padding-top: 40px;
 }
 
-.page-wrap .item-listing:nth-child(even) .item:nth-child(4) .item-wrap .icon {
-    background: #f2a428;
-    border: solid 2px #f2a428;
+.page-wrap .item-listing:nth-child(odd) .item:nth-child(4) .item-wrap .icon {
+    background: #a5d449;
+    border: solid 2px #a5d449;
 }
 
-.page-wrap .item-listing:nth-child(even) .item:nth-child(4) {
-    border-top-color: #f2a428;
-    border-bottom-color: #f2a428;
+.page-wrap .item-listing:nth-child(odd) .item:nth-child(4) {
+    border-top-color: #a5d449;
+    border-bottom-color: #a5d449;
 }
 
-.page-wrap .item-listing:nth-child(even) .item:nth-child(4) .cta-btn {
-    border-color: #f2a428;
+.page-wrap .item-listing:nth-child(odd) .item:nth-child(4) .cta-btn {
+    border-color: #a5d449;
 }
 
-.page-wrap .item-listing:nth-child(even) .item:nth-child(4) .cta-btn:hover {
-    background: #f2a428;
+.page-wrap .item-listing:nth-child(odd) .item:nth-child(4) .cta-btn:hover {
+    background: #a5d449;
 }
 
 h1 .text-rotate {
@@ -6603,7 +6603,7 @@ body .top-banner .page-wrap {
 	-webkit-animation-name: pulse;
 	animation-name: pulse;
 	animation-duration: 1s;
-	animation-delay: 1.5s;
+	animation-delay: 1.2s;
 	box-shadow: 0 0 20px rgba(0,0,0,0.2);
 }
 
@@ -6666,6 +6666,15 @@ body .top-banner .page-wrap {
 .reg-form .confirm-txt.show span {
    margin-top: 40px;
    color: #a5d449;
+}
+
+.page.past-webinar-page {
+	padding-top: 120px;
+}
+
+.past-webinar-page .item-listing {
+    padding: 40px 0;
+    padding-bottom: 20px;
 }
 
 

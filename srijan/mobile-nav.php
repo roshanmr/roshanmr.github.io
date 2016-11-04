@@ -3,7 +3,7 @@
     <input type="text" placeholder="Search" /> <span class="search-icon"><i class="fa fa-search"></i></span>
   </div>
   <ul class="menu-panel">
-    <li><a href="/">Home</a></li>
+    <li class="active"><a href="/">Home</a></li>
     <li><a href="/drupal">Drupal</a></li>
     <li><a href="/solutions">Solutions</a></li>
     <li><a href="/technologies">Technologies</a></li>

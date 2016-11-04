@@ -54,7 +54,7 @@
             <p class="subtitle">Explore how to detect ‘code smells’, and identify several ways to deodorize the stench.</p>
             <p>Have you ever written JavaScript that worked, but you didn't feel good about it? Maybe you knew it wasn't optimal, but you didn't..</p>
 
-            <a href="webinar-details.php" class="btn webinar-btn">Learn More <i class="fa fa-angle-right"></i></a>
+            <a href="upcoming-webinar.php" class="btn webinar-btn">Learn More <i class="fa fa-angle-right"></i></a>
             
           </article>
         </div>
@@ -121,9 +121,139 @@
 
           </div>
 
+          <!-- <a href="listing.php" class="section-cta">View All Past Webinars <i class="fa fa-angle-right"></i></a> -->
+
+
+        </div>
+      </section>
+
+      <section class="content-block">
+        <header class="section-subheader">
+          <h2>Past Webinars</h2>
+        </header>
+        <div class="page-wrap past-webinar">
+          <div class="tag-filter">
+            <h3><i class="fa fa-filter"></i> Filter Webinars By:</h3>
+            <ul class="tag-list">
+              <li class="active"><a href="#">Recent</a></li>
+              <li><a href="#nogo">Agile</a></li>
+              <li><a href="#nogo">Drupal<i class="filter-icon"></i></a></li>
+              <li><a href="#nogo">UI/UX</a></li>
+              <li><a href="#nogo">Data Analysis</a></li>
+              <li><a href="#nogo">Company Culture</a></li>
+              <li><a href="#nogo">Enterpreneurship</a></li>
+              <li><a href="#nogo">Software Testing</a></li>
+              <li><a href="#nogo">Client Management</a></li>
+              <li><a href="#nogo">Digital Marketing</a></li>
+              <li><a href="#nogo">Community Building</a></li>
+              <li><a href="#nogo">Product Development</a></li>
+              <li><a href="#nogo">Mobile Apps</a></li>
+              <li><a href="#nogo">Website Development</a></li>
+              <li><a href="#nogo">Personal Development</a></li>
+              <li><a href="#nogo">Frontend Technologies</a></li>
+            </ul>
+          </div>
+          <div class="row item-listing webinar-listing">
+            <div class="col-3 item ">
+              <div class="item-wrap">
+                <a href="#">
+                  <header>
+                    <figure class="icon">
+                      <img src="/img/larry-garfield.png" alt="larry garfield">
+                    </figure>
+
+                    <h2>Drupal 8 Crash Course Session on Frontend <span class="by-txt">Larry Garfield</span></h2>
+                  </header>
+                  <div class="intro-txt">
+                    <p>Go from product idea to a prototype, swiftly, with Srijan’s Discovery Workshops.</p>
+                  </div>
+                </a>
+                <a href="webinar-details.php" class="cta-btn">Watch Webinar <i class="fa fa-angle-right"></i></a>
+              </div>
+            </div>
+            <div class="col-3 item ">
+              <div class="item-wrap">
+                <a href="#">
+                  <header>
+                    <span class="icon">
+                      <img src="/img/morten.jpg" alt="morten">
+                    </span>
+                    <h2>Goodbye to 10 Years of Theming Headaches <span class="by-txt">Morten DK</span></h2>
+                  </header>
+                  <div class="intro-txt">
+                    <p>Go from product idea to a prototype, swiftly, with Srijan’s Discovery Workshops.</p>
+                  </div>
+                </a>
+                <a href="webinar-details.php" class="cta-btn">Watch Webinar <i class="fa fa-angle-right"></i></a>
+
+              </div>
+            </div>
+            <div class="col-3 item ">
+              <div class="item-wrap">
+                <a href="#">
+                  <header>
+                    <span class="icon">
+                      <img src="/img/jesus.jpg" alt="">
+                    </span>
+
+                    <h2>Faster &amp; Smarter Development with Drupal Console <span class="by-txt">Jesus M. Olivas</span></h2>
+                  </header>
+                  <div class="intro-txt">
+                    <p>Go from product idea to a prototype, swiftly, with Srijan’s Discovery Workshops.</p>
+                  </div>
+                </a>
+                <a href="webinar-details.php" class="cta-btn">Watch Webinar <i class="fa fa-angle-right"></i></a>
+
+              </div>
+            </div>
+            <div class="col-3 item ">
+              <div class="item-wrap">
+                <a href="#">
+                  <header>
+                    <span class="icon">
+                      <img src="/img/morten.jpg" alt="morten">
+                    </span>
+                    <h2>Very Quick &amp; Dirty CSS removing in Drupal 8 <span class="by-txt">Morten DK</span></h2>
+                  </header>
+                  <div class="intro-txt">
+                    <p>Go from product idea to a prototype, swiftly, with Srijan’s Discovery Workshops.</p>
+                  </div>
+                </a>
+                <a href="webinar-details.php" class="cta-btn">Watch Webinar <i class="fa fa-angle-right"></i></a>
+
+              </div>
+            </div>
+          </div>
+
           <a href="listing.php" class="section-cta">View All Past Webinars <i class="fa fa-angle-right"></i></a>
 
 
+        </div>
+      </section>
+
+      <section class="testimonial-cta social-webinar">
+        <img src="/img/webinar-social.jpg" alt="" class="testimonial-bg">
+        <div class="page-wrap">
+          <div class="row">
+            <div class="col-3 item">
+              <span class="fa fa-twitter fa-4x"></span>
+              <h3>Join the Live Conversation on Twitter</h3>
+              <p>#SrijanWW | @Srijan</p>
+              <a href="#nogo" class="cta-btn twitter-btn">Join Now <span class="fa fa-external-link"></span></a>
+            </div>
+            <div class="col-3 item">
+              <span class="fa fa-youtube fa-4x"></span>
+              <h3>Watch all Webinar Recordings on YouTube</h3>
+              <p>/user/SrijanTechnologies</p>
+              <a href="#nogo" class="cta-btn yt-btn">Watch Now <span class="fa fa-external-link"></span></a>
+            </div>
+            <div class="col-3 item">
+              <span class="fa fa-slideshare fa-4x"></span>
+              <h3>Catch all Webinar Slides on SlideShare</h3>
+              <p>/SrijanOne</p>
+              <a href="#nogo" class="cta-btn slideshare-btn">View Slideshow <span class="fa fa-external-link"></span></a>
+            </div>
+          </div>
         </div>
       </section>
 

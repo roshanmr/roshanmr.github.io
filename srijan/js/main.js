@@ -1,4 +1,36 @@
 $(document).ready(function() {
+
+	/* map location point hightlight based on location selected in tab*/
+	$(".side-tabs li a").click(function(){
+		var aherf = $(this).attr("rel");
+		var aID = aherf + '-mark';
+		var targetEl = $(this).parents('.side-tabs').siblings('.map').find('ul li');
+		targetEl.removeClass("map-active");
+		targetEl.each(function(){
+			if($(this).attr('id') === aID) {
+				$(this).toggleClass("map-active");
+			}
+		});
+	});
+
+	$(".side-tabs .tab-content > h2").click(function(){
+		var aherf = $(this).attr("rel");
+		var targetEl = $(this).siblings('div');
+		$('.side-tabs .tab-content > h2').removeClass("active");
+		$(this).addClass("active");
+		targetEl.hide();
+		targetEl.each(function(){
+			if($(this).attr('id') === aherf) {
+				$(this).toggle();
+			}
+		});
+	});
+	
+	$(function() {
+    	$(".side-tabs").tabs();
+  	});
+
+
 	var navTrigger	=	$('.mobile-nav'),
 	navPanel	=	$('.off-canvas'),
 	mainContent	=	$('.canvas'),
@@ -84,6 +116,8 @@ $(document).ready(function() {
     }
 
     lastScrollTop = st;
+
+
 };
 
 
@@ -227,6 +261,10 @@ $(window).scroll(function() {
 		$('.pagination-nav').removeClass('fixed-bottom');
 	}
 
+	if (windowsize < 1024) {
+  		$('.pagination-nav').removeClass('fixed-bottom');
+	}
+
 
 		// distance from top of footer to top of document
 	footertotop = ($('.page-footer').position().top);
@@ -247,7 +285,6 @@ $(window).scroll(function() {
 	}
 
 });
-
 
 
 
@@ -295,7 +332,7 @@ if ($('.child-menu > li').hasClass('active')) {
 
 	$(document).activeNavigation(".main-nav");
 	
-  if (windowsize > 700) {
+  if (windowsize > 1024) {
   	$('.process-side-nav').Stickyfill();
   };
 
@@ -336,8 +373,31 @@ if ($('.child-menu > li').hasClass('active')) {
   	speed: 1500
   });
 
+
+  $('.reg-form input[type="submit"]').click(function(e) {
+  	e.preventDefault();
+  	$(this).parents('.reg-form').find('.confirm-txt').addClass('show');
+  	$(this).parents('.reg-form').addClass('registered');
+  });
+
  
 
 
 });
 
+
+
+/* Smooth Scroll */
+
+$(".tab-content .links a").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#writetous").offset().top
+    }, 1000);
+});
+
+$(".webinar-wrapper .about-speaker a").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#webinar-form").offset().top
+    }, 1000);
+    $(this).parents(".page-wrap").find('.reg-form').addClass("focus");
+});

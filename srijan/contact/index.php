@@ -36,15 +36,15 @@
 					<div class="side-tabs tab-container col-8 row address">
 						<div class="tab-links col-4">
 							<ul>
-								<li><a rel="delhi" href="#delhi">Delhi <span class="fa fa-angle-right"></span></a></li>
-								<li><a rel="bangalore" href="#bangalore">Bangalore <span class="fa fa-angle-right"></span></a></li>
-								<li><a rel="goa" href="#goa">Goa <span class="fa fa-angle-right"></span></a></li>
+								<li class="tab-active"><a href="#nogo" rel="delhi">Delhi <span class="fa fa-angle-right"></span></a></li>
+								<li><a href="#nogo" rel="bangalore">Bangalore <span class="fa fa-angle-right"></span></a></li>
+								<li><a href="#nogo" rel="goa">Goa <span class="fa fa-angle-right"></span></a></li>
 							</ul>
 						</div>
 
 						<div class="tab-content col-8">
 							<h2 rel="delhi" class="active">Delhi <span class="fa fa-plus"></span></h2>
-							<div id="delhi" class="row content-wrap">
+							<div id="delhi" class="row content-wrap active">
 							<div class="col-8 phy-address">
 								<h3>Central Delhi</h3>
 								<p>8A, Vandana Building, 11- Tolstoy Marg, Connaught Place. New Delhi 110001, India </p>
@@ -101,13 +101,13 @@
 					<div class="side-tabs tab-container col-8 row address">
 						<div class="tab-links col-4">
 							<ul>
-								<li><a  rel="san-francisco" href="#san-francisco">San Francisco <span class="fa fa-angle-right"></span></a></li>
+								<li class="tab-active"><a href="#nogo" rel="san-francisco">San Francisco <span class="fa fa-angle-right"></span></a></li>
 							</ul>
 						</div>
 
 						<div class="tab-content col-8">
 							<h2 rel="san-francisco" class="active">San Francisco <span class="fa fa-angle-right"></span></h2>
-							<div id="san-francisco" class="row content-wrap">
+							<div id="san-francisco" class="row content-wrap active">
 								<div class="col-8 phy-address">
 									<h3>San Francisco</h3>
 									<p>5112 Montiano Lane, Dublin, CA. 94568.</p>
@@ -140,14 +140,14 @@
 					<div class="side-tabs tab-container col-8 row address">
 						<div class="tab-links col-4">
 							<ul>
-								<li><a rel="australia" href="#australia">Australia <span class="fa fa-angle-right"></span></a></li>
-								<li><a rel="singapore" href="#singapore">Singapore <span class="fa fa-angle-right"></span></a></li>
+								<li class="tab-active"><a href="#nogo" rel="australia">Australia <span class="fa fa-angle-right"></span></a></li>
+								<li><a href="#nogo" rel="singapore">Singapore <span class="fa fa-angle-right"></span></a></li>
 							</ul>
 						</div>
 
 						<div class="tab-content col-8">
 							<h2 rel="australia" class="active">Australia <span class="fa fa-plus"></span></h2>
-							<div id="australia" class="row content-wrap">
+							<div id="australia" class="row content-wrap active">
 								<div class="col-8 phy-address">
 									<h3>Australia</h3>
 									<p>8A, Vandana Building, 11- Tolstoy Marg, Connaught Place. New Delhi 110001, India </p>
@@ -246,8 +246,6 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
-	<!-- <script src="/js/tabs.js"></script> -->
-	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	<script src="/js/plugins.js"></script>
 	<script src="/js/main.js"></script>
 

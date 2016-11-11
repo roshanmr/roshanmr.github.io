@@ -38,7 +38,7 @@
                     <?php echo file_get_contents("../icons/performance.svg"); ?>
                   </span>
 
-                  <h2>Performance Audit</h2>
+                  <h2>Drupal Development</h2>
                 </header>
                 <div class="intro-txt">
                   <p>Go from product idea to a prototype, swiftly, with Srijan’s Discovery Workshops.</p>
@@ -51,7 +51,7 @@
                   <img src="/img/flyer.jpg" alt="">
                 </figure>
                 <div class="download-text">
-                  <p>Download a comprehensive document peformance audit</p>
+                  <p>Download a comprehensive document Drupal Development &amp; Rescue Project</p>
                 </div>
 
                 <div class="download-form">
@@ -76,7 +76,7 @@
                     <?php echo file_get_contents("../icons/scrum-team.svg"); ?>
                   </span>
 
-                  <h2>Scrum Teams</h2>
+                  <h2>Drupal Migration</h2>
                 </header>
                 <div class="intro-txt">
                   <p>Go from product idea to a prototype, swiftly, with Srijan’s Discovery Workshops.</p>
@@ -89,7 +89,7 @@
                   <img src="/img/flyer.jpg" alt="">
                 </figure>
                 <div class="download-text">
-                  <p>Download a comprehensive document peformance audit</p>
+                  <p>Download a comprehensive document Drupal Migration</p>
                 </div>
 
 
@@ -118,7 +118,7 @@
                     <?php echo file_get_contents("../icons/continuous.svg"); ?>
                   </span>
 
-                  <h2>Continuous Development</h2>
+                  <h2>Drupal Staff Augmentation</h2>
                 </header>
                 <div class="intro-txt">
                   <p>Go from product idea to a prototype, swiftly, with Srijan’s Discovery Workshops.</p>
@@ -131,121 +131,7 @@
                   <img src="/img/flyer.jpg" alt="">
                 </figure>
                 <div class="download-text">
-                  <p>Download a comprehensive document peformance audit</p>
-                </div>
-
-                <div class="download-form">
-                  <form action="#" class="validate-form download-form">
-                    <input type="email" id ="email" class="email" placeholder="Your E-Mail Address">
-                    <button class="disabled"><i class="fa fa-file-pdf-o"></i> Download PDF</button>
-                  </form>
-                  <div class="confirm-txt">
-                    <p>Thank you for downloading! We have sent the download link to your email.</p>
-                  </div>   
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row item-listing">
-          <div class="col-4 item ">
-            <div class="item-wrap">
-              <a href="#">
-                <header>
-                  <span class="icon">
-                    <?php echo file_get_contents("../icons/autoqa.svg"); ?>
-                  </span>
-
-                  <h2>Automation QA</h2>
-                </header>
-                <div class="intro-txt">
-                  <p>Go from product idea to a prototype, swiftly, with Srijan’s Discovery Workshops.</p>
-                </div>
-              </a>
-              <a href="performance-audit.php" class="cta-btn">Learn More <i class="fa fa-angle-right"></i></a>
-              <div class="pdf-download"> 
-                <span class="download-icon"><i class="fa fa-download"></i></span>
-                <figure class="pdf-thumb">
-                  <img src="/img/flyer.jpg" alt="">
-                </figure>
-                <div class="download-text">
-                  <p>Download a comprehensive document peformance audit</p>
-                </div>
-
-                <div class="download-form">
-                  <form action="#" class="validate-form download-form">
-                    <input type="email" id ="email" class="email" placeholder="Your E-Mail Address">
-                    <button class="disabled"><i class="fa fa-file-pdf-o"></i> Download PDF</button>
-                  </form>
-                  <div class="confirm-txt">
-                    <p>Thank you for downloading! We have sent the download link to your email.</p>
-                  </div>   
-                </div>
-
-              </div>
-            </div>
-          </div>
-          <div class="col-4 item ">
-            <div class="item-wrap">
-              <a href="#">
-                <header>
-                  <span class="icon">
-                    <?php echo file_get_contents("../icons/ecomm.svg"); ?>
-                  </span>
-
-                  <h2>PIM / E-Commerce</h2>
-                </header>
-                <div class="intro-txt">
-                  <p>Go from product idea to a prototype, swiftly, with Srijan’s Discovery Workshops.</p>
-                </div>
-              </a>
-              <a href="performance-audit.php" class="cta-btn">Learn More <i class="fa fa-angle-right"></i></a>
-              <div class="pdf-download"> 
-                <span class="download-icon"><i class="fa fa-download"></i></span>
-                <figure class="pdf-thumb">
-                  <img src="/img/flyer.jpg" alt="">
-                </figure>
-                <div class="download-text">
-                  <p>Download a comprehensive document peformance audit</p>
-                </div>
-
-                <div class="download-form">
-                  <form action="#" class="validate-form download-form">
-                    <input type="email" id ="email" class="email" placeholder="Your E-Mail Address">
-                    <button class="disabled"><i class="fa fa-file-pdf-o"></i> Download PDF</button>
-                  </form>
-                  <div class="confirm-txt">
-                    <p>Thank you for downloading! We have sent the download link to your email.</p>
-                  </div>   
-                </div>
-
-              </div>
-            </div>
-          </div>
-          <div class="col-4 item ">
-            <div class="item-wrap">
-              <a href="#">
-                <header>
-                  <span class="icon">
-                    <?php echo file_get_contents("../icons/ecomm.svg"); ?>
-                  </span>
-
-                  <h2>UI / UX Design</h2>
-                </header>
-                <div class="intro-txt">
-                  <p>Go from product idea to a prototype, swiftly, with Srijan’s Discovery Workshops.</p>
-                </div>
-              </a>
-              <a href="performance-audit.php" class="cta-btn">Learn More <i class="fa fa-angle-right"></i></a>
-              <div class="pdf-download"> 
-                <span class="download-icon"><i class="fa fa-download"></i></span>
-                <figure class="pdf-thumb">
-                  <img src="/img/flyer.jpg" alt="">
-                </figure>
-                <div class="download-text">
-                  <p>Download a comprehensive document peformance audit</p>
+                  <p>Download a comprehensive document Drupal Staff Augmentation</p>
                 </div>
 
                 <div class="download-form">

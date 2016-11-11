@@ -231,6 +231,70 @@
             </ul>
         </section>
 
+        <section class="become-speaker content-block bottom-float">
+        <div class="page-wrap row">
+          <p class="col-8">If you are interested in leading one of our webinars as a speaker or a panelist, drop us a mail at <a href="mailto:email@mail.com">webinars@srijan.in</a>.
+
+          </p>
+          <a href="#nogo" class="btn cta-btn speaker-btn">Become a Speaker</a>
+        </div>
+        <div class="speaker page-wrap contact-block">
+        <span class="or-txt">OR</span>        
+          <div class="contact-form-wrap">
+          <h3>Tell us a bit about your speaking experiences</h3>
+            <form action="">              
+              <div class="row page-wrap">
+                <div class="col-6 field-set-col">
+                  <div class="field-wrap">
+                    <label for="">Your Name</label>
+                    <div class="field">
+                      <input type="text" placeholder="First &amp; Last Name" />
+                    </div>
+                  </div>
+
+                  
+
+                  <div class="field-wrap">
+                    <label for="">E-Mail Address</label>
+                    <div class="field">
+                      <input type="text" placeholder="E-Mail Address"/>
+                    </div>
+                  </div>
+
+                  <div class="field-wrap">
+                    <label for="">Linkedin Profile</label>
+                    <div class="field with-icon">
+                      <input type="text" placeholder="linkedin URL"/>
+                      <span class="fa fa-linkedin icon"></span>
+                    </div>
+                  </div>
+
+                  <div class="field-wrap">
+                    <label for="">Presentation</label>
+                    <div class="field">
+                      <input type="text" placeholder="URL of your Speech/PPT/Video"/>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="col-6 field-set-col">
+
+                  <div class="field-wrap">
+                    <label class="top-align" for="">Previous Speaking Experience</label>
+                    <div class="field txtarea">
+                      <textarea name="" id="" cols="50" rows="10"></textarea>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+              <button class="form-submit">Become a Speaker</button>
+            </form>
+          </div>
+      </section>
+
         <section class="testimonial-cta social-webinar">
         <img src="/img/webinar-social.jpg" alt="" class="testimonial-bg">
         <div class="page-wrap">

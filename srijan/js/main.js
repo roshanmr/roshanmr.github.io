@@ -44,9 +44,11 @@ $(document).ready(function() {
 	});
 
 
-	// $(function() {
- //    	$(".side-tabs").tabs();
- //  	});
+	$(".become-speaker .page-wrap a.speaker-btn").click(function(e){
+		e.preventDefault();
+		$(this).parents('.become-speaker').find('.speaker').toggleClass("speaker-form");
+		$(this).toggleClass("close-btn");
+	});
 
 
 	var navTrigger	=	$('.mobile-nav'),

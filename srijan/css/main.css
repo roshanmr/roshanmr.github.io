@@ -6026,7 +6026,8 @@ p.tag-list {
 }
 
 .pagination li {
-    display: inline;
+    display: inline-block;
+    margin-bottom: 10px;
 }
 
 .pagination li a {
@@ -6786,6 +6787,67 @@ body .top-banner .page-wrap {
 }
 
 
+.drupal-page .drupal-partner {
+	background: #2f88c2;
+}
+
+.drupal-page .equal-col .page-wrap.row {
+	align-items: center;
+}
+
+
+.drupal-page .equal-col .block-wrap {
+	padding: 80px 0;
+	box-sizing: border-box;
+}
+
+.drupal-page .equal-col .block-wrap h2 {
+	color: #284d8d;
+	font-weight: 300;
+}
+
+.drupal-page .equal-col .block-wrap h2 span.bold-txt {
+	font-weight: 600;
+}
+
+.drupal-page .equal-col .block-wrap figure {
+	text-align: center;
+}
+
+.drupal-page .drupal-partner .block-info {
+	text-align: left;
+	color: #fff;
+}
+
+.drupal-page .drupal-partner .block-info h2 {
+	font-weight: 300;
+	color: #fff;
+}
+
+.drupal-page .drupal-partner .block-info h2 span {
+	font-weight: 600;
+}
+
+.drupal-page .equal-col .block-wrap ul li {
+	font-size: 18px;
+}
+
+.drupal-page .equal-col .block-wrap ul li span {
+	color: #284d8d;
+	font-size: 30px;
+	padding-right: 10px;
+}
+
+.drupal-give-teaser {
+	padding: 80px 0;
+}
+
+.drupal-give-teaser h2 {
+	text-align: center;
+	color: #284d8d;
+	font-weight: 300;
+}
+
 @media (min-width: 1440px) {
     /* == HDPI Screen resolution == */
     .page-header .parallax img {
@@ -7135,6 +7197,11 @@ body .top-banner .page-wrap {
 
 	.become-speaker.content-block .col-8 {
 		width: 100%;
+	}
+
+	.bottom-float {
+		box-shadow: none;
+		position: static;
 	}
 }
 
@@ -7739,6 +7806,10 @@ body .top-banner .page-wrap {
 	    height: 100%;
 	}
 
+	.past-webinar-page .item-listing {
+		padding: 0;
+	}
+
 	.page.webinar-page {
    		padding-top: 70px;
 	}
@@ -7749,6 +7820,7 @@ body .top-banner .page-wrap {
 
 	.bottom-float {
 		box-shadow: none;
+		position: static;
 	}
 
 	.become-speaker.content-block .cta-btn.speaker-btn {

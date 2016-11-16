@@ -32,7 +32,7 @@
         <div class="row item-listing">
           <div class="col-4 item ">
             <div class="item-wrap">
-              <a href="#">
+              <a href="inner.php">
                 <header>
                   <span class="icon">
                     <?php echo file_get_contents("../icons/performance.svg"); ?>
@@ -44,7 +44,7 @@
                   <p>Go from product idea to a prototype, swiftly, with Srijan’s Discovery Workshops.</p>
                 </div>
               </a>
-              <a href="performance-audit.php" class="cta-btn">Learn More <i class="fa fa-angle-right"></i></a>
+              <a href="inner.php" class="cta-btn">Learn More <i class="fa fa-angle-right"></i></a>
               <div class="pdf-download"> 
                 <span class="download-icon"><i class="fa fa-download"></i></span>
                 <figure class="pdf-thumb">
@@ -70,7 +70,7 @@
           </div>
           <div class="col-4 item ">
             <div class="item-wrap">
-              <a href="#">
+              <a href="inner.php">
                 <header>
                   <span class="icon">
                     <?php echo file_get_contents("../icons/scrum-team.svg"); ?>
@@ -82,7 +82,7 @@
                   <p>Go from product idea to a prototype, swiftly, with Srijan’s Discovery Workshops.</p>
                 </div>
               </a>
-              <a href="performance-audit.php" class="cta-btn">Learn More <i class="fa fa-angle-right"></i></a>
+              <a href="inner.php" class="cta-btn">Learn More <i class="fa fa-angle-right"></i></a>
               <div class="pdf-download"> 
                 <span class="download-icon"><i class="fa fa-download"></i></span>
                 <figure class="pdf-thumb">
@@ -112,7 +112,7 @@
           </div>
           <div class="col-4 item ">
             <div class="item-wrap">
-              <a href="#">
+              <a href="inner.php">
                 <header>
                   <span class="icon">
                     <?php echo file_get_contents("../icons/continuous.svg"); ?>
@@ -124,7 +124,7 @@
                   <p>Go from product idea to a prototype, swiftly, with Srijan’s Discovery Workshops.</p>
                 </div>
               </a>
-              <a href="performance-audit.php" class="cta-btn">Learn More <i class="fa fa-angle-right"></i></a>
+              <a href="inner.php" class="cta-btn">Learn More <i class="fa fa-angle-right"></i></a>
               <div class="pdf-download"> 
                 <span class="download-icon"><i class="fa fa-download"></i></span>
                 <figure class="pdf-thumb">

@@ -96,7 +96,7 @@
               <div class="row">
 
                 <div class="col-6 item">
-                  <a href="/process-weekly-burn-rate.php">
+                  <a href="/process/weekly-burn-rate.php">
                     <i class="fa fa-angle-left"></i>
                     <em>Pre-Engagement</em>
                     Empowered Teams
@@ -104,7 +104,7 @@
                 </div>
 
                 <div class="col-6 item">
-                  <a href="/process-weekly-burn-rate.php">
+                  <a href="/process/weekly-burn-rate.php">
                     <em>Pre-Engagement</em>
                     Weekly Burn Rate Model
                     <i class="fa fa-angle-right"></i>

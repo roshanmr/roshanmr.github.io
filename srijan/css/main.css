@@ -915,8 +915,13 @@ nav ul li {
     font-weight: 300;
 }
 
+.secondary-nav ul li > a.active {
+	background: rgba(255, 255, 255, 0.1);
+	color: #fff;
+}
+
 .secondary-nav ul li > a:hover {
-    color: #000;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .secondary-nav ul li.search {
@@ -1120,6 +1125,30 @@ li.search.search-active .search-result {
 .top-band {
     background: #f2a428;
     height: 60px;
+    position: relative;
+}
+
+.asseccibility-btn {
+	position: absolute;
+	right: 0;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background: #284d8d;
+    color: #fff;
+    font-size: 24px;
+    transition: 0.2s ease-in-out;
+}
+
+.asseccibility-btn:hover {
+	background: #2f88c2;
+}
+
+.asseccibility-btn .asseccibility-icon {
+	margin: 0 auto;
+	width: 40px;
+	height: 40px;
 }
 
 .top-band .title {
@@ -2859,7 +2888,7 @@ figure {
     margin: 0;
     font-weight: 300;
     text-transform: uppercase;
-    color: #777;
+    color: #666;
     font-size: 24px;
     padding: 20px 0 30px;
 }
@@ -3124,11 +3153,10 @@ figure {
 }
 
 .home-slider .right .related-links li h3 span {
-    font-weight: 500;
     color: #f2a428;
     display: block;
     font-size: 14px;
-    font-weight: 100;
+    font-weight: 400;
 }
 
 .home-slider .right .related-links li {
@@ -3215,7 +3243,7 @@ figure {
 
 .fat-nav h2 {
     color: #3c76e2;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .fat-nav a {
@@ -3254,14 +3282,15 @@ figure {
     font-size: 16px;
     line-height: 20px;
     margin: 0 0 5px 0;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 .case-study-item p {
     font-size: 12px;
     line-height: 18px;
     margin: 0 0 15px 0;
-    font-weight: 100;
+    font-weight: 400;
+    color: #555;
 }
 
 .case-study-item .thumb {
@@ -3293,7 +3322,7 @@ figure {
 
 .fat-nav a.more-link {
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 500;
     margin-top: 10px;
 }
 
@@ -4047,12 +4076,12 @@ figure.main-image img {
     padding: 0 15px;
     font-weight: 200;
     margin-top: 15px;
+    font-weight: 400;
 }
 
 .cs-wrapper .cs-col-wrap .cs-more-content .read-case-study:hover {
     background: #fff;
     color: #284d8d;
-    font-weight: 300;
 }
 
 .whitepaper-wrapper {
@@ -4246,10 +4275,10 @@ figure.main-image img {
     height: 50px;
     line-height: 50px;
     text-transform: none;
-    font-weight: 400;
+    font-weight: 500;
     padding: 0 15px;
     border-bottom: solid 1px #ddd;
-    color: #888;
+    color: #666;
     transition: all 0.15s ease-in-out;
 }
 
@@ -4319,7 +4348,7 @@ ul.child-menu li a {
     display: block;
     padding: 7px 7px 7px 15px;
     color: #555;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 12px;
     line-height: 16px;
 }
@@ -4446,6 +4475,7 @@ ul.child-menu li a span {
     height: 30px;
     line-height: 30px;
     color: #5daf3a;
+    font-weight: 400;
 }
 
 .related-content {
@@ -4535,7 +4565,7 @@ ul.child-menu li a span {
     font-size: 11px;
     color: #888;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .pagination-nav .item a:hover em {
@@ -4588,7 +4618,7 @@ span.btn-span {
     font-size: 14px;
     border: solid 1px #284d8d;
     padding: 5px 10px;
-    font-weight: 300;
+    font-weight: 400;
     display: inline-block;
 }
 
@@ -5018,7 +5048,7 @@ a.cta-btn .fa {
 }
 
 .item .pdf-download p {
-    font-size: 13px;
+    font-size: 14px;
     margin: 0;
 }
 
@@ -6018,6 +6048,12 @@ p.tag-list {
     border: solid 1px #ddd;
     text-align: center;
     margin: 0 5px;
+    transition: 0.3s ease-in-out;
+}
+
+.share-block .share-btn:hover {
+	background: #f4f4f4;
+	border-color: #284d8d;
 }
 
 .pagination {
@@ -6277,7 +6313,7 @@ body .top-banner .page-wrap {
     padding: 10px;
     box-sizing: border-box;
     font-size: 24px;
-    color: #777;
+    color: #666;
     position: relative;
 }
 
@@ -6797,8 +6833,12 @@ body .top-banner .page-wrap {
 
 
 .drupal-page .equal-col .block-wrap {
-	padding: 80px 0;
+	padding: 40px 0;
 	box-sizing: border-box;
+}
+
+.drupal-page .equal-col.drupal-partner {
+	padding: 40px 0;
 }
 
 .drupal-page .equal-col .block-wrap h2 {
@@ -6839,7 +6879,7 @@ body .top-banner .page-wrap {
 }
 
 .drupal-give-teaser {
-	padding: 80px 0;
+	padding: 40px 0;
 }
 
 .drupal-give-teaser h2 {
@@ -7834,4 +7874,97 @@ body .top-banner .page-wrap {
 	.webinar-page .become-speaker .speaker .page-wrap.row {
 		padding-bottom: 40px;
 	}
+
+	.drupal-page .drupal-partner {
+		margin-top: 40px;
+	}
+
+	.drupal-page .equal-col .block-wrap {
+		padding: 40px 10px;
+	}
+
+	.drupal-page .equal-col.drupal-partner {
+		padding: 0;
+	}
+
+	.drupal-page .drupal-partner .block-info {
+		text-align: center;
+		padding-top: 0;
+	}
+
+	.drupal-page .equal-col.grey-bg .page-wrap.row {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.drupal-page .equal-col.grey-bg .block-wrap:first-child {
+		order: 2;
+		padding-top: 0;
+		text-align: center;
+	}
+
+	.drupal-page .equal-col.grey-bg .block-wrap:last-child {
+		order: 1;
+		width: 100%;
+	}
+}
+
+
+@media (max-width: 480px) {
+
+	.drupal-page .equal-col .block-wrap figure {
+		padding: 0 20px;
+		box-sizing: border-box;
+		max-width: 320px;
+		margin: 0 auto;
+	}
+	.drupal-page .equal-col .block-wrap figure img {
+		width: 100%;
+	}
+}
+
+
+
+
+
+/* Accesibility Style */
+
+.asseccible .top-band {
+	background: #284d8d;
+}
+
+.asseccibility-btn.active {
+	background: #222;
+}
+
+.asseccible .primary-nav > ul > li.active > a {
+	background: rgba(0,0,0,0.03);
+    color: #284d8d;
+    font-weight: 500;
+}
+
+.asseccible .primary-nav > ul > li.active > a:before {
+	content: "";
+	position: absolute;
+	height: 4px;
+	background: #f2a428;
+	left: 0;
+	right: 0;
+	top: 0;
+	display: block;
+}
+
+.asseccible .primary-nav ul.main-nav > li > a:hover {
+	color: #000;
+}
+
+.asseccible .primary-nav > ul > li > a:hover:before {
+	content: "";
+	position: absolute;
+	height: 2px;
+	background: #000;
+	left: 0;
+	right: 0;
+	top: 0;
+	display: block;
 }

@@ -1,3 +1,24 @@
+(function($) {
+    function noop() {}
+    var defaults = { delay: 100, attr: 'count', onItr: noop, onComplete: noop };
+    $.fn.counterUpdate = function(options) {
+        var config = $.extend({}, defaults, options);
+        this.each(function() {
+            var count = +$(this).attr('count');
+            var start = 0;
+            var iv = setInterval(function() {
+                if (start > count) {
+                    config.onComplete.call(this);
+                    clearInterval(iv);
+                    return;
+                }
+                config.onItr.call(this, start, count);
+                $(this).text(start++);
+            }.bind(this), config.delay);
+        });
+    };
+})(jQuery);
+
 $(document).ready(function() {
 
 
@@ -401,38 +422,67 @@ $(document).ready(function() {
         $(this).parents('.reg-form').addClass('registered');
     });
 
-});
+
+    $('.team-count .count').counterUpdate({
+        onItr: function(counter, count) {
+            $(this).parent().css('opacity', counter / count);
+        },
+        delay: 40,
+        onComplete: function() { $(this).parent().addClass('animate') }
+    });
 
 
+    /* Smooth Scroll */
 
-/* Smooth Scroll */
+    $(".tab-content .links a").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#writetous").offset().top
+        }, 1000);
+    });
 
-$(".tab-content .links a").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#writetous").offset().top
-    }, 1000);
-});
+    $(".webinar-wrapper .about-speaker a").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#webinar-form").offset().top
+        }, 1000);
+        $(this).parents(".page-wrap").find('.reg-form').addClass("focus");
+    });
 
-$(".webinar-wrapper .about-speaker a").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#webinar-form").offset().top
-    }, 1000);
-    $(this).parents(".page-wrap").find('.reg-form').addClass("focus");
-});
+    $('.top-band a.accessibility-btn').click(function() {
+        $(this).parents('body').toggleClass('accessible');
+    });
 
-$('.top-band a.asseccibility-btn').click(function() {	
-	$(this).parents('body').toggleClass('asseccible');
-	$(this).toggleClass('active');
-});
-
-$(function() {
     var pgurl = window.location.href.split("/");
     pgurl = "/" + pgurl[3];
 
     $(".secondary-nav ul li > a").each(function() {
-    	//alert($(this).attr("href"));
+
         if ($(this).attr("href") == pgurl) {
-	        $(this).addClass("active"); 
-	    }
-    })
+            $(this).addClass("active");
+        }
+    });
+
+
 });
+
+
+// Check if localStorage is supported
+if ('localStorage' in window && typeof localStorage == 'object') {
+    $(document).ready(function() {
+        // Set the class if greyscale is set
+        // Note that localStorage saves everything as strings
+        if (localStorage["accessible"] == "1") {
+            $('body').addClass('accessible');
+        }
+        // Register click listener for the button
+        $('a.accessibility-btn').click(function() {
+            // Toggle greyscale on and off
+            if (localStorage["accessible"] != "1") {
+                $('body').addClass('accessible');
+                localStorage["accessible"] = "1";
+            } else {
+                $('body').removeClass('accessible');
+                localStorage["accessible"] = "0";
+            }
+        }); // - button click
+    }); // - doc ready
+}

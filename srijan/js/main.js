@@ -420,10 +420,26 @@ $(".webinar-wrapper .about-speaker a").click(function() {
     $(this).parents(".page-wrap").find('.reg-form').addClass("focus");
 });
 
-$('.top-band a.asseccibility-btn').click(function() {	
-	$(this).parents('body').toggleClass('asseccible');
-	$(this).toggleClass('active');
+
+var body_class = $.cookie('body_class');
+var access_btn = $.cookie('access_btn');
+
+if(body_class) {
+    $('body').attr('class', body_class);
+}
+
+$('.top-band a.asseccibility-btn').click(function() {   
+    $('body').toggleClass('asseccible');
+    $.cookie('body_class', $('body').attr('class'));
+    $(this).toggleClass('active');
+    $.cookie('access_btn', $(this).attr('class'));
 });
+
+// $("a#switcher").click(function() {
+//     $("body").toggleClass("alternate_body");
+//     $.cookie('body_class', $('body').attr('class'));
+// });
+
 
 $(function() {
     var pgurl = window.location.href.split("/");

@@ -7929,21 +7929,21 @@ body .top-banner .page-wrap {
 
 /* Accesibility Style */
 
-.asseccible .top-band {
+.accessible .top-band {
 	background: #284d8d;
 }
 
-.asseccibility-btn.active {
+.accessible .accessible-btn {
 	background: #222;
 }
 
-.asseccible .primary-nav > ul > li.active > a {
+.accessible .primary-nav > ul > li.active > a {
 	background: rgba(0,0,0,0.03);
     color: #284d8d;
     font-weight: 500;
 }
 
-.asseccible .primary-nav > ul > li.active > a:before {
+.accessible .primary-nav > ul > li.active > a:before {
 	content: "";
 	position: absolute;
 	height: 4px;
@@ -7954,11 +7954,11 @@ body .top-banner .page-wrap {
 	display: block;
 }
 
-.asseccible .primary-nav ul.main-nav > li > a:hover {
+.accessible .primary-nav ul.main-nav > li > a:hover {
 	color: #000;
 }
 
-.asseccible .primary-nav > ul > li > a:hover:before {
+.accessible .primary-nav > ul > li > a:hover:before {
 	content: "";
 	position: absolute;
 	height: 2px;

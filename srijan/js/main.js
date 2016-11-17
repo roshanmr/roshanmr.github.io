@@ -50,10 +50,10 @@ $(document).ready(function() {
 
 
     var navTrigger = $('.mobile-nav'),
-        navPanel = $('.off-canvas'),
-        mainContent = $('.canvas'),
-        body = $('body'),
-        offCanvas = $('.off-canvas');
+    navPanel = $('.off-canvas'),
+    mainContent = $('.canvas'),
+    body = $('body'),
+    offCanvas = $('.off-canvas');
 
     $(navTrigger).click(function(e) {
         e.preventDefault();
@@ -401,54 +401,62 @@ $(document).ready(function() {
         $(this).parents('.reg-form').addClass('registered');
     });
 
-});
 
 
+    /* Smooth Scroll */
 
-/* Smooth Scroll */
+    $(".tab-content .links a").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#writetous").offset().top
+        }, 1000);
+    });
 
-$(".tab-content .links a").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#writetous").offset().top
-    }, 1000);
-});
-
-$(".webinar-wrapper .about-speaker a").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#webinar-form").offset().top
-    }, 1000);
-    $(this).parents(".page-wrap").find('.reg-form').addClass("focus");
-});
-
-
-var body_class = $.cookie('body_class');
-var access_btn = $.cookie('access_btn');
-
-if(body_class) {
-    $('body').attr('class', body_class);
-}
-
-$('.top-band a.asseccibility-btn').click(function() {   
-    $('body').toggleClass('asseccible');
-    $.cookie('body_class', $('body').attr('class'));
-    $(this).toggleClass('active');
-    $.cookie('access_btn', $(this).attr('class'));
-});
-
-// $("a#switcher").click(function() {
-//     $("body").toggleClass("alternate_body");
-//     $.cookie('body_class', $('body').attr('class'));
-// });
+    $(".webinar-wrapper .about-speaker a").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#webinar-form").offset().top
+        }, 1000);
+        $(this).parents(".page-wrap").find('.reg-form').addClass("focus");
+    });
 
 
-$(function() {
+    $('.top-band a.asseccibility-btn').click(function() {   
+        $('body').toggleClass('accessible');
+    });
+
+
     var pgurl = window.location.href.split("/");
-    pgurl = "/" + pgurl[3];
+    var pgurl = "/" + pgurl[3];
 
     $(".secondary-nav ul li > a").each(function() {
-    	//alert($(this).attr("href"));
+
         if ($(this).attr("href") == pgurl) {
-	        $(this).addClass("active"); 
-	    }
+            $(this).addClass("active"); 
+        }
     })
+
+
 });
+
+// Check if localStorage is supported
+if ('localStorage' in window && typeof localStorage == 'object') {
+  $(document).ready(function() {
+    // Set the class if greyscale is set
+    // Note that localStorage saves everything as strings
+    if (localStorage["accessible"] == "1") {
+      $('body').addClass('accessible');
+    }
+    // Register click listener for the button
+    $('a.asseccibility-btn').click(function() {
+      // Toggle greyscale on and off
+      if (localStorage["accessible"] != "1") {
+        $('body').addClass('accessible');
+        localStorage["accessible"] = "1";
+      }
+      else {
+        $('body').removeClass('accessible');
+        localStorage["accessible"] = "0";
+      }
+    }); // - button click
+  }); // - doc ready
+}
+

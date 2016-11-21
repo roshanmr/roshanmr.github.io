@@ -6835,7 +6835,7 @@ body .top-banner .page-wrap {
     font-weight: 300;
 }
 
-.drupal-page .equal-col .block-wrap h2 span.bold-txt {
+.bold-txt {
     font-weight: 600;
 }
 
@@ -6946,15 +6946,18 @@ body .top-banner .page-wrap {
 
 .team-count .item .circle .count {
     margin: 0 auto;
-    font-size: 24px;
+    font-size: 36px;
     color: #fff;
     font-style: normal;
     z-index: 99;
     transition: 0.3s ease-in-out;
+    cursor: default;
 }
 
 .team-count .item .circle.animate .count {
-	font-size: 50px;
+	font-size: 46px;
+	animation-name: pulse;
+    animation-duration: 1s;
 }
 
 .team-count .item label {
@@ -7004,6 +7007,244 @@ body .top-banner .page-wrap {
 	background: #79dec3;
 }
 
+.drupal-give-content h2 {
+	color: #284d8d;
+    font-weight: 300;
+}
+
+.drupal-give-content h2 span {
+	display: block;
+}
+
+.drupal-give-content h2 i {
+	font-style: normal;
+}
+
+.drupal-give-content p {
+	margin-bottom: 0;
+}
+
+.drupal-give-content .page-wrap {
+	padding: 40px 0;
+	border-bottom: 1px solid #ddd;
+}
+
+.drupal-contributor.page-wrap {
+	border-bottom: 0;
+}
+
+.drupal-contributor .stats {
+	padding-top: 50px;
+}
+
+.drupal-contributor .stats li {
+	padding: 20px 0;
+	display: flex;
+    align-items: center;
+}
+
+.drupal-contributor .stats li .info {
+	width: 70%;
+}
+
+.drupal-contributor .stats li span {
+	display: inline-block;
+}
+
+.drupal-contributor .stats li span.fa {
+	width: 25%;
+}
+
+.drupal-contributor .stats li h4 {
+	font-weight: 300;
+	color: #666;
+	margin-bottom: 0;
+	font-size: 16px;
+}
+
+.drupal-contributor .stats li .bold-txt {
+	font-size: 26px;
+}
+
+.drupal-contributor .stats li .bold-txt sup {
+	font-size: 16px;
+}
+
+.drupal-contributor .stats li.green .fa {
+	color: #a5d449;
+}
+
+.drupal-contributor .stats li.turquoise .fa {
+	color: #79dec3;
+}
+
+.drupal-contributor .stats li.red .fa {
+	color: #f07a7a;
+}
+
+.drupal-contributor .stats li.purple .fa {
+	color: #9489e7;
+}
+
+.drupal-contributor .stats li.blue .fa {
+	color: #64ccea;
+}
+
+.drupal-contributor .stats li.orange .fa {
+	color: #f3ab3a;
+}
+
+.drupal-give-content ul {
+	padding: 20px 0;
+	justify-content: flex-start;
+}
+
+.drupal-give-content ul figure {
+	width: 170px;
+	height: 170px;
+	overflow: hidden;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+}
+
+.drupal-give-content ul figure img {
+	height: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.drupal-give-content ul h4 {
+	color: #284d8d;
+    padding-top: 10px;
+    margin: 0;
+}
+
+.drupal-give-content .sponsers {
+	position: relative;
+    justify-content: flex-start;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    margin-top: 70px;
+    border-bottom: 4px solid #284d8d;
+    border-top: 4px solid #284d8d;
+}
+
+
+.sponsers label {
+	position: absolute;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #284d8d;
+    color: #fff;
+    top: -42px;
+    left: -1px;
+}
+
+.drupal-give-content .sponsers.gold {
+	border-bottom: 4px solid #d4af37;
+    border-top: 4px solid #d4af37;
+}
+
+.drupal-give-content .sponsers.silver {
+	border-bottom: 4px solid #A9A9A9;
+    border-top: 4px solid #A9A9A9;
+}
+
+.drupal-give-content .sponsers.bronze {
+	border-bottom: 4px solid #A57164;
+    border-top: 4px solid #A57164;
+}
+
+.sponsers.gold label {
+	background: #D4AF37;
+}
+
+.sponsers.silver label {
+	background: #A9A9A9;
+}
+
+.sponsers.bronze label {
+	background: #A57164;
+}
+
+.sponsers ul {
+	padding: 0;
+}
+
+.sponsers ul li {
+    display: inline-block;
+}
+
+.sponsers ul figure {
+    border: 0;
+}
+
+.sponsers ul li span {
+    text-align: center;
+    display: block;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.sponsers ul li.beta {
+	background: #f1f1f1;
+}
+
+.sponsers ul li.beta .inner-label {
+	background: #666;
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 2px;
+    margin-top: 10px;
+    position: static;
+    color: #fff;
+}
+
+/*.drupal-give-content ul.sponsor {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.sponsor li {
+    display: inline-block;
+    min-width: 150px;
+    margin: 10px 10px 10px 0;
+}
+
+.sponsor li figure {
+	border: 0;
+	padding: 0;
+	overflow: visible;
+	max-height: inherit;
+	max-width: inherit;
+}
+
+.sponsor li span {
+	text-align: center;
+    display: block;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.sponsor li span.bronze {
+	background: #A57164;
+}
+
+.sponsor li span.gold {
+	background: #D4AF37;
+}
+
+.sponsor li span.silver {
+	background: #A9A9A9;
+}
+
+.sponsor li span.participated {
+	background: #284d8d;
+}*/
 
 
 @media (min-width: 1440px) {

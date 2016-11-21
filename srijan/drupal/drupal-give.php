@@ -93,91 +93,192 @@
         
       </section>
 
-      <section class="equal-col drupal-partner">
-      <div class="page-wrap row">
-        <div class="col-6 block-wrap">
-          <figure>
-            <img src="/img/dasp.png" alt="">
-          </figure>
-        </div>
-        <div class="col-6 block-wrap block-info">
-          <h2>Supporting Partner Drupal <span>Association</span></h2>
-          <p>We are a supporting partner to Drupal Association, Our aim is to help the Drupal community through funding, infrastructure, education, promotion, distribution and online collaboration. We promote Drupal to the world, and help Drupal businesses grow.</p>
-        </div>
-        </div>
-      </section>
+      <section class="drupal-give-content grey-bg" id="drupal-contributor">
+        <div class="page-wrap drupal-contributor">
+          <h2>Drupal <span class="bold-txt">Contribution</span></h2>
+          <p>Srijan has always believed in contributing to the Drupal community. For Drupal 8, Srijan has put in efforts to contribute, both in terms of code, as well as mentoring code sprints. Our developers have more than 262 commit mentions in resolving critical issues of Drupal 8. In Drupal 7, we made 1000+ commits, and designed a light weight responsive theme, with modern look and feel, named Insha. We have helped organize code sprints in Srijan, and have also been mentors at Drupal Camp Delhi 2015 and many other events.</p>
 
-      <section class="equal-col grey-bg">
-        <div class="page-wrap row">
-          <div class="col-6 block-wrap">
-            <h2>Acquia Certified <span class="bold-txt">Engineers</span></h2>
-            <p>We have been Drupalers for many years now, and today we are recognized as world-class Drupal developers and front end specialists. We have been picking up Acquia Certifications, the certification program to formally validate the skills and knowledge of individual Drupal developers through a set of rigorous tests. With 23 Acquia Certified Engineers and 2 Acquia Certified Front-end Engineers, Srijan is the leader in India and ranks among the top 5 companies in the world, in terms of the number of Acquia Certified Developers.</p>
-            <ul>
-              <li><span>23</span> Acquia Certified Engineers</li>
-              <li><span>02</span> Acquia Certified Front-end Engineers</li>
+          <ul class="stats row">
+            <li class="col-4 green">
+              <span class="fa fa-line-chart fa-3x"></span>
+              <span class="info">
+                <i class="bold-txt">22<sup>nd</sup></i>
+                <h4>Position at Drupal.org</h4>
+              </span>
+            </li>
+            <li class="col-4 turquoise">
+              <span class="fa fa-puzzle-piece fa-3x"></span>
+              <span class="info">
+                <i class="bold-txt">51</i>
+                <h4>Contributors to DrupalCore</h4>
+              </span>
+            </li>
+            <li class="col-4 red">
+              <span class="fa fa-hashtag fa-3x"></span>
+              <span class="info">
+                <i class="bold-txt">326(~6)</i>
+                <h4>Mentions in resolving critical issues</h4>
+              </span>
+            </li>
+          </ul>
+          <ul class="stats row">
+            <li class="col-4 purple">
+              <span class="fa fa-code-fork fa-3x"></span>
+              <span class="info">
+                <i class="bold-txt">1000+</i>
+                <h4>Total Commits to Drupal</h4>
+              </span>
+            </li>
+            <li class="col-4 orange">
+              <span class="fa fa-bug fa-3x"></span>
+              <span class="info">
+                <i class="bold-txt">44</i>
+                <h4>issues fixed in past 3 months</h4>
+              </span>
+            </li>
+            <li class="col-4 blue">
+              <span class="fa fa-file-text-o fa-3x"></span>
+              <span class="info">
+                <i class="bold-txt">2</i>
+                <h4>Case Studies on Drupal</h4>
+              </span>
+            </li>
+          </ul>
+        </div>
+        </section>
+        <section class="drupal-give-content">
+        <div class="page-wrap" id="organiser-dcd">
+          <h2>Organizer of Drupal <span>Camp <i class="bold-txt">Delhi</i></span></h2>
+          <p>Organizer of Drupal Camp Delhi Drupal Camp Delhi (DCD) is the longest running Drupal community event in India, and growing by leaps and bounds every year. The event consist of trainings, presentations, demos, a CXO meet, hiring campaigns, beer meetups etc. Srijan has led four Drupal camps till now - DCD 11, DCD 12, DCD 13, DCD 15. In Drupal Camp Delhi 2015, we had over 400 attendees. The keynote was given by Megan Sanicki, Associate Director, Drupal Association. DCD 2011 was attended by Dries Buytaert, founder and lead developer of Drupal CMS.</p>
+
+          <ul class="row">
+            <li class="col-3">
+             <figure>
+               <img src="../img/shyamala.png" alt="Image of Megan Sanicki">
+             </figure>
+             <h4>Shyamala Rajaram</h4>
+             <span>Keynote at DCD <i class="bold-txt">2016</i></span>
+            </li>
+
+            <li class="col-3">
+             <figure>
+               <img src="../img/megan-sanicki.jpg" alt="Image of Megan Sanicki">
+             </figure>
+             <h4>Megan Sanici</h4>
+             <span>Keynote at DCD <i class="bold-txt">2015</i></span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="page-wrap" id="community-participation">
+          <h2>Community <span class="bold-txt">Participation</span></h2>
+          <p>Srijan is a regular participant in global Drupal community events to understand the latest trends, and contribute to the community. We have also sponsored various events. Here are the recent events in which we have been sponsors and/or participated in.</p>
+          
+          <div class="sponsers row gold">
+            <label>Gold Sponsorship</label>
+            <ul class="row">
+              <li class="col-2">
+                <figure>
+                  <img src="../img/drupalcon_asia_logo.png" alt="Image of Megan Sanicki">
+                </figure>
+                <span>DrupalCon Asia 2016</span>
+              </li>
+              <li class="col-2">
+                <figure>
+                  <img src="../img/dcd_mumbai.png" alt="Image of Megan Sanicki">
+                </figure>
+                <span>Drupal Camp Mumbai 2015</span>
+              </li>
+              <li class="col-2">
+                <figure>
+                  <img src="../img/drupal-camp-pune.jpg" alt="Image of Megan Sanicki">
+                </figure>
+                <span>Drupal Camp Pune 2015</span>
+              </li>
+              <li class="col-2">
+                <figure>
+                  <img src="../img/dc-london-logo.png" alt="Image of Megan Sanicki">
+                </figure>
+                <span>Drupal Camp London 2015</span>
+              </li>
             </ul>
           </div>
-          <div class="col-6 block-wrap">
-            <figure>
-              <img src="/img/acd.png" alt="">
-            </figure>
-          </div>
-        </div>
-      </section>
 
-      <section class="content-block drupal-give-teaser">
-      <header class="section-header">
-        <h2 class="section-heading">Drupal Give</h2>
-      </header>
-      <div class="page-wrap row process-wrap">
-        <div class="process-item col-4 blue">
-          <div class="item-wrap">
-            <a href="#">
-              <header>
-                <span class="icon">
-                  <?php echo file_get_contents("../icons/drupal-lineicon.svg"); ?>
-                </span>
-                <h2>Drupal Contribution</h2>
-              </header>
-              <div class="intro-txt">
-                <p>Go from product idea to a prototype, swiftly, with Srijan’s Discovery Workshops.</p>
-              </div>
-            </a>
+          <div class="sponsers row silver">
+            <label>Silver Sponsorship</label>
+            <ul class="row">
+              <li class="col-2">
+                <figure>
+                  <img src="../img/DrupalCon_Amsterdam.png" alt="Image of Megan Sanicki">
+                </figure>
+                <span>DrupalCon Amsterdam 2014</span>
+              </li>
+              <li class="col-2 beta">
+                <figure>
+                  <img src="../img/badcamp-logo.png" alt="Image of Megan Sanicki">
+                </figure>
+                <span>Bay Area Drupal Camp 2014</span>
+                <span class="inner-label">Beta Sponsorship</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="sponsers row bronze">
+            <label>Bronze Sponsorship</label>
+            <ul class="row">
+             <li class="col-2">
+                <figure>
+                  <img src="../img/drupalcondub.jpg" alt="Image of Megan Sanicki">
+                </figure>
+                <span>DrupalCon Dublin 2016</span>
+              </li>
+              <li class="col-2">
+                <figure>
+                  <img src="../img/DC2016-orleans.png" alt="Image of Megan Sanicki">
+                </figure>
+                <span>DrupalCon New Orleans 2015</span>
+              </li>
+              <li class="col-2">
+                <figure>
+                  <img src="../img/drupalconLA_2015.png" alt="Image of Megan Sanicki">
+                </figure>
+                <span>DrupalCon Los Angeles 2015</span>
+              </li>
+              <li class="col-2">
+                <figure>
+                  <img src="../img/DrupalCon-Austin-Logo.png" alt="Image of Megan Sanicki">
+                </figure>
+                <span>DrupalCon Austin 2014</span>
+              </li>
+              <li class="col-2">
+                <figure>
+                  <img src="../img/Drupalconportland.jpg" alt="Image of Megan Sanicki">
+                </figure>
+                <span>DrupalCon Portland 2013</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="sponsers row">
+            <label>Participated</label>
+            <ul class="row">
+             <li class="col-2">
+                <figure>
+                  <img src="../img/drupalconprague.jpg" alt="Image of Megan Sanicki">
+                </figure>
+                <span>DupalCon Prague 2013</span>
+              </li>
+              <li class="col-2">
+                <figure>
+                  <img src="../img/dc-munich.png" alt="Image of Megan Sanicki">
+                </figure>
+                <span>DrupalCon Munich 2013</span>
+              </li>
+            </ul>
           </div>
         </div>
-        <div class="process-item col-4 orange">
-          <div class="item-wrap">
-            <a href="#">
-              <header>
-                <span class="icon">
-                  <?php echo file_get_contents("../icons/drupal-camp.svg"); ?>
-                </span>
-                <h2>Organizer of DCD</h2>
-                </header>
-                <div class="intro-txt">
-                  <p>Learn more about our Agile development and engagement model and Scrum teams.</p>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="process-item col-4 turquoise">
-            <div class="item-wrap">
-              <a href="#">
-                <header>
-                  <span class="icon">
-                    <?php echo file_get_contents("../icons/community.svg"); ?>
-                  </span>
-                  <h2>Community Participation</h2>
-                  </header>
-                  <div class="intro-txt">
-                    <p>Find out how we ensure product development success with our mature processes and testing techniques.</p>
-                  </div>
-                </a>
-              </div>
-            </div>
-            </div>
-            <a href="drupal-give.php" class="section-cta">Read more about Drupal Give <i class="fa fa-chevron-right"></i></a>
-          </section>
+        
+      </section>
           
 
       <section class="testimonial-cta">

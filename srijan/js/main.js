@@ -427,7 +427,7 @@ $(document).ready(function() {
         onItr: function(counter, count) {
             $(this).parent().css('opacity', counter / count);
         },
-        delay: 40,
+        delay: 30,
         onComplete: function() { $(this).parent().addClass('animate') }
     });
 

@@ -189,7 +189,7 @@
       <div class="page-wrap row process-wrap">
         <div class="process-item col-4 blue">
           <div class="item-wrap">
-            <a href="#">
+            <a href="drupal-give.php#drupal-contributor">
               <header>
                 <span class="icon">
                   <?php echo file_get_contents("../icons/drupal-lineicon.svg"); ?>
@@ -204,7 +204,7 @@
         </div>
         <div class="process-item col-4 orange">
           <div class="item-wrap">
-            <a href="#">
+            <a href="drupal-give.php#organiser-dcd">
               <header>
                 <span class="icon">
                   <?php echo file_get_contents("../icons/drupal-camp.svg"); ?>
@@ -219,7 +219,7 @@
           </div>
           <div class="process-item col-4 turquoise">
             <div class="item-wrap">
-              <a href="#">
+              <a href="drupal-give.php#community-participation">
                 <header>
                   <span class="icon">
                     <?php echo file_get_contents("../icons/community.svg"); ?>

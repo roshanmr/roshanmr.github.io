@@ -6878,11 +6878,11 @@ body .top-banner .page-wrap {
 }
 
 .drupal-give {
-    padding-top: 120px;
+    padding-top: 150px;
 }
 
 .drupal-give .team-count {
-    padding: 40px 0;
+    padding: 40px 15px;
 }
 
 .drupal-give .team-count .row {
@@ -6896,7 +6896,7 @@ body .top-banner .page-wrap {
     min-height: 220px;
     margin-bottom: 20px;
     border: 1px solid #ddd;
-    padding: 20px 40px;
+    padding: 20px;
     box-sizing: border-box;
 }
 
@@ -6967,6 +6967,7 @@ body .top-banner .page-wrap {
     line-height: 24px;
     padding-top: 10px;
     display: block;
+    min-height: 50px;
 }
 
 .team-count .item .line {
@@ -7025,16 +7026,12 @@ body .top-banner .page-wrap {
 }
 
 .drupal-give-content .page-wrap {
-	padding: 40px 0;
+	padding: 40px 15px;
 	border-bottom: 1px solid #ddd;
 }
 
 .drupal-contributor.page-wrap {
 	border-bottom: 0;
-}
-
-.drupal-contributor .stats {
-	padding-top: 50px;
 }
 
 .drupal-contributor .stats li {
@@ -7052,7 +7049,7 @@ body .top-banner .page-wrap {
 }
 
 .drupal-contributor .stats li span.fa {
-	width: 25%;
+	width: 80px;
 }
 
 .drupal-contributor .stats li h4 {
@@ -7120,7 +7117,7 @@ body .top-banner .page-wrap {
     margin: 0;
 }
 
-.drupal-give-content .sponsers {
+.drupal-give-content .sponsors {
 	position: relative;
     justify-content: flex-start;
     padding: 20px;
@@ -7131,8 +7128,7 @@ body .top-banner .page-wrap {
     border-top: 4px solid #284d8d;
 }
 
-
-.sponsers label {
+.sponsors label {
 	position: absolute;
     padding: 10px;
     box-sizing: border-box;
@@ -7142,57 +7138,57 @@ body .top-banner .page-wrap {
     left: -1px;
 }
 
-.drupal-give-content .sponsers.gold {
+.drupal-give-content .sponsors.gold {
 	border-bottom: 4px solid #d4af37;
     border-top: 4px solid #d4af37;
 }
 
-.drupal-give-content .sponsers.silver {
+.drupal-give-content .sponsors.silver {
 	border-bottom: 4px solid #A9A9A9;
     border-top: 4px solid #A9A9A9;
 }
 
-.drupal-give-content .sponsers.bronze {
+.drupal-give-content .sponsors.bronze {
 	border-bottom: 4px solid #A57164;
     border-top: 4px solid #A57164;
 }
 
-.sponsers.gold label {
+.sponsors.gold label {
 	background: #D4AF37;
 }
 
-.sponsers.silver label {
+.sponsors.silver label {
 	background: #A9A9A9;
 }
 
-.sponsers.bronze label {
+.sponsors.bronze label {
 	background: #A57164;
 }
 
-.sponsers ul {
+.sponsors ul {
 	padding: 0;
 }
 
-.sponsers ul li {
+.sponsors ul li {
     display: inline-block;
 }
 
-.sponsers ul figure {
+.sponsors ul figure {
     border: 0;
 }
 
-.sponsers ul li span {
+.sponsors ul li span {
     text-align: center;
     display: block;
     padding: 0 10px;
     box-sizing: border-box;
 }
 
-.sponsers ul li.beta {
+.sponsors ul li.beta {
 	background: #f1f1f1;
 }
 
-.sponsers ul li.beta .inner-label {
+.sponsors ul li.beta .inner-label {
 	background: #666;
     width: 100%;
     display: block;
@@ -7202,49 +7198,6 @@ body .top-banner .page-wrap {
     position: static;
     color: #fff;
 }
-
-/*.drupal-give-content ul.sponsor {
-	display: flex;
-	flex-wrap: wrap;
-}
-
-.sponsor li {
-    display: inline-block;
-    min-width: 150px;
-    margin: 10px 10px 10px 0;
-}
-
-.sponsor li figure {
-	border: 0;
-	padding: 0;
-	overflow: visible;
-	max-height: inherit;
-	max-width: inherit;
-}
-
-.sponsor li span {
-	text-align: center;
-    display: block;
-    padding: 10px;
-    box-sizing: border-box;
-    color: #fff;
-}
-
-.sponsor li span.bronze {
-	background: #A57164;
-}
-
-.sponsor li span.gold {
-	background: #D4AF37;
-}
-
-.sponsor li span.silver {
-	background: #A9A9A9;
-}
-
-.sponsor li span.participated {
-	background: #284d8d;
-}*/
 
 
 @media (min-width: 1440px) {
@@ -7598,6 +7551,10 @@ body .top-banner .page-wrap {
         box-shadow: none;
         position: static;
     }
+
+    .drupal-give {
+    	padding-top: 80px;
+	}
 }
 
 @media (max-width: 900px) {
@@ -7685,6 +7642,49 @@ body .top-banner .page-wrap {
     }
     .page-wrap.past-webinar .item-listing.row {
         flex-wrap: wrap;
+    }
+
+}
+@media (max-width: 960px) {
+    .drupal-give .team-count .item {
+    	width: 48%;
+	    max-width: inherit;
+	    min-height: inherit;
+	    display: flex;
+	    align-items: center;
+	    margin-bottom: 10px;
+    }
+    .team-count .item .main-circle {
+    	margin: 0;
+    	width: 50px;
+    	height: 50px;
+    }
+    .team-count .item .circle,
+    .team-count .item .main-circle .grey-circle {
+	    width: 50px;
+	    height: 50px;
+	}
+	.team-count .item .circle .count {
+		font-size: 24px;
+	}
+	.team-count .item .circle.animate .count {
+		font-size: 28px;
+	}
+    .team-count .item label {
+    	font-size: 20px;
+		text-align: left; 
+		min-height: inherit; 
+	    padding-left: 20px;
+	    padding-top: 0;
+    }
+    .team-count .item .line {
+    	display: none;
+    }
+    .sponsors ul {
+    	flex-wrap: wrap;
+    }
+    .sponsors ul li {
+    	min-width: 170px;
     }
 }
 
@@ -8243,6 +8243,39 @@ body .top-banner .page-wrap {
         order: 1;
         width: 100%;
     }
+
+    .drupal-give {
+    	padding-top: 60px;
+	}
+	.drupal-give .team-count {
+		padding: 20px 15px;
+	}
+	
+	.drupal-give-content ul li {
+		padding-bottom: 20px;
+		width: 100%;
+	}
+	
+    .drupal-give .team-count .item {
+    	width: 100%;
+    	padding: 10px;
+    }
+
+    .drupal-contributor .stats {
+    	padding: 0;
+	}
+
+	.drupal-give-content ul figure {
+		width: 100%;
+		height: auto;
+	}
+	.drupal-give-content .page-wrap {
+		padding: 20px 15px;
+	}
+
+	.drupal-give-content ul figure img {
+		width: 100%;
+	}
 }
 
 @media (max-width: 480px) {
@@ -8254,6 +8287,9 @@ body .top-banner .page-wrap {
     }
     .drupal-page .equal-col .block-wrap figure img {
         width: 100%;
+    }
+    .sponsors ul li {
+    	width: 100%;
     }
 }
 

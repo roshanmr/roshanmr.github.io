@@ -57,20 +57,20 @@
           </li>
         </ul>
         <ul class="row">
-          <li class="col-3 item green">
+          <li class="col-3 item purple">
             <div class="main-circle">
               <span class="circle"><i class="count" count="19">0</i></span>
               <strong class="grey-circle"></strong>
             </div>
-            <label>Drupal Engineers</label>
+            <label>Delivery Managers</label>
             <span class="line"></span>
           </li>
-          <li class="col-3 item purple">
+          <li class="col-3 item green">
             <div class="main-circle">
               <span class="circle"><i class="count" count="22">0</i></span>
               <strong class="grey-circle"></strong>
             </div>
-            <label>Angular Js Engineers</label>
+            <label>Quality Analyst</label>
             <span class="line"></span>
           </li>
           <li class="col-3 item red">
@@ -78,7 +78,7 @@
               <span class="circle"><i class="count" count="13">0</i></span>
               <strong class="grey-circle"></strong>
             </div>
-            <label>Ruby on Rails Engineers</label>
+            <label>Sales &amp; Marketing Executives</label>
             <span class="line"></span>
           </li>
           <li class="col-3 item turquoise">
@@ -86,7 +86,7 @@
               <span class="circle"><i class="count" count="16">0</i></span>
               <strong class="grey-circle"></strong>
             </div>
-            <label>Technical Architects</label>
+            <label>Admin &amp; Account Executives</label>
             <span class="line"></span>
           </li>
         </ul>
@@ -174,7 +174,7 @@
           <h2>Community <span class="bold-txt">Participation</span></h2>
           <p>Srijan is a regular participant in global Drupal community events to understand the latest trends, and contribute to the community. We have also sponsored various events. Here are the recent events in which we have been sponsors and/or participated in.</p>
           
-          <div class="sponsers row gold">
+          <div class="sponsors row gold">
             <label>Gold Sponsorship</label>
             <ul class="row">
               <li class="col-2">
@@ -204,7 +204,7 @@
             </ul>
           </div>
 
-          <div class="sponsers row silver">
+          <div class="sponsors row silver">
             <label>Silver Sponsorship</label>
             <ul class="row">
               <li class="col-2">
@@ -223,7 +223,7 @@
             </ul>
           </div>
 
-          <div class="sponsers row bronze">
+          <div class="sponsors row bronze">
             <label>Bronze Sponsorship</label>
             <ul class="row">
              <li class="col-2">
@@ -259,7 +259,7 @@
             </ul>
           </div>
 
-          <div class="sponsers row">
+          <div class="sponsors row">
             <label>Participated</label>
             <ul class="row">
              <li class="col-2">

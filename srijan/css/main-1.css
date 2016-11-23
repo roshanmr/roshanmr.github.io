@@ -1,0 +1,53 @@
+.page-fat-nav {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.page-fat-nav h2 {
+  color: #3c76e2;
+  font-weight: 100;
+}
+
+.page-fat-nav a {
+  color: #555;
+}
+
+.page-fat-nav nav {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.page-fat-nav a:hover {
+  color: #3c76e2;
+}
+
+.page-fat-nav .menu li {
+  display: block;
+}
+
+.page-fat-nav .menu li a {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.gray-bg {
+	background-color: #f3f3f3;
+}
+
+@media only screen and (max-width: 769px) {
+	.page-fat-nav {
+		-moz-flex-direction: column;
+		-webkit-flex-direction: column;
+		flex-direction: column;
+		padding-bottom: 0; 
+	}
+
+	.page-fat-nav .col-3,
+	.page-fat-nav .col-4 {
+		width: 100%;
+	}
+
+	.page-fat-nav .col-4 {
+		margin-bottom: 30px;
+	}
+}

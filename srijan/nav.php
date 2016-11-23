@@ -437,10 +437,8 @@
 
                                 </div>
                               </li>
-                              <li><a href="/contact">Contact <i class="fa fa-angle-down"></i></a>
-                                <div class="fat-nav">
-
-                                </div>
+                              <li><a href="/contact">Contact</a>
+                               
                               </li>
                             </ul>
                           </nav>

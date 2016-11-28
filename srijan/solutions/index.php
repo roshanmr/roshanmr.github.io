@@ -44,28 +44,7 @@
                   <p>Go from product idea to a prototype, swiftly, with Srijan’s Discovery Workshops.</p>
                 </div>
               </a>
-              <a href="performance-audit.php" class="cta-btn">Learn More <i class="fa fa-angle-right"></i></a>
-              <div class="pdf-download"> 
-                <span class="download-icon"><i class="fa fa-download"></i></span>
-                <figure class="pdf-thumb">
-                  <img src="/img/flyer.jpg" alt="">
-                </figure>
-                <div class="download-text">
-                  <p>Download a comprehensive document peformance audit</p>
-                </div>
-
-                <div class="download-form">
-                  <form action="#" class="validate-form download-form">
-                    <input type="email" id ="email" class="email" placeholder="Your E-Mail Address">
-                    <button class="disabled"><i class="fa fa-file-pdf-o"></i> Download PDF</button>
-                  </form>
-                  <div class="confirm-txt">
-                    <p>Thank you for downloading! We have sent the download link to your email.</p>
-                  </div>   
-                </div>
-
-              </div>
-              
+              <a href="performance-audit.php" class="cta-btn">Learn More <i class="fa fa-angle-right"></i></a>      
             </div>
           </div>
           <div class="col-4 item ">
@@ -83,31 +62,6 @@
                 </div>
               </a>
               <a href="performance-audit.php" class="cta-btn">Learn More <i class="fa fa-angle-right"></i></a>
-              <div class="pdf-download"> 
-                <span class="download-icon"><i class="fa fa-download"></i></span>
-                <figure class="pdf-thumb">
-                  <img src="/img/flyer.jpg" alt="">
-                </figure>
-                <div class="download-text">
-                  <p>Download a comprehensive document peformance audit</p>
-                </div>
-
-
-                <div class="download-form">
-                  <form action="#" class="validate-form download-form">
-                    <input type="email" id ="email" class="email error" placeholder="Your E-Mail Address">
-                    <div class="error-callout">
-                      <span>Please enter a valid E-mail Address</span>
-                    </div>
-                    <button class="disabled"><i class="fa fa-file-pdf-o"></i> Download PDF</button>
-                  </form>
-                  <div class="confirm-txt">
-                    <p>Thank you for downloading! We have sent the download link to your email.</p>
-                  </div>   
-                </div>
-
-              </div>
-
             </div>
           </div>
           <div class="col-4 item ">
@@ -125,26 +79,6 @@
                 </div>
               </a>
               <a href="performance-audit.php" class="cta-btn">Learn More <i class="fa fa-angle-right"></i></a>
-              <div class="pdf-download"> 
-                <span class="download-icon"><i class="fa fa-download"></i></span>
-                <figure class="pdf-thumb">
-                  <img src="/img/flyer.jpg" alt="">
-                </figure>
-                <div class="download-text">
-                  <p>Download a comprehensive document peformance audit</p>
-                </div>
-
-                <div class="download-form">
-                  <form action="#" class="validate-form download-form">
-                    <input type="email" id ="email" class="email" placeholder="Your E-Mail Address">
-                    <button class="disabled"><i class="fa fa-file-pdf-o"></i> Download PDF</button>
-                  </form>
-                  <div class="confirm-txt">
-                    <p>Thank you for downloading! We have sent the download link to your email.</p>
-                  </div>   
-                </div>
-
-              </div>
             </div>
           </div>
         </div>

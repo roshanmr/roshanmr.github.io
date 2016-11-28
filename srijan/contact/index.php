@@ -20,8 +20,12 @@
 		<?php include '../nav.php';?>
 
 		<section class="contact-page">
-			<div class="page-wrap">
-				<h2>Locate us at:</h2>
+			<div class="page-wrap row">
+			<aside class="process-nav col-4">
+            	<?php include 'side-form.php';?>
+          	</aside>
+			<div class="col-8 locate-us">
+				<h2>Locate us</h2>
 				<div class="area-wrap">
 				<h3>India</h3>
 				<div class="row location">
@@ -36,49 +40,40 @@
 					<div class="side-tabs tab-container col-8 row address">
 						<div class="tab-links col-4">
 							<ul>
-								<li class="tab-active"><a href="#nogo" rel="delhi">Delhi <span class="fa fa-angle-right"></span></a></li>
+								<li class="tab-active"><a href="#nogo" rel="delhi">Central Delhi <span class="fa fa-angle-right"></span></a></li>
 								<li><a href="#nogo" rel="bangalore">Bangalore <span class="fa fa-angle-right"></span></a></li>
 								<li><a href="#nogo" rel="goa">Goa <span class="fa fa-angle-right"></span></a></li>
 							</ul>
 						</div>
 
 						<div class="tab-content col-8">
-							<h2 rel="delhi" class="active">Delhi <span class="fa fa-plus"></span></h2>
+							<h2 rel="delhi" class="active">Central Delhi <span class="fa fa-plus"></span></h2>
 							<div id="delhi" class="row content-wrap active">
-							<div class="col-8 phy-address">
-								<h3>Central Delhi</h3>
+							<div class="phy-address">
+								<!-- <h3>Central Delhi</h3> -->
 								<p>8A, Vandana Building, 11- Tolstoy Marg, Connaught Place. New Delhi 110001, India </p>
 								<p>+91 11 40680241</p>
-								</div>
-								<div class="col-4 links">
 								<ul>
-									<li><a href="#nogo"><span class="fa fa-envelope"></span> Write to us</a></li>
 									<li><a href="https://goo.gl/maps/QDQtNMh84P62" target="_blank"><span class="fa fa-map-marker"></span> Map Location</a></li>
 								</ul>
 								</div>
 							</div>
 							<h2 rel="bangalore">Bangalore <span class="fa fa-plus"></span></h2>
 							<div id="bangalore" class="row content-wrap">
-							<div class="col-8 phy-address">
-								<h3>Bangalore</h3>
+							<div class="phy-address">
+								<!-- <h3>Bangalore</h3> -->
 								<p>204 Evoma Facilities, #88, Borewell Road, Whitefield, Bangalore, 560066</p>
-								</div>
-								<div class="col-4 links">
 								<ul>
-									<li><a href="#nogo"><span class="fa fa-envelope"></span> Write to us</a></li>
 									<li><a href="https://goo.gl/maps/aW4syxgAnar" target="_blank"><span class="fa fa-map-marker"></span> Map Location</a></li>
 								</ul>
 								</div>
 							</div>
 							<h2 rel="goa">Goa <span class="fa fa-plus"></span></h2>
 							<div id="goa" class="row content-wrap">
-							<div class="col-8 phy-address">
-								<h3>Goa</h3>
+							<div class="phy-address">
+								<!-- <h3>Goa</h3> -->
 								<p>759/38 Shanti Nagar, Alto Porvorim, Socorro, Goa - 403501</p>
-								</div>
-								<div class="col-4 links">
 								<ul>
-									<li><a href="#nogo"><span class="fa fa-envelope"></span> Write to us</a></li>
 									<li><a href="https://goo.gl/maps/fr7mDTJpx1A2" target="_blank"><span class="fa fa-map-marker"></span> Map Location</a></li>
 								</ul>
 								</div>
@@ -108,14 +103,11 @@
 						<div class="tab-content col-8">
 							<h2 rel="san-francisco" class="active">San Francisco <span class="fa fa-angle-right"></span></h2>
 							<div id="san-francisco" class="row content-wrap active">
-								<div class="col-8 phy-address">
-									<h3>San Francisco</h3>
+								<div class="phy-address">
+									<!-- <h3>San Francisco</h3> -->
 									<p>5112 Montiano Lane, Dublin, CA. 94568.</p>
 									<p>+91 11 40680241</p>
-								</div>
-								<div class="col-4 links">
 									<ul>
-										<li><a href="#nogo"><span class="fa fa-envelope"></span> Write to us</a></li>
 										<li><a href="#nogo"><span class="fa fa-map-marker"></span> Map Location</a></li>
 									</ul>
 								</div>
@@ -148,27 +140,22 @@
 						<div class="tab-content col-8">
 							<h2 rel="australia" class="active">Australia <span class="fa fa-plus"></span></h2>
 							<div id="australia" class="row content-wrap active">
-								<div class="col-8 phy-address">
-									<h3>Australia</h3>
+								<div class="phy-address">
+									<!-- <h3>Australia</h3> -->
 									<p>8A, Vandana Building, 11- Tolstoy Marg, Connaught Place. New Delhi 110001, India </p>
 									<p>+91 11 40680241</p>
-								</div>
-								<div class="col-4 links">
 									<ul>
-										<li><a href="#nogo"><span class="fa fa-envelope"></span> Write to us</a></li>
 										<li><a href="#nogo"><span class="fa fa-map-marker"></span> Map Location</a></li>
 									</ul>
 								</div>
 							</div>
 							<h2 rel="singapore">Singapore <span class="fa fa-plus"></span></h2>
 							<div id="singapore" class="row content-wrap">
-								<div class="col-8 phy-address">
-									<h3>Singapore</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsam nobis laudantium, tenetur dolorem, maiores obcaecati. Aperiam a laudantium, dolore, doloribus commodi officia.</p>
-								</div>
-								<div class="col-4 links">
+								<div class="phy-address">
+									<!-- <h3>Singapore</h3> -->
+									<p>5112 Montiano Lane, Dublin, CA. 94568.</p>
+									<p>+91 11 40680241</p>
 									<ul>
-										<li><a href="#nogo"><span class="fa fa-envelope"></span> Write to us</a></li>
 										<li><a href="#nogo"><span class="fa fa-map-marker"></span> Map Location</a></li>
 									</ul>
 								</div>
@@ -178,63 +165,10 @@
 
 				</div>
 				</div>
-
+			</div>
 
 			</div>
 		</section>
-
-
-
-		 <section class="page-wrap full-width contact-block grey-bg" id="writetous">
-			<header class="section-subheader">
-				<h2>Feel free to contact us</h2>
-			</header>
-
-			<div class="contact-form-wrap">
-				<form action="">
-					
-					<div class="row page-wrap">
-						<div class="col-6 field-set-col">
-							<div class="field-wrap">
-								<label for="">Your Name</label>
-								<div class="field">
-									<input type="text" placeholder="First &amp; Last Name" />
-								</div>
-							</div>
-
-							<div class="field-wrap">
-								<label for="">Contact Number</label>
-								<div class="field">
-									<input type="text" placeholder="Phone Number" />
-								</div>
-							</div>
-
-							<div class="field-wrap">
-								<label for="">E-Mail Address</label>
-								<div class="field">
-									<input type="text" placeholder="E-Mail Address" />
-								</div>
-							</div>
-
-						</div>
-
-						<div class="col-6 field-set-col">
-
-							<div class="field-wrap">
-								<label class="top-align" for="">How can we help you?</label>
-								<div class="field txtarea">
-									<textarea name="" id="" cols="50" rows="10"></textarea>
-								</div>
-							</div>
-
-						</div>
-
-					</div>
-					<button class="form-submit">Get in touch</button>
-				</form>
-			</div>
-		</section>
-
 
 		<?php include '../footer.php';?>
 

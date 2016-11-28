@@ -440,12 +440,22 @@ $(document).ready(function() {
         }, 1000);
     });
 
+    $(".thankyou-content a").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#subscribe").offset().top
+        }, 1000);
+    });
+
     $(".webinar-wrapper .about-speaker a").click(function() {
         $('html, body').animate({
             scrollTop: $("#webinar-form").offset().top
         }, 1000);
         $(this).parents(".page-wrap").find('.reg-form').addClass("focus");
     });
+
+
+
+    /* Accessibility */
 
     $('.top-band a.accessibility-btn').click(function() {
         $(this).parents('body').toggleClass('accessible');

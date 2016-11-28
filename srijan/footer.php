@@ -8,39 +8,12 @@
                     <i class="fa fa-phone"></i> +91 11 40680241
                 </p>
             </div>
-
-            <div class="address-block">
-                <h3><i class="fa fa-location"></i>Gurgaon</h3>
-                <p> Second Floor, Plot 121,
-                    Sector 44, Gurgaon,
-                    Haryana -​ 122003
-                </p>
+            <div class="location-map">
+            <img src="/img/contact-map.png">
             </div>
+            <a href="/contact" class="section-cta">Our Offices <i class="fa fa-angle-right"></i></a>
 
-            <div class="address-block">
-                <h3><i class="fa fa-location"></i>Goa</h3>
-                <p> 759/38 Shanti Nagar,
-                    Alto Porvorim, Socorro,
-                    Goa - 403501
-                </p>
-            </div>
-
-            <div class="address-block">
-                <h3><i class="fa fa-location"></i>Bangalore</h3>
-                <p> 204 Evoma Facilities,
-                    #88, Borewell Road, Whitefield, Bangalore,
-                    560066
-                </p>
-            </div>
-
-            <div class="address-block">
-                <h3><i class="fa fa-location"></i>San Francisco</h3>
-                <p>
-                    5112 Montiano Lane,
-                    Dublin,
-                    CA. 94568.
-                </p>
-            </div>
+            
         </div>
         <div class="col-4">
             <ul class="footer-nav">
@@ -74,7 +47,6 @@
                 <li><a href="/about">About Srijan</a></li>
                 <li><a href="/blog">Blog</a></li>
                 <li><a href="/careers">Careers</a></li>
-                <li><a href="/contact">Contact Us</a></li>
             </ul>
         </div>
     </div>
@@ -100,7 +72,7 @@
                 <h3>Subscribe to our newsletter</h3>
                 <div class="subscribe-form">
                     <div class="field-wrap">
-                        <input type="text" placeholder="Your E-Mail" />
+                        <input id="subscribe" type="text" placeholder="Your E-Mail" />
                         <button class="btn">Subscribe</button>
                     </div>
                 </div>

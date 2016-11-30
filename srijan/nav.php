@@ -36,7 +36,7 @@
               <li><a href="/about">About</a></li>
               <li><a href="/careers">Careers</a></li>
 
-              <li class="search"><form action="#">
+              <li class="search"><form action="/search.php">
                 <div class="search-bar">
                   <input type="text" class="keyword" placeholder="Search" />
                   <span class="search-icon"><i class="fa fa-search"></i></span>

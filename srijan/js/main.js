@@ -21,6 +21,41 @@
 
 $(document).ready(function() {
 
+	// START search page interactivity. 
+    
+    // search text field border 
+    function checkSearchFieldValue(){
+        var searchFieldText = $('.search-filter-wrap .input-search input[type="search"]').val().length;
+        if( searchFieldText > 0){
+            $('.search-filter-wrap .input-search input[type="search"]').css("border-color","rgb(245, 162, 68)");
+        } else {
+            $('.search-filter-wrap .input-search input[type="search"]').css("border-color","");
+        }
+    }
+
+    $('.search-filter-wrap .input-search').on('change', 'input', function(){
+        checkSearchFieldValue();
+    })
+
+    // on click show tag for filter search on search page 
+    $('#refineSearch li span').click(function(e){
+        $(this).parent().siblings().find('span').removeClass('collapse');
+        $(this).toggleClass('collapse');
+        $(this).parent().siblings().find('.refine-search-hover').hide();
+        $(this).siblings('.refine-search-hover').slideToggle(50);
+        e.stopPropagation();
+    })
+    $('.refine-search-hover').click(function(e){
+        e.stopPropagation();
+    })
+
+    $(document).click(function(){
+        $('.refine-search-hover').hide();
+        $('#refineSearch li span').removeClass('collapse');
+    })
+
+    // END search page interactivity.
+
 
     $(".side-tabs li a").click(function() {
         var aherf = $(this).attr("rel");

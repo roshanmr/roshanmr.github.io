@@ -22,25 +22,7 @@
 		<section class="thankyou-page">
 			<div class="page-wrap top row">
 				<figure class="envelop col-4">
-					<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-						 viewBox="0 0 308 284" style="enable-background:new 0 0 308 284;" xml:space="preserve">
-						<style type="text/css">
-							.st0{fill:#47709E;}
-							.st1{fill:#275075;}
-							.st2{fill:#f2a428;}
-							.st3{fill:#EBEBEB;}
-							.st4{fill:#D8D8D8;}
-						</style>
-						<g>
-							<path class="st0" d="M289,99l-122-74.2c-6.8-4.1-15.4-4.1-22.2,0L23,99l0,108.9h266L289,99z"/>
-							<path class="st1" d="M144.7,36.8c6.8-4.2,15.4-4.2,22.2,0L289,111l0-12L167,24.8c-6.8-4.1-15.4-4.1-22.2,0L23,99v11.5L144.7,36.8z"
-								/>
-							<polygon class="st2" points="243.5,249.5 53,249.5 53,55.5 260,71.5 	"/>
-							<polygon class="st3" points="23,261.5 23,99 152.3,192.6 	"/>
-							<polygon class="st3" points="289,261.5 289,99 159.6,192.6 	"/>
-							<polygon class="st4" points="155.8,185.5 23,261.5 289,261.5 	"/>
-						</g>
-					</svg>
+          <?php echo file_get_contents("icons/envelope.svg"); ?>
 				</figure>
 				<div class="content-wrap col-8">
 				<h2>Thank you for your interest.</h2>

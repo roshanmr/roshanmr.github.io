@@ -16,6 +16,7 @@
     <?php include 'nav.php';?>
     <header class="home-header page-header">
       <div class="parallax">
+        <img src="/img/page-bg.jpg" alt="">
       </div>
       <div class="slider-wrap hero-content">
         <ul class="home-slider">

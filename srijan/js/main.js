@@ -284,7 +284,6 @@ $(document).ready(function() {
 
     function checkWidth() {
         if (windowsize > 700) {
-            $('.home-header .parallax').html("<figure class='bg-video'><video src='/img/bg_1.mp4' autoplay loop> Sorry, your browser doesn't support embedded videos</video></figure>");
             $(window).on("scroll", function() {
                 var scroll = $(window).scrollTop();
                 if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {

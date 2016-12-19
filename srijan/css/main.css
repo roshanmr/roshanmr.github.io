@@ -2739,11 +2739,11 @@ div.cnvas-content {
 }
 
 .home-header.page-header .parallax {
-    background: #fff;
+    background: #000;
 }
 
 .home-header.page-header .parallax img {
-    opacity: 0.8;
+    opacity: 0.3;
 }
 
 .home-header h2 {
@@ -2766,7 +2766,6 @@ div.cnvas-content {
     margin-top: 20px;
     font-weight: 300;
     text-transform: capitalize;
-    letter-spacing: 2px;
 }
 
 .home-header h2 a {
@@ -3143,7 +3142,7 @@ figure {
 }
 
 .slider-wrap {
-    height: 640px;
+    height: 590px;
     position: relative;
     z-index: 10;
     max-width: 1080px;
@@ -3184,7 +3183,7 @@ figure {
     color: #f2a428;
     display: block;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 .home-slider .right .related-links li {
@@ -3213,7 +3212,7 @@ figure {
     width: calc(100% - 60px);
     vertical-align: top;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 500;
     color: #fff;
     margin: 0;
 }
@@ -7845,13 +7844,10 @@ body .top-banner .page-wrap {
         height: auto;
     }
     html {
-        width: 1440px;
         display: block;
         margin: 0 auto;
     }
     body {
-        border: 1px #ddd;
-        border-style: solid solid none solid;
         height: 100%;
     }
     .page-nav.fixed {
@@ -8397,8 +8393,6 @@ body .top-banner .page-wrap {
         display: block;
     }
     .home-header {
-        background: url('../img/header-bg.jpg') no-repeat;
-        background-size: cover cover;
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -8692,7 +8686,7 @@ body .top-banner .page-wrap {
     }
     .bx-wrapper .bx-pager,
     .bx-wrapper .bx-controls-auto {
-        bottom: -40px;
+        bottom: -20px;
     }
     .home-header h2 span {
         font-size: 14px;

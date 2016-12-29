@@ -365,7 +365,7 @@
                 </div>
               </div>
             </div>
-            <a href="#" class="section-cta">Learn more about our process <i class="fa fa-chevron-right"></i></a>
+            <a href="#" class="section-cta">Learn more about our process <i class="fa fa-angle-right"></i></a>
           </section>
           <section class="page-wrap guttered case-study animate">
             <header class="section-subheader">

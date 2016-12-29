@@ -132,11 +132,11 @@
                   <ul class="menu">
                     <li><a href="#">
                       <i class="fa fa-caret-right"></i>
-                      Drupal Solutions</a>
+                      Drupal Development</a>
                     </li>
                     <li><a href="#">
                       <i class="fa fa-caret-right"></i>
-                      Drupal Rehab</a>
+                      Drupal Migration</a>
                     </li>
 
                     <li><a href="#">
@@ -146,7 +146,7 @@
 
                     <li><a href="#">
                       <i class="fa fa-caret-right"></i>
-                      Drupal Contributions</a>
+                      Drupal Give</a>
                     </li>
                   </ul>
                 </div>

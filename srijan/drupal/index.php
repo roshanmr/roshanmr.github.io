@@ -209,7 +209,7 @@
                 <span class="icon">
                   <?php echo file_get_contents("../icons/drupal-camp.svg"); ?>
                 </span>
-                <h2>Organizer of DCD</h2>
+                <h2>Active Supporters</h2>
                 </header>
                 <div class="intro-txt">
                   <p>Learn more about our Agile development and engagement model and Scrum teams.</p>

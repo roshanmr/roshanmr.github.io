@@ -38,21 +38,27 @@ $(document).ready(function() {
     })
 
     // on click show tag for filter search on search page 
-    $('#refineSearch li span').click(function(e){
-        $(this).parent().siblings().find('span').removeClass('collapse');
-        $(this).toggleClass('collapse');
-        $(this).parent().siblings().find('.refine-search-hover').hide();
-        $(this).siblings('.refine-search-hover').slideToggle(50);
-        e.stopPropagation();
-    })
-    $('.refine-search-hover').click(function(e){
-        e.stopPropagation();
-    })
+    if ($(window).width() > 768) {
+        $('#refineSearch li span').click(function(e){
+            $(this).parent().siblings().find('span').removeClass('collapse');
+            $(this).toggleClass('collapse');
+            $(this).siblings('.refine-search-hover').toggleClass('active');
+            e.stopPropagation();
+        })
+        $('.refine-search-hover').click(function(e){
+            e.stopPropagation();
+        });
+    }
+    
+    // filter button
 
-    $(document).click(function(){
-        $('.refine-search-hover').hide();
-        $('#refineSearch li span').removeClass('collapse');
-    })
+    $('.search-result-wrap .filter-btn a').click(function(){
+        $(this).parents('.search-result-wrap').find('.refine-search').addClass('active');
+    });
+
+    $('.refine-search .filter-back').click(function(){
+        $(this).parent().removeClass('active');
+    });
 
     // END search page interactivity.
 
@@ -111,16 +117,30 @@ $(document).ready(function() {
         body = $('body'),
         offCanvas = $('.off-canvas');
 
-    $(navTrigger).click(function(e) {
+    navTrigger.click(function(e) {
         e.preventDefault();
         $('body').toggleClass('reveal-nav').toggleClass('fixednav');
-        $(navPanel).toggleClass('show');
+        navPanel.toggleClass('show');
 
-        $(this).delay(400).queue(function() {
+        $(this).delay(300).queue(function() {
             $(this).toggleClass('active');
             $(this).dequeue();
         });
+        $(this).parents('.canvas').toggleClass('fixed');
+        e.stopPropagation();
     });
+
+    if ($(window).width() < 960) {
+        $(document).click(function(){
+            $(this).find('.off-canvas').removeClass('show');
+            $(this).find('body').removeClass('reveal-nav fixednav');
+            $(this).find('.canvas .mobile-nav').removeClass('active');
+            $(this).find('.canvas').removeClass('fixed');
+        });
+        navPanel.click(function(e){
+            e.stopPropagation();
+        })
+    }
 
     $(window).bind('scroll', function() {
         didScroll = true;

@@ -120,13 +120,13 @@
 
           </div>
 
-          <!-- <a href="listing.php" class="section-cta">View All Past Webinars <i class="fa fa-angle-right"></i></a> -->
+          <a href="past-webinar.php" class="section-cta">View All Past Webinars <i class="fa fa-angle-right"></i></a>
 
 
         </div>
       </section>
 
-      <section class="content-block">
+      <!-- <section class="content-block">
         <header class="section-subheader">
           <h2>Past Webinars</h2>
         </header>
@@ -204,9 +204,9 @@
             </div>
           </div>
 
-          <a href="past-webinar.php" class="section-cta">View All Past Webinars <i class="fa fa-angle-right"></i></a>
+          
         </div>
-      </section>
+      </section> -->
 
 
       <section class="become-speaker content-block bottom-float">

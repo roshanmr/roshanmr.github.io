@@ -20,26 +20,115 @@
       <?php include 'nav.php';?>
       <div class="page-wrap search-page-content">
 
-        <!-- filter & search input block -->      
+        <!-- search input block -->      
         <div class="row search-filter-wrap">
-          <div class="col-5-half input-search">
+          <div class="col-12 input-search">
+          <span class="fix-label">Showing 19 results for</span>
             <input type="search" value="Drupal Hosting" placeholder="Search">
             <a href="#nogo"><span class="fa fa-search"></span></a>
           </div>
-          <div class="col-5-half refine-search">
-            <h3>refine search by : </h3>
+
+        </div>
+        <!-- result & related search -->
+        <div class="row search-result-wrap">
+        <span class="filter-btn"><a href="#nogo"><i class="fa fa-filter"></i> Filter(2)</a></span>
+          <div class="col-8-half search-result-block">
+            <div class="items">
+              <!-- iterable item -->
+              <div class="item">
+                <span class="tag"><i class="fa fa-lightbulb-o"></i> Case Studies</span>
+                <h3><a href="#">Online Lead Generation on New Drupal Website for TUI India</a></h3>
+                <p>Drupal website development with upgraded UX and multiple functionalities and integrations improves customer experience and simplifies lead capturing.</p>
+              </div>
+              <!-- END iterable item -->
+
+              <!-- remove this item -->
+              <div class="item">
+                <span class="tag"><i class="fa fa-align-left"></i> blog</span>
+                <h3><a href="#">First Agile and Scrum Meetup at Srijan Goa</a></h3>
+                <p>Sumeet Gupta | 7 months ago </p>
+              </div>
+              <!-- END remove this item -->
+              <!-- remove this item -->
+              <div class="item">
+                <span class="tag"><i class="fa fa-youtube-play"></i> webinar</span>
+                <h3><a href="#">Ruling Drupal 8 with #D8rules</a></h3>
+                <p>Learn how Drupal 8 rules can help you automate powerful backend capabilities</p>
+              </div>
+              <!-- END remove this item -->
+              <!-- iterable item -->
+              <div class="item">
+                <span class="tag"><i class="fa fa-key"></i> Solutions</span>
+                <h3><a href="#">Continuous Development: Ensuring Dedicated Support &amp; Maintenance on
+  Flexible Budgets</a></h3>
+                <p>Media and Entertainment Drupal Hosting</p>
+              </div>
+              <!-- END iterable item -->              
+              <!-- remove this item -->
+              <div class="item">
+                <span class="tag"><i class="fa fa-youtube-play"></i> webinar</span>
+                <h3><a href="#">Continuous Development: Ensuring Dedicated Support &amp; Maintenance on
+  Flexible Budgets</a></h3>
+                <p>Media and Entertainment Drupal Hosting</p>
+              </div>
+              <!-- END remove this item -->
+              <!-- iterable item -->
+              <div class="item">
+                <span class="tag"><i class="fa fa-laptop"></i> Technologies</span>
+                <h3><a href="#">Continuous Development: Ensuring Dedicated Support &amp; Maintenance on
+  Flexible Budgets</a></h3>
+                <p>Media and Entertainment Drupal Hosting</p>
+              </div>
+              <!-- END iterable item -->
+
+              <!-- remove this item -->
+              <div class="item">
+                <span class="tag"><i class="fa fa-align-left"></i> blog</span>
+                <h3><a href="#">Continuous Development: Ensuring Dedicated Support &amp; Maintenance on
+  Flexible Budgets</a></h3>
+                <p>Media and Entertainment Drupal Hosting</p>
+              </div>
+              <!-- END remove this item -->
+              <!-- remove this item -->
+              <div class="item">
+                <span class="tag"><i class="fa fa-youtube-play"></i> webinar</span>
+                <h3><a href="#">Continuous Development: Ensuring Dedicated Support &amp; Maintenance on
+  Flexible Budgets</a></h3>
+                <p>Media and Entertainment Drupal Hosting</p>
+              </div>
+              <!-- END remove this item -->
+            </div>
+            <ul class="pagination">
+              <li class="active"><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">5</a></li>
+              <li><a href="#">6</a></li>
+              <li><a href="#">7</a></li>
+              <li><a href="#">8</a></li>
+              <li><a href="#">9</a></li>
+              <li><a href="#">10</a></li>
+              <li><a href="#">..</a></li>
+              <li><a href="#">15</a></li>
+              <li><a href="#">..</a></li>
+              <li><a href="#">Next <i class="fa fa-angle-right"></i></a></li>
+              <li><a href="#">Last <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a></li>
+            </ul>
+          </div>
+
+          <!-- right side bar -->
+          <aside class="col-3 right-sidebar refine-search">
+          <a class="filter-back" href="#nogo"><i class="fa fa-angle-left"></i> Back</a>
             <ul class="row" id="refineSearch">
               <li>
-                <span>industry</span>
-                <div class="refine-search-hover refine-industry">
-                  <input type="checkbox" id="searchAny" name="refineSearch">
-                  <label for="searchAny">any</label>
-
-                  <input type="checkbox" id="searchretail" name="refineSearch">
+                <span>Filter by industry</span>
+                <div class="refine-search-hover">
+                  <input type="checkbox" id="searchretail" name="refineSearch" checked>
                   <label for="searchretail">retail</label>
 
-                  <input type="checkbox" id="searchTelecommunications" name="refineSearch" checked="checked">
-                  <label for="searchTelecommunications">telecommunications</label>
+                  <input type="checkbox" id="searchmedia" name="refineSearch" checked>
+                  <label for="searchmedia">media</label>
 
                   <input type="checkbox" id="searchNonprofit" name="refineSearch">
                   <label for="searchNonprofit">non profit</label>
@@ -47,147 +136,34 @@
                   <input type="checkbox" id="searchLegal" name="refineSearch">
                   <label for="searchLegal">legal</label>
 
-                  <input type="checkbox" id="searchEstate" name="refineSearch">
-                  <label for="searchEstate">real estate &amp; construction</label>
-
-                  <input type="checkbox" id="searchManufacturing" name="">
-                  <label for="searchManufacturing">manufacturing</label>
-
                   <input type="checkbox" id="searchEduction" name="refineSearch">
                   <label for="searchEduction">eduction</label>
-
-                  <input type="checkbox" id="searchTravel" name="refineSearch">
-                  <label for="searchTravel">travel</label>
-
-                  <input type="checkbox" id="searchConsumerservices" name="refineSearch">
-                  <label for="searchConsumerservices">consumer services</label>
                 </div>
               </li>
               <li>
-                <span>services &amp; products</span>
-                <div class="refine-search-hover refine-services">
+                <span>Filter by Content Type</span>
+                <div class="refine-search-hover">
                   <input type="checkbox" id="serviceslorem1" name="refineServices">
-                  <label for="serviceslorem1">lorem ispum</label>
+                  <label for="serviceslorem1">case studies</label>
                   <input type="checkbox" id="serviceslorem2" name="refineServices">
-                  <label for="serviceslorem2">lorem ispum</label>
+                  <label for="serviceslorem2">Blog</label>
                   <input type="checkbox" id="serviceslorem3" name="refineServices">
-                  <label for="serviceslorem3">lorem ispum</label>
-                </div>
-              </li>
-
-              <li>
-                <span>content type</span>
-                <div class="refine-search-hover refine-content">
-                  <input type="checkbox" id="serviceslorem4" name="refineContent">
-                  <label for="serviceslorem4">lorem ispum</label>
-                  <input type="checkbox" id="serviceslorem5" name="refineContent">
-                  <label for="serviceslorem5">lorem ispum</label>
-                  <input type="checkbox" id="serviceslorem6" name="refineContent">
-                  <label for="serviceslorem6">lorem ispum</label>
+                  <label for="serviceslorem3">thought articles</label>
+                  <input type="checkbox" id="serviceslorem4" name="refineServices">
+                  <label for="serviceslorem4">Webinars</label>
+                  <input type="checkbox" id="serviceslorem5" name="refineServices">
+                  <label for="serviceslorem5">Process</label>
+                  <input type="checkbox" id="serviceslorem6" name="refineServices">
+                  <label for="serviceslorem6">Technology</label>
+                  <input type="checkbox" id="serviceslorem7" name="refineServices">
+                  <label for="serviceslorem7">solutions</label>
                 </div>
               </li>
             </ul>
-            
-          </div>
-
-        </div>
-        <!-- result & related search -->
-        <div class="row search-result-wrap">
-          <div class="col-8-half search-result-block">
-            <div class="search-count">
-              <p>Showing result for <strong>"Drupal Hosting"</strong> <span>(19 results)</span></p>
+            <div class="filter-btn-wrap">
+              <a class="apply" href="#nogo">Apply (2)</a>
+              <a class="reset" href="#nogo">Reset</a>
             </div>
-            <div class="items">
-              <!-- iterable item -->
-              <div class="item">
-                <span class="tag success-stroies">success stories</span>
-                <h3><a href="#">Continuous Development: Ensuring Dedicated Support &amp; Maintenance on
-  Flexible Budgets</a></h3>
-                <p>Media and Entertainment Drupal Hosting</p>
-              </div>
-              <!-- END iterable item -->
-
-              <!-- remove this item -->
-              <div class="item">
-                <span class="tag blog">blog</span>
-                <h3><a href="#">Continuous Development: Ensuring Dedicated Support &amp; Maintenance on
-  Flexible Budgets</a></h3>
-                <p>Media and Entertainment Drupal Hosting</p>
-              </div>
-              <!-- END remove this item -->
-              <!-- remove this item -->
-              <div class="item">
-                <span class="tag webinar">webinar</span>
-                <h3><a href="#">Continuous Development: Ensuring Dedicated Support &amp; Maintenance on
-  Flexible Budgets</a></h3>
-                <p>Media and Entertainment Drupal Hosting</p>
-              </div>
-              <!-- END remove this item -->
-              <!-- iterable item -->
-              <div class="item">
-                <span class="tag success-stroies">success stories</span>
-                <h3><a href="#">Continuous Development: Ensuring Dedicated Support &amp; Maintenance on
-  Flexible Budgets</a></h3>
-                <p>Media and Entertainment Drupal Hosting</p>
-              </div>
-              <!-- END iterable item -->
-
-              <!-- remove this item -->
-              <div class="item">
-                <span class="tag blog">blog</span>
-                <h3><a href="#">Continuous Development: Ensuring Dedicated Support &amp; Maintenance on
-  Flexible Budgets</a></h3>
-                <p>Media and Entertainment Drupal Hosting</p>
-              </div>
-              <!-- END remove this item -->
-              <!-- remove this item -->
-              <div class="item">
-                <span class="tag webinar">webinar</span>
-                <h3><a href="#">Continuous Development: Ensuring Dedicated Support &amp; Maintenance on
-  Flexible Budgets</a></h3>
-                <p>Media and Entertainment Drupal Hosting</p>
-              </div>
-              <!-- END remove this item -->
-              <!-- iterable item -->
-              <div class="item">
-                <span class="tag success-stroies">success stories</span>
-                <h3><a href="#">Continuous Development: Ensuring Dedicated Support &amp; Maintenance on
-  Flexible Budgets</a></h3>
-                <p>Media and Entertainment Drupal Hosting</p>
-              </div>
-              <!-- END iterable item -->
-
-              <!-- remove this item -->
-              <div class="item">
-                <span class="tag blog">blog</span>
-                <h3><a href="#">Continuous Development: Ensuring Dedicated Support &amp; Maintenance on
-  Flexible Budgets</a></h3>
-                <p>Media and Entertainment Drupal Hosting</p>
-              </div>
-              <!-- END remove this item -->
-              <!-- remove this item -->
-              <div class="item">
-                <span class="tag webinar">webinar</span>
-                <h3><a href="#">Continuous Development: Ensuring Dedicated Support &amp; Maintenance on
-  Flexible Budgets</a></h3>
-                <p>Media and Entertainment Drupal Hosting</p>
-              </div>
-              <!-- END remove this item -->
-
-
-            </div>
-          </div>
-
-          <!-- right side bar -->
-          <aside class="col-3 right-sidebar">
-            <h2>Related Search</h2>
-            <ul>
-              <li><a href="#">Drupal Hosting</a></li>
-              <li><a href="#">Drupal Development &amp; Rescue</a></li>
-              <li><a href="#">Drupal Migration</a></li>
-              <li><a href="#">Drupal Responsive Design</a></li>
-              <li><a href="#">Drupal Support</a></li>
-            </ul>
           </aside>
         </div>
 

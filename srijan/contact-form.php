@@ -1,6 +1,6 @@
  <section class="page-wrap full-width contact-block grey-bg">
 	<header class="section-subheader">
-		<h2>Are we a good fit for you?</h2>
+		<h2>Request a proposal</h2>
 	</header>
 
 	<div class="contact-form-wrap">

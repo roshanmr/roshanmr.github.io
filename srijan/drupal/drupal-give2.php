@@ -24,7 +24,9 @@
           <h2>Drupal <span class="bold-txt">Contribution</span></h2>
           <p>Srijan has always believed in contributing to the Drupal community. For Drupal 8, Srijan has put in efforts to contribute, both in terms of code, as well as mentoring code sprints. Our developers have more than 262 commit mentions in resolving critical issues of Drupal 8. In Drupal 7, we made 1000+ commits, and designed a light weight responsive theme, with modern look and feel, named Insha. We have helped organize code sprints in Srijan, and have also been mentors at Drupal Camp Delhi 2015 and many other events.</p>
 
-        <div class="row item-listing">
+       <!-- other option -->
+
+        <div class="row item-listing animated">
           <div class="col-2 item bold">
             <div class="item-wrap">
                 <header>
@@ -45,52 +47,40 @@
                 </div>
             </div>
           </div>
-          <div class="col-2 item ">
+          <div class="col-2 item bold">
             <div class="item-wrap">
                 <header>
-                  <h2><i class="fa fa-drupal"></i> 262(~6)</h2>
-                  <h2><i class="fa">
-                    <?php echo file_get_contents("../icons/drupal.svg"); ?>
-                  </i> 122(~3)</h2>
+                  <h2>262(~6)</h2>
                 </header>
                 <div class="intro-txt">
                   <p>Mentions in resolving critical issues</p>
                 </div>
             </div>
           </div>
-          <div class="col-2 item ">
+          <div class="col-2 item bold">
             <div class="item-wrap">
                 <header>
-                  <h2><i class="fa fa-drupal"></i> 1000+</h2>
-                  <h2><i class="fa">
-                    <?php echo file_get_contents("../icons/drupal.svg"); ?>
-                  </i> 234+</h2>
+                  <h2>1000+</h2>
                 </header>
                 <div class="intro-txt">
                   <p>Total Commits to Drupal</p>
                 </div>   
             </div>
           </div>
-          <div class="col-2 item ">
+          <div class="col-2 item bold">
             <div class="item-wrap">
                 <header>
-                  <h2><i class="fa fa-drupal"></i> 39</h2>
-                  <h2><i class="fa">
-                    <?php echo file_get_contents("../icons/drupal.svg"); ?>
-                  </i> 24</h2>
+                  <h2>39</h2>
                 </header>
                 <div class="intro-txt">
                   <p>issues fixed in past 3 months</p>
                 </div>
             </div>
           </div>
-          <div class="col-2 item ">
+          <div class="col-2 item bold">
             <div class="item-wrap">
                 <header>
-                  <h2><i class="fa fa-drupal"></i> 51</h2>
-                  <h2><i class="fa">
-                    <?php echo file_get_contents("../icons/drupal.svg"); ?>
-                  </i> 22</h2>
+                  <h2>51</h2>
                 </header>
                 <div class="intro-txt">
                   <p>Contributors to DrupalCore</p>
@@ -98,6 +88,7 @@
             </div>
           </div>
         </div>
+
           
         </div>
       </section>
@@ -127,6 +118,23 @@
             </div>            
           </div>
           <a href="#" class="section-cta">View More Talks <i class="fa fa-chevron-right"></i></a>
+          <!-- <ul class="row">
+            <li class="col-3">
+             <figure>
+               <img src="../img/shyamala.png" alt="Image of Megan Sanicki">
+             </figure>
+             <h4>Shyamala Rajaram</h4>
+             <span>Keynote at DCD <i class="bold-txt">2016</i></span>
+            </li>
+
+            <li class="col-3">
+             <figure>
+               <img src="../img/megan-sanicki.jpg" alt="Image of Megan Sanicki">
+             </figure>
+             <h4>Megan Sanici</h4>
+             <span>Keynote at DCD <i class="bold-txt">2015</i></span>
+            </li>
+          </ul> -->
         </div>
       </section>
 

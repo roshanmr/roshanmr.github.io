@@ -26,20 +26,22 @@
 
        <!-- other option -->
 
-        <div class="row item-listing animated">
-          <div class="col-2 item bold">
+        <div class="row item-listing new">
+          <div class="col-3 item bold">
             <div class="item-wrap">
                 <header>
+                <span class="icon"><i class="fa fa-line-chart"></i></span>
                   <h2>22<sup>nd</sup></h2>
                 </header>
                 <div class="intro-txt">
-                  <p>Position at Drupal.org</p>
+                  <p>Rank at D.O</p>
                 </div>   
             </div>
           </div>
-          <div class="col-2 item bold">
+          <div class="col-3 item bold">
             <div class="item-wrap">
                 <header>
+                <span class="icon"><i class="fa fa-file-text-o"></i></span>
                   <h2>2</h2>
                 </header>
                 <div class="intro-txt">
@@ -47,43 +49,58 @@
                 </div>
             </div>
           </div>
-          <div class="col-2 item bold">
+          <div class="col-3 item bold">
             <div class="item-wrap">
                 <header>
-                  <h2>262(~6)</h2>
+                <span class="icon"><i class="fa fa-hashtag"></i></span>
+                  <h2>65</h2>
                 </header>
                 <div class="intro-txt">
-                  <p>Mentions in resolving critical issues</p>
+                  <p>Acquia Certified Engineers</p>
                 </div>
             </div>
           </div>
-          <div class="col-2 item bold">
+        </div>
+        <div class="row item-listing new">
+          <div class="col-3 item ">
             <div class="item-wrap">
                 <header>
-                  <h2>1000+</h2>
+                <span class="icon"><i class="fa fa-code-fork"></i></span>
+                  <h2><i class="fa fa-drupal"></i> 1000+</h2>
+                  <h2><i class="fa">
+                    <?php echo file_get_contents("../icons/drupal.svg"); ?>
+                  </i> 234+</h2>
                 </header>
                 <div class="intro-txt">
-                  <p>Total Commits to Drupal</p>
+                  <p>Total Commits</p>
                 </div>   
             </div>
           </div>
-          <div class="col-2 item bold">
+          <div class="col-3 item ">
             <div class="item-wrap">
                 <header>
-                  <h2>39</h2>
+                <span class="icon"><i class="fa fa-bug"></i></span>
+                  <h2><i class="fa fa-drupal"></i> 39</h2>
+                  <h2><i class="fa">
+                    <?php echo file_get_contents("../icons/drupal.svg"); ?>
+                  </i> 24</h2>
                 </header>
                 <div class="intro-txt">
-                  <p>issues fixed in past 3 months</p>
+                  <p>Issues Fixed</p>
                 </div>
             </div>
           </div>
-          <div class="col-2 item bold">
+          <div class="col-3 item ">
             <div class="item-wrap">
                 <header>
-                  <h2>51</h2>
+                <span class="icon"><i class="fa fa-puzzle-piece"></i></span>
+                  <h2><i class="fa fa-drupal"></i> 51</h2>
+                  <h2><i class="fa">
+                    <?php echo file_get_contents("../icons/drupal.svg"); ?>
+                  </i> 22</h2>
                 </header>
                 <div class="intro-txt">
-                  <p>Contributors to DrupalCore</p>
+                  <p>Contributors</p>
                 </div>
             </div>
           </div>

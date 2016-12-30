@@ -23,80 +23,59 @@
         <div class="page-wrap drupal-contributor">
           <h2>Drupal <span class="bold-txt">Contribution</span></h2>
           <p>Srijan has always believed in contributing to the Drupal community. For Drupal 8, Srijan has put in efforts to contribute, both in terms of code, as well as mentoring code sprints. Our developers have more than 262 commit mentions in resolving critical issues of Drupal 8. In Drupal 7, we made 1000+ commits, and designed a light weight responsive theme, with modern look and feel, named Insha. We have helped organize code sprints in Srijan, and have also been mentors at Drupal Camp Delhi 2015 and many other events.</p>
+          
+        <span class="rank"><i class="fa fa-line-chart"></i> 22<sup>nd</sup> Position at Drupal.org</span>
 
-        <div class="row item-listing">
-          <div class="col-2 item bold">
-            <div class="item-wrap">
-                <header>
-                  <h2>22<sup>nd</sup></h2>
-                </header>
-                <div class="intro-txt">
-                  <p>Rank at D.O</p>
-                </div>   
-            </div>
-          </div>
-          <div class="col-2 item bold">
-            <div class="item-wrap">
-                <header>
-                  <h2>2</h2>
-                </header>
-                <div class="intro-txt">
-                  <p>Case Studies</p>
-                </div>
-            </div>
-          </div>
-          <div class="col-2 item ">
-            <div class="item-wrap">
-                <header>
-                  <h2><i class="fa fa-drupal"></i> 262(~6)</h2>
-                  <h2><i class="fa">
-                    <?php echo file_get_contents("../icons/drupal.svg"); ?>
-                  </i> 122(~3)</h2>
-                </header>
-                <div class="intro-txt">
-                  <p>Mentions</p>
-                </div>
-            </div>
-          </div>
-          <div class="col-2 item ">
-            <div class="item-wrap">
-                <header>
-                  <h2><i class="fa fa-drupal"></i> 1000+</h2>
-                  <h2><i class="fa">
-                    <?php echo file_get_contents("../icons/drupal.svg"); ?>
-                  </i> 234+</h2>
-                </header>
-                <div class="intro-txt">
-                  <p>Total Commits</p>
-                </div>   
-            </div>
-          </div>
-          <div class="col-2 item ">
-            <div class="item-wrap">
-                <header>
-                  <h2><i class="fa fa-drupal"></i> 39</h2>
-                  <h2><i class="fa">
-                    <?php echo file_get_contents("../icons/drupal.svg"); ?>
-                  </i> 24</h2>
-                </header>
-                <div class="intro-txt">
-                  <p>Issues Fixed</p>
-                </div>
-            </div>
-          </div>
-          <div class="col-2 item ">
-            <div class="item-wrap">
-                <header>
-                  <h2><i class="fa fa-drupal"></i> 51</h2>
-                  <h2><i class="fa">
-                    <?php echo file_get_contents("../icons/drupal.svg"); ?>
-                  </i> 22</h2>
-                </header>
-                <div class="intro-txt">
-                  <p>Contributors</p>
-                </div>
-            </div>
-          </div>
+        <div class="sponsors stats d7">
+          <label>Drupal 7</label>
+          <ul class="row">
+            <li class="col-3 red">
+                <i class="col-3 fa fa-hashtag"></i>
+                <h2>262</h2>
+                <span>Mentions</span>
+            </li>
+            <li class="col-3 purple">
+                <i class="col-3 fa fa-code-fork"></i>
+                <h2>1000+</h2>
+                <span>Total Commits</span>
+            </li>
+            <li class="col-3 green">
+                <i class="col-3 fa fa-bug"></i>
+                <h2>39</h2>
+                <span>Issues Fixed</span>
+            </li>
+            <li class="col-3 blue">
+                <i class="col-3 fa fa-puzzle-piece"></i>
+                <h2>51</h2>
+                <span>Contributors</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="sponsors stats d8">
+          <label>Drupal 8</label>
+          <ul class="row">
+            <li class="col-3 orange">
+                <i class="col-3 fa fa-hashtag"></i>
+                <h2>122</h2>
+                <span>Mentions</span>
+            </li>
+            <li class="col-3 green">
+                <i class="col-3 fa fa-code-fork"></i>
+                <h2>234+</h2>
+                <span>Total Commits</span>
+            </li>
+            <li class="col-3 turquoise">
+                <i class="col-3 fa fa-bug"></i>
+                <h2>24</h2>
+                <span>Issues Fixed</span>
+            </li>
+            <li class="col-3 purple">
+                <i class="col-3 fa fa-puzzle-piece"></i>
+                <h2>22</h2>
+                <span>Contributors</span>
+            </li>
+          </ul>
         </div>
           
         </div>
@@ -126,7 +105,7 @@
               </div>
             </div>            
           </div>
-          <a href="talks.php" class="section-cta">View More Talks <i class="fa fa-chevron-right"></i></a>
+          <a href="#" class="section-cta">View More Talks <i class="fa fa-chevron-right"></i></a>
         </div>
       </section>
 
@@ -240,6 +219,27 @@
         </div>
         
       </section>
+          
+
+      <section class="testimonial-cta">
+        <img src="/img/testimonial.jpg" alt="" class="testimonial-bg">
+        <div class="testimonial page-wrap">
+          <blockquote class="testimonial-text">
+            <span class="quote-icon"><i class="fa fa-quote-left"></i></span>
+            <p>One of the biggest challenges we faced prior to contracting with Srijan was fixing one feature in TCRO2 would break two others. This put us in a vicious cycle where we could never move to the next level of feature set. The development and testing process at Srijan allowed us to come out of this, as existing features continued to work well along with new or improved features. So from a functional perspective – great development work.</p>
+          </blockquote>
+          <div class="client-author">
+            <figure class="author-img">
+              <img src="../img/steve2.jpg" alt="steve">
+            </figure>
+            <div class="author-info">
+              <strong>Steve Townsend</strong>
+              <em>CEO, AVTranz</em>
+            </div>
+          </div>
+        </div>
+      </section>
+
 
     </main>
 

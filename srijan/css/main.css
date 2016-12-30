@@ -7159,6 +7159,39 @@ body .top-banner .page-wrap {
     flex-direction: column;
 }
 
+.drupal-contributor .item-listing.new .item .item-wrap header {
+	border: 0;
+	padding: 0;
+	width: auto;
+	height: auto;
+	padding-top: 20px;
+	flex-direction: row;
+}
+
+.drupal-contributor .item-listing.final .item .item-wrap header {
+	border: 0;
+	padding: 0;
+	padding-top: 30px;
+	width: auto;
+	height: auto;
+}
+
+.drupal-contributor .item-listing.new .item h2 {
+	width: 49%;
+}
+
+.drupal-contributor .item-listing .item-wrap .icon {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    top: -50px;
+    left: 55%;
+}
+
 .drupal-contributor .item-listing .item h2 {
 	margin: 0;
 	padding-bottom: 5px;
@@ -7181,6 +7214,7 @@ body .top-banner .page-wrap {
 	margin: 0;
 	padding-top: 15px;
 	font-weight: 400;
+	font-size: 20px;
 }
 
 .page-wrap .item-listing:nth-child(odd) .item:nth-child(5) {
@@ -7241,125 +7275,76 @@ body .top-banner .page-wrap {
 	border-color: #79dec3;
 }
 
-.drupal-contributor .stats {
-	justify-content: space-around;
+.drupal-contributor .rank {
+	font-size: 30px;
+    color: #284d8d;
+    display: flex;
+    font-weight: 500;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.drupal-contributor .rank i {
+	font-size: 60px;
+    padding-right: 20px;
+    color: #f2a428;
+}
+
+.drupal-contributor .rank i sup {
+	padding-right: 8px;
 }
 
 .drupal-contributor .stats li {
-	padding: 40px 20px;
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-    min-height: 160px;
-    box-sizing: border-box;
+	text-align: center;
+    padding: 0 10px;
+}
+
+.drupal-contributor .stats h2 {
+	font-weight: bold;
+    margin-bottom: 0;
+    padding-top: 10px;
+}
+
+.drupal-contributor .stats span {
+	box-sizing: border-box;
+    font-size: 18px;
+    padding: 0;
+}
+
+.drupal-contributor .stats li i {
+	width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #284d8d;
+    color: #fff;
+    display: inline-flex;
+    font-size: 30px;
     align-items: center;
-    border: 1px solid #ddd;
-    transition: 0.2s ease-in-out;
-}
-.drupal-contributor .stats li:hover {
-	background: #f1f1f1;
+    justify-content: center;
 }
 
-.drupal-contributor .stats li .info {
-	width: 70%;
-    z-index: 2;
-    text-align: left;
-    padding-left: 30%;
+.drupal-contributor .stats li.green i {
+	background: #a5d449;
 }
 
-.drupal-contributor .stats li .info i {
-	width: 49%;
-	display: inline-block;
-	line-height: normal;
-    padding: 5px 0;
+.drupal-contributor .stats li.turquoise i {
+	background: #79dec3;
 }
 
-.drupal-contributor .stats li .info i em.fa {
-	color: #0077c0;
-	width: 18px;
-	font-size: 22px;
-    padding-right: 5px;
+.drupal-contributor .stats li.red i {
+	background: #f07a7a;
 }
 
-.drupal-contributor .stats li span {
-	display: inline-block;
+.drupal-contributor .stats li.purple i {
+	background: #9489e7;
 }
 
-.drupal-contributor .stats li span.fa {
-	position: absolute;
-    opacity: 0.3;
-    transform: rotate(20deg) scale(4);
-    transition: 0.2s ease-in-out;
-    z-index: 1;
-    /*-webkit-filter: grayscale(100%) blur(0.5px);
-    -moz-filter: grayscale(100%) blur(0.5px);
-    -o-filter: grayscale(100%) blur(0.5px);
-    -ms-filter: grayscale(100%) blur(0.5px);
-    filter: grayscale(100%) blur(0.5px);*/
+.drupal-contributor .stats li.blue i {
+	background: #64ccea;
 }
 
-.drupal-contributor .stats li:hover span.fa {
-    transform: inherit;
-    opacity: 1;
-    font-size: 4em;
-    left: 30px;
-    -webkit-filter: grayscale(0%) blur(0);
-    -moz-filter: grayscale(0%) blur(0);
-    -o-filter: grayscale(0%) blur(0);
-    -ms-filter: grayscale(0%) blur(0);
-    filter: grayscale(0%) blur(0);
-}
-
-.drupal-contributor .stats li h4 {
-	font-weight: 300;
-	color: #333;
-	margin-bottom: 0;
-	font-size: 16px;
-}
-
-.drupal-contributor .stats li .bold-txt {
-	font-size: 42px;
-	color: #284d8d;
-}
-
-.drupal-contributor .stats .info.diff .bold-txt {
-	font-size: 20px;
-}
-
-.drupal-contributor .stats li .bold-txt sup {
-	font-size: 16px;
-}
-
-.drupal-contributor .stats li.green .fa {
-	color: #a5d449;
-}
-
-.drupal-contributor .stats li.turquoise .fa {
-	color: #79dec3;
-}
-
-.drupal-contributor .stats li.red .fa {
-	color: #f07a7a;
-}
-
-.drupal-contributor .stats li.purple .fa {
-	color: #9489e7;
-}
-
-.drupal-contributor .stats li.blue .fa {
-	color: #64ccea;
-}
-
-.drupal-contributor .stats li.orange .fa {
-	color: #f3ab3a;
-}
-
-.drupal-contributor .stats .info.diff h4 {
-	border-bottom: 1px solid #ddd;
-	padding-bottom: 10px;
-	margin-bottom: 20px;
+.drupal-contributor .stats li.orange i {
+	background: #f3ab3a;
 }
 
 .drupal-give-content ul {
@@ -7440,6 +7425,43 @@ body .top-banner .page-wrap {
     height: 100%;
 }
 
+.drupal-give-content.talks-wrap .talks .video-wrapper {
+    padding: 0;
+    border: 0;
+}
+
+.drupal-give-content.talks-wrap .talks:nth-child(odd) .item {
+	flex-direction: row-reverse;
+}
+
+.drupal-give-content.talks-wrap .talks .item {
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.drupal-give-content.talks-wrap .talks h3 {
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.drupal-give-content.talks-wrap .talks label {
+	font-size: 14px;
+}
+
+.drupal-give-content.talks-wrap .talks p {
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.drupal-give-content.talks-wrap .col-6 {
+	padding: 20px;
+}
+
+.drupal-give-content .talks .video-wrapper:hover {
+	box-shadow: none;
+}
+
 .drupal-give-content .sponsors {
 	position: relative;
     justify-content: flex-start;
@@ -7461,6 +7483,16 @@ body .top-banner .page-wrap {
     left: -1px;
 }
 
+.drupal-give-content .sponsors.d7 {
+	border-bottom: 4px solid #2e3191;
+    border-top: 4px solid #2e3191;
+}
+
+.drupal-give-content .sponsors.d8 {
+	border-bottom: 4px solid #0077c0;
+    border-top: 4px solid #0077c0;
+}
+
 .drupal-give-content .sponsors.gold {
 	border-bottom: 4px solid #d4af37;
     border-top: 4px solid #d4af37;
@@ -7474,6 +7506,14 @@ body .top-banner .page-wrap {
 .drupal-give-content .sponsors.bronze {
 	border-bottom: 4px solid #A57164;
     border-top: 4px solid #A57164;
+}
+
+.sponsors.d7 label {
+	background: #2e3191;
+}
+
+.sponsors.d8 label {
+	background: #0077c0;
 }
 
 .sponsors.gold label {
@@ -9320,6 +9360,16 @@ body .top-banner .page-wrap {
 	.drupal-give-content .talks .item {
 		padding-right: 0;
 		padding-bottom: 10px;
+	}
+
+	.drupal-give-content.talks-wrap .talks .item {
+		flex-wrap: wrap;
+		padding-bottom: 20px;
+	}
+
+	.drupal-give-content.talks-wrap .col-6 {
+		width: 100%;
+		padding: 0;
 	}
 
 	.drupal-contributor .stats li {

@@ -26,85 +26,98 @@
 
        <!-- other option -->
 
-        <div class="row item-listing new">
-          <div class="col-3 item bold">
-            <div class="item-wrap">
-                <header>
-                <span class="icon"><i class="fa fa-line-chart"></i></span>
-                  <h2>22<sup>nd</sup></h2>
-                </header>
-                <div class="intro-txt">
-                  <p>Rank at D.O</p>
-                </div>   
+      <div class="box-wrap row">
+        <article class="box col-4 capability-item orange">
+      
+          <div class="content">
+            <div class="heading">
+              <span class="svg-icon">
+                <?php echo file_get_contents("../icons/dorg.svg"); ?>
+              </span>
+              <h3>Ranked <strong>22</strong><sup>nd</sup> <br/> on Drupal.org</h3>
+            </div>
+            <div class="excerpt">
+              <p>We are ranked 22nd on Drupal.org among thousands of contributing organizations</p>
             </div>
           </div>
-          <div class="col-3 item bold">
-            <div class="item-wrap">
-                <header>
-                <span class="icon"><i class="fa fa-file-text-o"></i></span>
-                  <h2>2</h2>
-                </header>
-                <div class="intro-txt">
-                  <p>Case Studies</p>
-                </div>
+        </article>
+        <article class="box col-4 capability-item blue">
+          
+         <div class="content">
+            <div class="heading">
+              <span class="svg-icon">
+                <?php echo file_get_contents("../icons/document.svg"); ?>
+              </span>
+              <h3><strong>2</strong> Published <br/> Case Studies</h3>
+            </div>
+            <div class="excerpt">
+              <p><strong>2</strong> published case-studies on Drupal.org</p>
             </div>
           </div>
-          <div class="col-3 item bold">
-            <div class="item-wrap">
-                <header>
-                <span class="icon"><i class="fa fa-hashtag"></i></span>
-                  <h2>65</h2>
-                </header>
-                <div class="intro-txt">
-                  <p>Acquia Certified Engineers</p>
-                </div>
+        </article>
+        <article class="box col-4 capability-item red">
+          
+       <div class="content">
+            <div class="heading">
+              <span class="svg-icon">
+                <?php echo file_get_contents("../icons/acquia.svg"); ?>
+              </span>
+              <h3><strong>25</strong> Acquia<br/>Certified</h3>
+            </div>
+            <div class="excerpt">
+              <p>Our Drupal team consist for 25 Acquia Certified Engineers and Architects</p>
             </div>
           </div>
-        </div>
-        <div class="row item-listing new">
-          <div class="col-3 item ">
-            <div class="item-wrap">
-                <header>
-                <span class="icon"><i class="fa fa-code-fork"></i></span>
-                  <h2><i class="fa fa-drupal"></i> 1000+</h2>
-                  <h2><i class="fa">
-                    <?php echo file_get_contents("../icons/drupal.svg"); ?>
-                  </i> 234+</h2>
-                </header>
-                <div class="intro-txt">
-                  <p>Total Commits</p>
-                </div>   
+
+        </article>
+      </div>
+      <div class="box-wrap row">
+        <article class="box col-4 capability-item turquoise">
+          
+            <div class="content">
+            <div class="heading">
+              <span class="svg-icon">
+                <?php echo file_get_contents("../icons/fork.svg"); ?>
+              </span>
+              <h3><strong>1000+</strong> <br/> total commits</h3>
+            </div>
+            <div class="excerpt">
+              <p><strong>1000+</strong> Commits for Drupal 7 and <strong>234</strong> Commits for Drupal 8</p>
             </div>
           </div>
-          <div class="col-3 item ">
-            <div class="item-wrap">
-                <header>
-                <span class="icon"><i class="fa fa-bug"></i></span>
-                  <h2><i class="fa fa-drupal"></i> 39</h2>
-                  <h2><i class="fa">
-                    <?php echo file_get_contents("../icons/drupal.svg"); ?>
-                  </i> 24</h2>
-                </header>
-                <div class="intro-txt">
-                  <p>Issues Fixed</p>
-                </div>
+
+        </article>
+        <article class="box col-4 capability-item green">
+          
+            <div class="content">
+            <div class="heading">
+              <span class="svg-icon">
+                <?php echo file_get_contents("../icons/bug.svg"); ?>
+              </span>
+              <h3><strong>50+</strong> <br/> Bug Fixes</h3>
+            </div>
+            <div class="excerpt">
+              <p>We fixed <strong>39</strong> Drupal 8 Bugs and <strong>24</strong> Drupal 7 Bugs </p>
             </div>
           </div>
-          <div class="col-3 item ">
-            <div class="item-wrap">
-                <header>
-                <span class="icon"><i class="fa fa-puzzle-piece"></i></span>
-                  <h2><i class="fa fa-drupal"></i> 51</h2>
-                  <h2><i class="fa">
-                    <?php echo file_get_contents("../icons/drupal.svg"); ?>
-                  </i> 22</h2>
-                </header>
-                <div class="intro-txt">
-                  <p>Contributors</p>
-                </div>
+
+        </article>
+        <article class="box col-4 capability-item purple">
+          
+            <div class="content">
+            <div class="heading">
+              <span class="svg-icon">
+                <?php echo file_get_contents("../icons/contributors.svg"); ?>
+              </span>
+              <h3>Giving back<br/> to Drupal</h3>
+            </div>
+            <div class="excerpt">
+              <p>We have <strong>52</strong> Drupal 8 and <strong>22</strong> Drupal 7 contributors</p>
             </div>
           </div>
-        </div>
+
+        </article>
+      </div>
 
           
         </div>

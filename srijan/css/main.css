@@ -8789,8 +8789,8 @@ body .top-banner .page-wrap {
         padding: 0;
     }
     .page p {
-        font-size: 14px;
-        margin-bottom: 14px;
+        font-size: 1em;
+        margin-bottom: 1em;
     }
     .ps-main .article-subsection ul li {
         font-size: 14px;
@@ -9711,12 +9711,12 @@ body .top-banner .page-wrap {
     display: block;
 }
 
+
 .drupal-contributor .box-wrap .svg-icon {
     width: 70px;
     height: 70px;
     display: inline-block;
 }
-
 
 .drupal-contributor .box-wrap.row .box {
     height: auto;
@@ -9732,7 +9732,37 @@ body .top-banner .page-wrap {
     color: #666;
 }
 
-.svg-icon svg {
+.drupal-contributor .svg-icon svg {
     height: auto;
     width: 60px;
+}
+
+@media (max-width: 1024px) {
+
+
+.box .content p {
+	font-size: 16px;
+}
+
+.drupal-contributor .box-wrap.row .box {
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.drupal-contributor .box .content h3, .drupal-contributor .box .content sup, .drupal-contributor .box .content strong,
+
+.drupal-contributor .box:hover .content h3, .drupal-contributor .box:hover .content sup, .drupal-contributor .box:hover .content strong {
+    color: #284d8d;
+}
+
+.drupal-contributor .box .content .excerpt *,
+.drupal-contributor .box:hover .content .excerpt * {
+    color: #666;
+}
+
+.drupal-contributor .svg-icon svg {
+    height: auto;
+    width: 60px;
+}
+
 }

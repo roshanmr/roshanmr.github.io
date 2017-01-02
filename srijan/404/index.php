@@ -1,35 +1,39 @@
 <!doctype html>
 <html class="no-js" lang="">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>Srijan | Page not found</title>
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Srijan | Page not found</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-	<!-- Place favicon.ico in the root directory -->
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <!-- Place favicon.ico in the root directory -->
 
-	<link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/style.css">
 
-	<script src="/js/vendor/modernizr-2.8.3.min.js"></script>
+  <script src="/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 <body class="inner-page">
-	<div class="canvas">
+  <div class="canvas">
 
-		<?php include '../nav.php';?>
+    <?php include '../nav.php';?>
 
-		<section class="thankyou-page">
-			<div class="page-wrap top row">
-				<figure class="col-12">
+    <section class="not-found-page">
+      <div class="page-wrap top row">
+        <figure class="col-12">
           <?php echo file_get_contents("../icons/404.svg"); ?>
-				</figure>
-			</div>
-		</section>
+        </figure>
+        <div class="teaser">
+          <h2>Nothing Ahead, <a href="/">Return Home</a></h2>
+          <p>The URL you are trying to access is not availabe or broken.</p>
+        </div>
+      </div>
+    </section>
 
-		<section class="related-content thankyou-content">
-		<div class="page-wrap">
-			<!-- <h3>Check out some of our work</h3> -->
+    <section class="related-content thankyou-content">
+    <div class="page-wrap">
+      <!-- <h3>Check out some of our work</h3> -->
               <div class="row">
                 <div class="col-3 rc-wrap blog">
                   <div class="rc-box">
@@ -86,19 +90,19 @@
             </section>
 
 
-		<?php include '../footer.php';?>
+    <?php include '../footer.php';?>
 
 
-	</div>
+  </div>
 
-	<?php include '../mobile-nav.php';?>
+  <?php include '../mobile-nav.php';?>
 
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
-	
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+  
 <script src="/js/plugins.js"></script>
-	<script src="/js/main.js"></script>
+  <script src="/js/main.js"></script>
 
 </body>
 </html>

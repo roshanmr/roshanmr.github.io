@@ -7562,6 +7562,43 @@ body .top-banner .page-wrap {
     color: #fff;
 }
 
+.not-found-page {
+	padding-top: 150px;
+}
+
+.not-found-page .page-wrap.top.row {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 700px;
+	padding-bottom: 40px;
+}
+
+.not-found-page .teaser {
+	width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222;
+    font-size: 22px;
+}
+
+.not-found-page .teaser h2, .not-found-page .teaser p {
+	margin: 0;
+}
+
+.not-found-page .teaser p {
+	text-transform: none;
+	font-size: 18px;
+}
+
+.not-found-page .teaser a {
+	color: #284d8d;
+	transition: 0.2s ease-in-out;
+}
+
+.not-found-page .teaser a:hover {
+	color: #f2a428;
+}
+
 .thankyou-page {
 	padding-top: 150px;
 	border-bottom: 1px solid #ddd;
@@ -8639,6 +8676,9 @@ body .top-banner .page-wrap {
     .bx-wrapper:hover .bx-controls-direction a {
     	opacity: inherit;
 	}
+	.not-found-page {
+		padding-top: 90px;
+	}
 }
 
 @media (max-width: 767px) {
@@ -9002,21 +9042,6 @@ body .top-banner .page-wrap {
         background-color: #fff;
         font-size: 18px;
     }
-    /*.page-side-nav h3:after {
-        content: "\f141";
-        font: normal normal normal 14px/1 FontAwesome;
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 0;
-        width: 30px;
-        height: 30px;
-        line-height: 30px;
-        border-radius: 30px;
-        border: solid 1px #ddd;
-        text-align: center;
-        margin: 3px 10px;
-    }*/
     aside.process-nav .page-side-nav h3 a {
         pointer-events: none;
     }
@@ -9377,6 +9402,25 @@ body .top-banner .page-wrap {
 	}
 
 	.drupal-give-content ul figure img {
+		width: 100%;
+	}
+
+	.not-found-page {
+		padding-top: 60px;
+	}
+
+	.not-found-page .teaser {
+		font-size: 18px;
+	}
+	.not-found-page .teaser a {
+		white-space: nowrap;
+	}
+
+	.not-found-page .page-wrap.top {
+		padding: 0 15px;
+	}
+
+	.not-found-page .page-wrap.top figure {
 		width: 100%;
 	}
 	.thankyou-page {

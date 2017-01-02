@@ -233,7 +233,7 @@
               </div>
             </div>
             </div>
-            <a href="drupal-give.php" class="section-cta">Read more about Drupal Give <i class="fa fa-chevron-right"></i></a>
+            <a href="drupal-give2.php" class="section-cta">Read more about Drupal Give <i class="fa fa-chevron-right"></i></a>
           </section>
           
 

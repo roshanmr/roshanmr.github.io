@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>Srijan | Thankyou</title>
+	<title>Srijan | Page not found</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -21,13 +21,9 @@
 
 		<section class="thankyou-page">
 			<div class="page-wrap top row">
-				<figure class="envelop col-4">
+				<figure class="col-12">
           <?php echo file_get_contents("../icons/404.svg"); ?>
 				</figure>
-				<div class="content-wrap col-8">
-				<h2>Thank you for your interest.</h2>
-				<span class="teaser-txt">We will get back to you soon. If you have any specific query you can call us on <strong>+911244104342</strong> or <strong>+919911264089</strong></span>
-				</div>
 			</div>
 		</section>
 

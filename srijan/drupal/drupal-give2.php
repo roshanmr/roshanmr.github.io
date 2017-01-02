@@ -60,12 +60,12 @@
        <div class="content">
             <div class="heading">
               <span class="svg-icon">
-                <?php echo file_get_contents("../icons/acquia.svg"); ?>
+                <?php echo file_get_contents("../icons/at.svg"); ?>
               </span>
-              <h3><strong>25</strong> Acquia<br/>Certified</h3>
+              <h3><strong>327 (~6)</strong> <br/>Mentions</h3>
             </div>
             <div class="excerpt">
-              <p>Our Drupal team consist for 25 Acquia Certified Engineers and Architects</p>
+              <p>We have <strong>327 (~6)</strong> mentions in DrupalCore for Drupal 7 and <strong>122 (~5)</strong> in Drupal 8</p>
             </div>
           </div>
 
@@ -147,24 +147,7 @@
               </div>
             </div>            
           </div>
-          <a href="#" class="section-cta">View More Talks <i class="fa fa-chevron-right"></i></a>
-          <!-- <ul class="row">
-            <li class="col-3">
-             <figure>
-               <img src="../img/shyamala.png" alt="Image of Megan Sanicki">
-             </figure>
-             <h4>Shyamala Rajaram</h4>
-             <span>Keynote at DCD <i class="bold-txt">2016</i></span>
-            </li>
-
-            <li class="col-3">
-             <figure>
-               <img src="../img/megan-sanicki.jpg" alt="Image of Megan Sanicki">
-             </figure>
-             <h4>Megan Sanici</h4>
-             <span>Keynote at DCD <i class="bold-txt">2015</i></span>
-            </li>
-          </ul> -->
+          <a href="talks.php" class="section-cta">View More Talks <i class="fa fa-chevron-right"></i></a>
         </div>
       </section>
 
@@ -278,28 +261,7 @@
         </div>
         
       </section>
-          
-
-      <section class="testimonial-cta">
-        <img src="/img/testimonial.jpg" alt="" class="testimonial-bg">
-        <div class="testimonial page-wrap">
-          <blockquote class="testimonial-text">
-            <span class="quote-icon"><i class="fa fa-quote-left"></i></span>
-            <p>One of the biggest challenges we faced prior to contracting with Srijan was fixing one feature in TCRO2 would break two others. This put us in a vicious cycle where we could never move to the next level of feature set. The development and testing process at Srijan allowed us to come out of this, as existing features continued to work well along with new or improved features. So from a functional perspective – great development work.</p>
-          </blockquote>
-          <div class="client-author">
-            <figure class="author-img">
-              <img src="../img/steve2.jpg" alt="steve">
-            </figure>
-            <div class="author-info">
-              <strong>Steve Townsend</strong>
-              <em>CEO, AVTranz</em>
-            </div>
-          </div>
-        </div>
-      </section>
-
-
+        
     </main>
 
     <?php include '../contact-form.php';?>

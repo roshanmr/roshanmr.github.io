@@ -24,12 +24,10 @@
     <main class="page section-landing blog-page">
         <header class="sub-header">
           
-          <div class="title page-wrap row">
-            <h1 class="col-3"><i class="fa fa-flask" aria-hidden="true"></i> Srijan Labs</h1>
-            <div class="col-9">
-              <p>Srijan Labs showcases some exceptional pieces of codes, Proof of Concepts, Data Stories and experiments done by our team.</p>
-            </div>
-          </div>
+          <ul class="bread-crumb page-wrap">
+            <li><a href="/labs">Srijan Labs <i class="fa fa-angle-right"></i> </a></li>
+            <li><a href="#data-stories">Data Stories <i class="fa fa-angle-right"></i></a></li>
+          </ul>
         </header>
 
       <section class="page-wrap row">
@@ -75,151 +73,166 @@
 
               </div>
             </article>
-             <article class="blog-post-item row">
+            <article class="blog-post-item row">
               <figure class="col-3 left-thumbnail">
-                <img src="/img/lab-mock1.jpg" alt="text" />
+                <img src="/img/pf-cleartrip.png" alt="text" />
               </figure>
               <div class="col-9 blog-preview-col">
-                <a href="#" class="cat-title"><i class="fa fa-code"></i> Code</a>
-                <h3><a href="post.php">Using CSS Text Gradients, Sticky Positions and all the latest goodness of CSS</a></h3>
+                <a href="#" class="cat-title"><i class="fa fa-lightbulb-o"></i> Thought Article</a>
+                <h3><a href="post.php">6 Agile Coaches' Take on Transitioning Your Enterprise to Agile</a></h3>
                 <ul class="post-meta">
-                  <li>by Roshan Ravi</li>
+                  <li>by Orhan Pamuk</li>
                   <li><i class="fa fa-clock-o"></i> 13 Days Ago</li>
                 </ul>
-                <p>An example of designing websites with CSS Text Gradients, Clip Paths, CSS Flex Boxes and Sticky Positions without the need of any JavaScript</p>
+                <p>As enterprises strive to stay lean and efficient, outsourcing a part or all, of your development process has become a common practice. But it requires a lot of coordination and collaboration between in-house and outsourced teams, to build a great product.</p>
+
+                <a href="post.php" class="btn read-more">Read More</a>
+
+              </div>
+            </article>
+            <article class="blog-post-item row">
+              <figure class="col-3 left-thumbnail">
+                <img src="/img/pf-cleartrip.png" alt="text" />
+              </figure>
+              <div class="col-9 blog-preview-col">
+                <a href="#" class="cat-title"><i class="fa fa-lightbulb-o"></i> Thought Article</a>
+                <h3><a href="post.php">6 Agile Coaches' Take on Transitioning Your Enterprise to Agile</a></h3>
+                <ul class="post-meta">
+                  <li>by Orhan Pamuk</li>
+                  <li><i class="fa fa-clock-o"></i> 13 Days Ago</li>
+                </ul>
+                <p>As enterprises strive to stay lean and efficient, outsourcing a part or all, of your development process has become a common practice. But it requires a lot of coordination and collaboration between in-house and outsourced teams, to build a great product.</p>
 
                 <a href="post.php" class="btn read-more">Read More</a>
 
               </div>
             </article>
 
-             <article class="blog-post-item row">
+            <article class="blog-post-item row">
               <figure class="col-3 left-thumbnail">
-                <img src="/img/lab-mock1.jpg" alt="text" />
+                <img src="/img/pf-cleartrip.png" alt="text" />
               </figure>
               <div class="col-9 blog-preview-col">
-                <a href="#" class="cat-title"><i class="fa fa-code"></i> Code</a>
-                <h3><a href="post.php">Using CSS Text Gradients, Sticky Positions and all the latest goodness of CSS</a></h3>
+                <a href="#" class="cat-title"><i class="fa fa-align-left"></i> Blog</a>
+                <h3><a href="post.php">6 Agile Coaches' Take on Transitioning Your Enterprise to Agile</a></h3>
                 <ul class="post-meta">
-                  <li>by Roshan Ravi</li>
+                  <li>by Orhan Pamuk</li>
                   <li><i class="fa fa-clock-o"></i> 13 Days Ago</li>
                 </ul>
-                <p>An example of designing websites with CSS Text Gradients, Clip Paths, CSS Flex Boxes and Sticky Positions without the need of any JavaScript</p>
+                <p>As enterprises strive to stay lean and efficient, outsourcing a part or all, of your development process has become a common practice. But it requires a lot of coordination and collaboration between in-house and outsourced teams, to build a great product.</p>
 
                 <a href="post.php" class="btn read-more">Read More</a>
 
               </div>
             </article>
 
-             <article class="blog-post-item row">
+            <article class="blog-post-item row">
               <figure class="col-3 left-thumbnail">
-                <img src="/img/lab-mock1.jpg" alt="text" />
+                <img src="/img/pf-cleartrip.png" alt="text" />
               </figure>
               <div class="col-9 blog-preview-col">
-                <a href="#" class="cat-title"><i class="fa fa-code"></i> Code</a>
-                <h3><a href="post.php">Using CSS Text Gradients, Sticky Positions and all the latest goodness of CSS</a></h3>
+                <a href="#" class="cat-title"><i class="fa fa-align-left"></i> Blog</a>
+                <h3><a href="post.php">6 Agile Coaches' Take on Transitioning Your Enterprise to Agile</a></h3>
                 <ul class="post-meta">
-                  <li>by Roshan Ravi</li>
+                  <li>by Orhan Pamuk</li>
                   <li><i class="fa fa-clock-o"></i> 13 Days Ago</li>
                 </ul>
-                <p>An example of designing websites with CSS Text Gradients, Clip Paths, CSS Flex Boxes and Sticky Positions without the need of any JavaScript</p>
+                <p>As enterprises strive to stay lean and efficient, outsourcing a part or all, of your development process has become a common practice. But it requires a lot of coordination and collaboration between in-house and outsourced teams, to build a great product.</p>
 
                 <a href="post.php" class="btn read-more">Read More</a>
 
               </div>
             </article>
 
-             <article class="blog-post-item row">
+            <article class="blog-post-item row">
               <figure class="col-3 left-thumbnail">
-                <img src="/img/lab-mock1.jpg" alt="text" />
+                <img src="/img/pf-cleartrip.png" alt="text" />
               </figure>
               <div class="col-9 blog-preview-col">
-                <a href="#" class="cat-title"><i class="fa fa-code"></i> Code</a>
-                <h3><a href="post.php">Using CSS Text Gradients, Sticky Positions and all the latest goodness of CSS</a></h3>
+                <a href="#" class="cat-title"><i class="fa fa-align-left"></i> Blog</a>
+                <h3><a href="post.php">6 Agile Coaches' Take on Transitioning Your Enterprise to Agile</a></h3>
                 <ul class="post-meta">
-                  <li>by Roshan Ravi</li>
+                  <li>by Orhan Pamuk</li>
                   <li><i class="fa fa-clock-o"></i> 13 Days Ago</li>
                 </ul>
-                <p>An example of designing websites with CSS Text Gradients, Clip Paths, CSS Flex Boxes and Sticky Positions without the need of any JavaScript</p>
+                <p>As enterprises strive to stay lean and efficient, outsourcing a part or all, of your development process has become a common practice. But it requires a lot of coordination and collaboration between in-house and outsourced teams, to build a great product.</p>
 
                 <a href="post.php" class="btn read-more">Read More</a>
 
               </div>
             </article>
 
-             <article class="blog-post-item row">
+            <article class="blog-post-item row">
               <figure class="col-3 left-thumbnail">
-                <img src="/img/lab-mock1.jpg" alt="text" />
+                <img src="/img/pf-cleartrip.png" alt="text" />
               </figure>
               <div class="col-9 blog-preview-col">
-                <a href="#" class="cat-title"><i class="fa fa-code"></i> Code</a>
-                <h3><a href="post.php">Using CSS Text Gradients, Sticky Positions and all the latest goodness of CSS</a></h3>
+                <a href="#" class="cat-title"><i class="fa fa-align-left"></i> Blog</a>
+                <h3><a href="post.php">6 Agile Coaches' Take on Transitioning Your Enterprise to Agile</a></h3>
                 <ul class="post-meta">
-                  <li>by Roshan Ravi</li>
+                  <li>by Orhan Pamuk</li>
                   <li><i class="fa fa-clock-o"></i> 13 Days Ago</li>
                 </ul>
-                <p>An example of designing websites with CSS Text Gradients, Clip Paths, CSS Flex Boxes and Sticky Positions without the need of any JavaScript</p>
+                <p>As enterprises strive to stay lean and efficient, outsourcing a part or all, of your development process has become a common practice. But it requires a lot of coordination and collaboration between in-house and outsourced teams, to build a great product.</p>
 
                 <a href="post.php" class="btn read-more">Read More</a>
 
               </div>
             </article>
 
-             <article class="blog-post-item row">
+            <article class="blog-post-item row">
               <figure class="col-3 left-thumbnail">
-                <img src="/img/lab-mock1.jpg" alt="text" />
+                <img src="/img/pf-cleartrip.png" alt="text" />
               </figure>
               <div class="col-9 blog-preview-col">
-                <a href="#" class="cat-title"><i class="fa fa-code"></i> Code</a>
-                <h3><a href="post.php">Using CSS Text Gradients, Sticky Positions and all the latest goodness of CSS</a></h3>
+                <a href="#" class="cat-title"><i class="fa fa-align-left"></i> Blog</a>
+                <h3><a href="post.php">6 Agile Coaches' Take on Transitioning Your Enterprise to Agile</a></h3>
                 <ul class="post-meta">
-                  <li>by Roshan Ravi</li>
+                  <li>by Orhan Pamuk</li>
                   <li><i class="fa fa-clock-o"></i> 13 Days Ago</li>
                 </ul>
-                <p>An example of designing websites with CSS Text Gradients, Clip Paths, CSS Flex Boxes and Sticky Positions without the need of any JavaScript</p>
+                <p>As enterprises strive to stay lean and efficient, outsourcing a part or all, of your development process has become a common practice. But it requires a lot of coordination and collaboration between in-house and outsourced teams, to build a great product.</p>
 
                 <a href="post.php" class="btn read-more">Read More</a>
 
               </div>
             </article>
 
-             <article class="blog-post-item row">
+            <article class="blog-post-item row">
               <figure class="col-3 left-thumbnail">
-                <img src="/img/lab-mock1.jpg" alt="text" />
+                <img src="/img/pf-cleartrip.png" alt="text" />
               </figure>
               <div class="col-9 blog-preview-col">
-                <a href="#" class="cat-title"><i class="fa fa-code"></i> Code</a>
-                <h3><a href="post.php">Using CSS Text Gradients, Sticky Positions and all the latest goodness of CSS</a></h3>
+                <a href="#" class="cat-title"><i class="fa fa-align-left"></i> Blog</a>
+                <h3><a href="post.php">6 Agile Coaches' Take on Transitioning Your Enterprise to Agile</a></h3>
                 <ul class="post-meta">
-                  <li>by Roshan Ravi</li>
+                  <li>by Orhan Pamuk</li>
                   <li><i class="fa fa-clock-o"></i> 13 Days Ago</li>
                 </ul>
-                <p>An example of designing websites with CSS Text Gradients, Clip Paths, CSS Flex Boxes and Sticky Positions without the need of any JavaScript</p>
+                <p>As enterprises strive to stay lean and efficient, outsourcing a part or all, of your development process has become a common practice. But it requires a lot of coordination and collaboration between in-house and outsourced teams, to build a great product.</p>
 
                 <a href="post.php" class="btn read-more">Read More</a>
 
               </div>
             </article>
 
-             <article class="blog-post-item row">
+            <article class="blog-post-item row">
               <figure class="col-3 left-thumbnail">
-                <img src="/img/lab-mock1.jpg" alt="text" />
+                <img src="/img/pf-cleartrip.png" alt="text" />
               </figure>
               <div class="col-9 blog-preview-col">
-                <a href="#" class="cat-title"><i class="fa fa-code"></i> Code</a>
-                <h3><a href="post.php">Using CSS Text Gradients, Sticky Positions and all the latest goodness of CSS</a></h3>
+                <a href="#" class="cat-title"><i class="fa fa-align-left"></i> Blog</a>
+                <h3><a href="post.php">6 Agile Coaches' Take on Transitioning Your Enterprise to Agile</a></h3>
                 <ul class="post-meta">
-                  <li>by Roshan Ravi</li>
+                  <li>by Orhan Pamuk</li>
                   <li><i class="fa fa-clock-o"></i> 13 Days Ago</li>
                 </ul>
-                <p>An example of designing websites with CSS Text Gradients, Clip Paths, CSS Flex Boxes and Sticky Positions without the need of any JavaScript</p>
+                <p>As enterprises strive to stay lean and efficient, outsourcing a part or all, of your development process has become a common practice. But it requires a lot of coordination and collaboration between in-house and outsourced teams, to build a great product.</p>
 
                 <a href="post.php" class="btn read-more">Read More</a>
 
               </div>
             </article>
-
-
 
             <ul class="pagination">
               <li class="active"><a href="#">1</a></li>
@@ -243,7 +256,7 @@
 
         </div>
         <div class="col-3 right-col right-sidebar">
-          <h2>Popular Lab Articles</h2>
+          <h2>Popular Articles</h2>
           <ul class="article-list">
             <li>
               <a href="post.php">
@@ -279,13 +292,14 @@
 
           <h2>Topics</h2>
           <ul class="topic-list">
-            <li><a href="#">Data Stories</a></li>
-            <li><a href="#">Front-end</a></li>
+            <li><a href="#">Drupal</a></li>
+            <li><a href="#">Marketing</a></li>
             <li><a href="#">Experience Design</a></li>
             <li><a href="#">UI Design</a></li>
             <li><a href="#">JavaScript</a></li>
+            <li><a href="#">Front-end</a></li>
             <li><a href="#">Ruby On Rails</a></li>
-            <li><a href="#">Angular JS</a></li>
+            <li><a href="#">Business</a></li>
           </ul>
         </div>
       </section>

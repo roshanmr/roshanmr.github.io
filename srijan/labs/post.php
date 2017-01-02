@@ -20,11 +20,15 @@
     <?php include '../nav.php';?>
     <header class="article-header">
       <figure class="parallax">
-        <img src="/img/pf-tui.png" alt="graphics">
+        <img src="/img/women.jpg" alt="graphics">
       </figure>
       <div class="page-wrap">
         <div class="main-text">
-          <h1>6 Agile Coaches' Take on Transitioning Your Enterprise to Agile</h1>
+          <ul class="bread-crumb">
+            <li><a href="/labs">Srijan Labs <i class="fa fa-angle-right"></i></a></li>
+            <li><a href="#datalabs">Data Stories <i class="fa fa-angle-right"></i></a></li>
+          </ul>
+          <h1>Data Story : Correlation of Literacy and Life Expectancy in Indian Women</h1>
           <span>And how companies like Srijan will crack the code for quality, transparency and accountability.</span>
           <ul class="post-meta">
             <li>by Orhan Pamuk</li>
@@ -46,9 +50,9 @@
 
           
 
-          <figure class="image">
-            <img src="../img/scrum-board.jpg" alt="scrum" />
-          </figure>
+          <div class='tableauPlaceholder' id='viz1483339604771' style='position: relative'><noscript><a href='#'><img alt='Scottish Index of Multiple Deprivation (2012) ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Sc&#47;ScottishIndexofMultipleDeprivation2012_1&#47;ScottishIndexofMultipleDeprivation2012&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='ScottishIndexofMultipleDeprivation2012_1&#47;ScottishIndexofMultipleDeprivation2012' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Sc&#47;ScottishIndexofMultipleDeprivation2012_1&#47;ScottishIndexofMultipleDeprivation2012&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1483339604771');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1054px';vizElement.style.height='769px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+
 
           <h2>Transitioning to Agile</h2>
 
@@ -100,7 +104,7 @@
 
         <section class="content-block blog-section">
       <header class="section-subheader">
-        <h2>Related Thought Articles</h2>
+        <h2><i class="fa fa-flask" aria-hidden="true"></i> Related Lab Articles</h2>
       </header>
       <div class="page-wrap row article-wrap">
         <article class="col-4 article-item">
@@ -146,7 +150,7 @@
           </a>
         </article>
       </div>
-      <a href="#" class="section-cta">More Thought Articles <i class="fa fa-angle-right"></i></a>
+      <a href="#" class="section-cta">More Lab Articles <i class="fa fa-angle-right"></i></a>
     </section>
     </main>
 

@@ -34,6 +34,7 @@
               <li><a href="/webinars">Webinars</a></li>
               <li><a href="/thought-articles">Thought Articles</a></li>
               <li><a href="/labs">Labs</a></li>
+              <li><a href="/teams">Teams</a></li>
               <li><a href="/about">About</a></li>
               <li><a href="/careers">Careers</a></li>
 

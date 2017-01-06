@@ -21,7 +21,7 @@
 
     
 
-    <main class="page section-landing blog-page">
+    <main class="page section-landing blog-page labs">
         <header class="sub-header">
           
           <div class="title page-wrap row">
@@ -32,196 +32,249 @@
           </div>
         </header>
 
-      <section class="page-wrap row">
+        <div class="cs-wrapper page-wrap">
+        <span class="filter-btn"><a href="#nogo"><i class="fa fa-filter"></i> Filter(2)</a></span>
+          <div class="tag-filter">
+            <a class="filter-back" href="#nogo"><i class="fa fa-angle-left"></i> Back</a>
+            <h3><i class="fa fa-filter"></i> Filter By:</h3>
+            <ul class="tag-list">
+              <li class="active"><a href="#">All</a></li>
+              <li><a href="filter.php">Data Stories</a></li>
+              <li><a href="filter.php">Technologies</a></li>
+              <li><a href="filter.php">Internet of Things</a></li>
+              <li><a href="filter.php">UI/UX</a></li>
+            </ul>
+          </div>
+          </div>
 
-
-        <div class="col-9 blog-listing left-col">
-          
-          <section class="thought-articles-listing">
-            <article class="featured-posts-wrap page-wrap">
-              <figure class="featured-post-thumb">
+      <div class="page-wrap row article-wrap">
+        <article class="col-4 article-item">
+          <a href="post.php">
+            <div class="blog-wrap">
+              <figure class="featured-img">
                 <img src="/img/women.jpg" alt="">
               </figure>
-              <div class="post-preview-wrap">
-                <a href="#" class="cat-title"><i class="fa fa-bar-chart"></i> Data Stories</a>
-                <h2><a href="post.php">Data Story : Correlation of Literacy and Life Expectancy in Indian Women</a></h2>
-                <ul class="post-meta">
-                  <li>Poonam Lata</li>
-                  <li><i class="fa fa-clock-o"></i> 13 Days Ago</li>
-                </ul>
-                <p>As enterprises strive to stay lean and efficient, outsourcing a part or all, of your development process has become a common practice. But it requires a lot of coordination and collaboration between in-house and outsourced teams, to build a great product.</p>
-                <p class="tag-list">
-                  <a href="#" class="tag">Data Stories</a> <a href="#" class="tag">Tableu</a>
-                </p>
-                <a href="post.php" class="btn read-more">Read More</a>
-
+              <div class="excerpt">
+              <span class="tag">
+                  <i class="fa fa-bar-chart"></i>
+                  Data Stories
+                </span>
+                <h2>Life Expectancy of females in India</h2>
+                <p>- Poonam Lata</p>
+                <span class="read-more">Read More <i class="fa fa-angle-right"></i></span>
               </div>
-            </article>
-
-            <article class="blog-post-item row">
-              <figure class="col-3 left-thumbnail">
-                <img src="/img/lab-mock1.jpg" alt="text" />
+            </div>
+          </a>
+        </article>
+        <article class="col-4 article-item">
+          <a href="post.php">
+            <div class="blog-wrap">
+              <figure class="featured-img">
+                <img src="/img/article2.jpg" alt="">
               </figure>
-              <div class="col-9 blog-preview-col">
-                <a href="#" class="cat-title"><i class="fa fa-code"></i> Code</a>
-                <h3><a href="post.php">Using CSS Text Gradients, Sticky Positions and all the latest goodness of CSS</a></h3>
-                <ul class="post-meta">
-                  <li>by Roshan Ravi</li>
-                  <li><i class="fa fa-clock-o"></i> 13 Days Ago</li>
-                </ul>
-                <p>An example of designing websites with CSS Text Gradients, Clip Paths, CSS Flex Boxes and Sticky Positions without the need of any JavaScript</p>
-
-                <a href="post.php" class="btn read-more">Read More</a>
-
+              <div class="excerpt">
+              <span class="tag">
+                  <i class="fa fa-code"></i>
+                  Codes
+                </span>
+                <h2>HT architecture for decoupled CMS</h2>
+                <p>- Ajay Singh</p>
+                <span class="read-more">Read More <i class="fa fa-angle-right"></i></span>
               </div>
-            </article>
-             <article class="blog-post-item row">
-              <figure class="col-3 left-thumbnail">
-                <img src="/img/lab-mock1.jpg" alt="text" />
+            </div>
+          </a>
+        </article>
+        <article class="col-4 article-item">
+          <a href="post.php">
+            <div class="blog-wrap">
+              <figure class="featured-img">
+                <img src="/img/article5.png" alt="">
               </figure>
-              <div class="col-9 blog-preview-col">
-                <a href="#" class="cat-title"><i class="fa fa-code"></i> Code</a>
-                <h3><a href="post.php">Using CSS Text Gradients, Sticky Positions and all the latest goodness of CSS</a></h3>
-                <ul class="post-meta">
-                  <li>by Roshan Ravi</li>
-                  <li><i class="fa fa-clock-o"></i> 13 Days Ago</li>
-                </ul>
-                <p>An example of designing websites with CSS Text Gradients, Clip Paths, CSS Flex Boxes and Sticky Positions without the need of any JavaScript</p>
-
-                <a href="post.php" class="btn read-more">Read More</a>
-
+              <div class="excerpt">
+                <span class="tag">
+                  <i class="fa fa-bar-chart"></i>
+                  Data Stories
+                </span>
+                <h2>Data Visualisation on Sealed Air</h2>
+                <p>- Sanjay Rohilla</p>
+                <span class="read-more">Read More <i class="fa fa-angle-right"></i></span>
               </div>
-            </article>
+            </div>
+          </a>
+        </article>
+      </div>
 
-             <article class="blog-post-item row">
-              <figure class="col-3 left-thumbnail">
-                <img src="/img/lab-mock1.jpg" alt="text" />
+      <div class="page-wrap row article-wrap">
+        <article class="col-4 article-item">
+          <a href="post.php">
+            <div class="blog-wrap">
+              <figure class="featured-img">
+                <img src="/img/article4.png" alt="">
               </figure>
-              <div class="col-9 blog-preview-col">
-                <a href="#" class="cat-title"><i class="fa fa-code"></i> Code</a>
-                <h3><a href="post.php">Using CSS Text Gradients, Sticky Positions and all the latest goodness of CSS</a></h3>
-                <ul class="post-meta">
-                  <li>by Roshan Ravi</li>
-                  <li><i class="fa fa-clock-o"></i> 13 Days Ago</li>
-                </ul>
-                <p>An example of designing websites with CSS Text Gradients, Clip Paths, CSS Flex Boxes and Sticky Positions without the need of any JavaScript</p>
-
-                <a href="post.php" class="btn read-more">Read More</a>
-
+              <div class="excerpt">
+                <span class="tag">
+                  <i class="fa fa-code"></i>
+                  Codes
+                </span>
+                <h2>SEO friendly continuous-scroll framework for online publishing</h2>
+                <p>- Ajay Singh, Aditya Raj and Team</p>
+                <span class="read-more">Read More <i class="fa fa-angle-right"></i></span>
               </div>
-            </article>
-
-             <article class="blog-post-item row">
-              <figure class="col-3 left-thumbnail">
-                <img src="/img/lab-mock1.jpg" alt="text" />
+            </div>
+          </a>
+        </article>
+        <article class="col-4 article-item">
+          <a href="post.php">
+            <div class="blog-wrap">
+              <figure class="featured-img">
+                <img src="/img/article2.jpg" alt="">
               </figure>
-              <div class="col-9 blog-preview-col">
-                <a href="#" class="cat-title"><i class="fa fa-code"></i> Code</a>
-                <h3><a href="post.php">Using CSS Text Gradients, Sticky Positions and all the latest goodness of CSS</a></h3>
-                <ul class="post-meta">
-                  <li>by Roshan Ravi</li>
-                  <li><i class="fa fa-clock-o"></i> 13 Days Ago</li>
-                </ul>
-                <p>An example of designing websites with CSS Text Gradients, Clip Paths, CSS Flex Boxes and Sticky Positions without the need of any JavaScript</p>
-
-                <a href="post.php" class="btn read-more">Read More</a>
-
+              <div class="excerpt">
+              <span class="tag">
+                  <i class="fa fa-code"></i>
+                  Codes
+                </span>
+                <h2>The Chatbot App Experimenting</h2>
+                <p>- Goa Team</p>
+                <span class="read-more">Read More <i class="fa fa-angle-right"></i></span>
               </div>
-            </article>
-
-             <article class="blog-post-item row">
-              <figure class="col-3 left-thumbnail">
-                <img src="/img/lab-mock1.jpg" alt="text" />
+            </div>
+          </a>
+        </article>
+        <article class="col-4 article-item">
+          <a href="post.php">
+            <div class="blog-wrap">
+              <figure class="featured-img">
+                <img src="/img/article3.jpg" alt="">
               </figure>
-              <div class="col-9 blog-preview-col">
-                <a href="#" class="cat-title"><i class="fa fa-code"></i> Code</a>
-                <h3><a href="post.php">Using CSS Text Gradients, Sticky Positions and all the latest goodness of CSS</a></h3>
-                <ul class="post-meta">
-                  <li>by Roshan Ravi</li>
-                  <li><i class="fa fa-clock-o"></i> 13 Days Ago</li>
-                </ul>
-                <p>An example of designing websites with CSS Text Gradients, Clip Paths, CSS Flex Boxes and Sticky Positions without the need of any JavaScript</p>
-
-                <a href="post.php" class="btn read-more">Read More</a>
-
+              <div class="excerpt">
+                <span class="tag">
+                  <i class="fa fa-code"></i>
+                  Codes
+                </span>
+                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+                <p>- Person name or team</p>
+                <span class="read-more">Read More <i class="fa fa-angle-right"></i></span>
               </div>
-            </article>
+            </div>
+          </a>
+        </article>
+      </div>
 
-             <article class="blog-post-item row">
-              <figure class="col-3 left-thumbnail">
-                <img src="/img/lab-mock1.jpg" alt="text" />
+      <div class="page-wrap row article-wrap">
+        <article class="col-4 article-item">
+          <a href="post.php">
+            <div class="blog-wrap">
+              <figure class="featured-img">
+                <img src="/img/article1.jpg" alt="">
               </figure>
-              <div class="col-9 blog-preview-col">
-                <a href="#" class="cat-title"><i class="fa fa-code"></i> Code</a>
-                <h3><a href="post.php">Using CSS Text Gradients, Sticky Positions and all the latest goodness of CSS</a></h3>
-                <ul class="post-meta">
-                  <li>by Roshan Ravi</li>
-                  <li><i class="fa fa-clock-o"></i> 13 Days Ago</li>
-                </ul>
-                <p>An example of designing websites with CSS Text Gradients, Clip Paths, CSS Flex Boxes and Sticky Positions without the need of any JavaScript</p>
-
-                <a href="post.php" class="btn read-more">Read More</a>
-
+              <div class="excerpt">
+              <span class="tag">
+                  <i class="fa fa-code"></i>
+                  Codes
+                </span>
+                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+                <p>- Person name or team</p>
+                <span class="read-more">Read More <i class="fa fa-angle-right"></i></span>
               </div>
-            </article>
-
-             <article class="blog-post-item row">
-              <figure class="col-3 left-thumbnail">
-                <img src="/img/lab-mock1.jpg" alt="text" />
+            </div>
+          </a>
+        </article>
+        <article class="col-4 article-item">
+          <a href="post.php">
+            <div class="blog-wrap">
+              <figure class="featured-img">
+                <img src="/img/article2.jpg" alt="">
               </figure>
-              <div class="col-9 blog-preview-col">
-                <a href="#" class="cat-title"><i class="fa fa-code"></i> Code</a>
-                <h3><a href="post.php">Using CSS Text Gradients, Sticky Positions and all the latest goodness of CSS</a></h3>
-                <ul class="post-meta">
-                  <li>by Roshan Ravi</li>
-                  <li><i class="fa fa-clock-o"></i> 13 Days Ago</li>
-                </ul>
-                <p>An example of designing websites with CSS Text Gradients, Clip Paths, CSS Flex Boxes and Sticky Positions without the need of any JavaScript</p>
-
-                <a href="post.php" class="btn read-more">Read More</a>
-
+              <div class="excerpt">
+              <span class="tag">
+                  <i class="fa fa-cogs"></i>
+                  Iot
+                </span>
+                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+                <p>- Person name or team</p>
+                <span class="read-more">Read More <i class="fa fa-angle-right"></i></span>
               </div>
-            </article>
-
-             <article class="blog-post-item row">
-              <figure class="col-3 left-thumbnail">
-                <img src="/img/lab-mock1.jpg" alt="text" />
+            </div>
+          </a>
+        </article>
+        <article class="col-4 article-item">
+          <a href="post.php">
+            <div class="blog-wrap">
+              <figure class="featured-img">
+                <img src="/img/article3.jpg" alt="">
               </figure>
-              <div class="col-9 blog-preview-col">
-                <a href="#" class="cat-title"><i class="fa fa-code"></i> Code</a>
-                <h3><a href="post.php">Using CSS Text Gradients, Sticky Positions and all the latest goodness of CSS</a></h3>
-                <ul class="post-meta">
-                  <li>by Roshan Ravi</li>
-                  <li><i class="fa fa-clock-o"></i> 13 Days Ago</li>
-                </ul>
-                <p>An example of designing websites with CSS Text Gradients, Clip Paths, CSS Flex Boxes and Sticky Positions without the need of any JavaScript</p>
-
-                <a href="post.php" class="btn read-more">Read More</a>
-
+              <div class="excerpt">
+                <span class="tag">
+                  <i class="fa fa-bar-chart"></i>
+                  Data Stories
+                </span>
+                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+                <p>- Person name or team</p>
+                <span class="read-more">Read More <i class="fa fa-angle-right"></i></span>
               </div>
-            </article>
+            </div>
+          </a>
+        </article>
+      </div>
 
-             <article class="blog-post-item row">
-              <figure class="col-3 left-thumbnail">
-                <img src="/img/lab-mock1.jpg" alt="text" />
+      <div class="page-wrap row article-wrap">
+        <article class="col-4 article-item">
+          <a href="post.php">
+            <div class="blog-wrap">
+              <figure class="featured-img">
+                <img src="/img/article1.jpg" alt="">
               </figure>
-              <div class="col-9 blog-preview-col">
-                <a href="#" class="cat-title"><i class="fa fa-code"></i> Code</a>
-                <h3><a href="post.php">Using CSS Text Gradients, Sticky Positions and all the latest goodness of CSS</a></h3>
-                <ul class="post-meta">
-                  <li>by Roshan Ravi</li>
-                  <li><i class="fa fa-clock-o"></i> 13 Days Ago</li>
-                </ul>
-                <p>An example of designing websites with CSS Text Gradients, Clip Paths, CSS Flex Boxes and Sticky Positions without the need of any JavaScript</p>
-
-                <a href="post.php" class="btn read-more">Read More</a>
-
+              <div class="excerpt">
+              <span class="tag">
+                  <i class="fa fa-code"></i>
+                  Codes
+                </span>
+                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+                <p>- Person name or team</p>
+                <span class="read-more">Read More <i class="fa fa-angle-right"></i></span>
               </div>
-            </article>
-
-
-
-            <ul class="pagination">
+            </div>
+          </a>
+        </article>
+        <article class="col-4 article-item">
+          <a href="post.php">
+            <div class="blog-wrap">
+              <figure class="featured-img">
+                <img src="/img/article2.jpg" alt="">
+              </figure>
+              <div class="excerpt">
+                <span class="tag">
+                  <i class="fa fa-bar-chart"></i>
+                  Data Stories
+                </span>
+                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+                <p>- Person name or team</p>
+                <span class="read-more">Read More <i class="fa fa-angle-right"></i></span>
+              </div>
+            </div>
+          </a>
+        </article>
+        <article class="col-4 article-item">
+          <a href="post.php">
+            <div class="blog-wrap">
+              <figure class="featured-img">
+                <img src="/img/article3.jpg" alt="">
+              </figure>
+              <div class="excerpt">
+              <span class="tag">
+                  <i class="fa fa-code"></i>
+                  Codes
+                </span>
+                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+                <p>- Person name or team</p>
+                <span class="read-more">Read More <i class="fa fa-angle-right"></i></span>
+              </div>
+            </div>
+          </a>
+        </article>
+      </div>
+      <ul class="pagination">
               <li class="active"><a href="#">1</a></li>
               <li><a href="#">2</a></li>
               <li><a href="#">3</a></li>
@@ -238,58 +291,6 @@
               <li><a href="#">Next <i class="fa fa-angle-right"></i></a></li>
               <li><a href="#">Last <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a></li>
             </ul>
-
-          </section>
-
-        </div>
-        <div class="col-3 right-col right-sidebar">
-          <h2>Popular Lab Articles</h2>
-          <ul class="article-list">
-            <li>
-              <a href="post.php">
-              <i class="fa fa-lightbulb-o"></i> 6 Agile Coaches' Take on Transitioning Your Enterprise to Agile
-              </a>
-
-            </li>
-            <li>
-              <a href="post.php">
-              <i class="fa fa-lightbulb-o"></i> 6 Agile Coaches' Take on Transitioning Your Enterprise to Agile
-              </a>
-
-            </li>
-            <li>
-              <a href="post.php">
-              <i class="fa fa-lightbulb-o"></i> 6 Agile Coaches' Take on Transitioning Your Enterprise to Agile
-              </a>
-
-            </li>
-            <li>
-              <a href="post.php">
-              <i class="fa fa-align-left"></i> 6 Agile Coaches' Take on Transitioning Your Enterprise to Agile
-              </a>
-
-            </li>
-            <li>
-              <a href="post.php">
-              <i class="fa fa-align-left"></i> 6 Agile Coaches' Take on Transitioning Your Enterprise to Agile
-              </a>
-
-            </li>
-          </ul>
-
-          <h2>Topics</h2>
-          <ul class="topic-list">
-            <li><a href="#">Data Stories</a></li>
-            <li><a href="#">Front-end</a></li>
-            <li><a href="#">Experience Design</a></li>
-            <li><a href="#">UI Design</a></li>
-            <li><a href="#">JavaScript</a></li>
-            <li><a href="#">Ruby On Rails</a></li>
-            <li><a href="#">Angular JS</a></li>
-          </ul>
-        </div>
-      </section>
-
 
     </main>
 

@@ -26,7 +26,9 @@
         </header>
 
         <div class="cs-wrapper">
+          <span class="filter-btn"><a href="#nogo"><i class="fa fa-filter"></i> Filter(2)</a></span>
           <div class="tag-filter">
+            <a class="filter-back" href="#nogo"><i class="fa fa-angle-left"></i> Back</a>
             <h3><i class="fa fa-filter"></i> Filter Webinars By:</h3>
             <ul class="tag-list">
               <li class="active"><a href="#">Recent</a></li>

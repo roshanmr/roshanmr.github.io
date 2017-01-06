@@ -62,6 +62,16 @@ $(document).ready(function() {
 
     // END search page interactivity.
 
+    // Filter in clients page
+
+    $('.cs-wrapper .filter-btn a').click(function(){
+        $(this).parents('.cs-wrapper').find('.tag-filter').addClass('active');
+    });
+
+    $('.tag-filter .filter-back').click(function(){
+        $(this).parent().removeClass('active');
+    });
+
 
     $(".side-tabs li a").click(function() {
         var aherf = $(this).attr("rel");
@@ -497,6 +507,12 @@ $(document).ready(function() {
     $(".thankyou-content a").click(function() {
         $('html, body').animate({
             scrollTop: $("#subscribe").offset().top
+        }, 1000);
+    });
+
+    $(".lab-details .ps-main a.by-text").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#credits").offset().top
         }, 1000);
     });
 

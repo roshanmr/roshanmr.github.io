@@ -87,6 +87,24 @@ $(document).ready(function() {
 
     });
 
+
+
+    // Tabs in write to us and career form
+
+    $(".contact-block h2").click(function() {
+        var aherf = $(this).attr("rel");
+        var targetEl = $(this).parents('.contact-block').find('.contact-form-wrap');
+        targetEl.removeClass("active");
+        targetEl.each(function() {
+            if ($(this).attr('id') === aherf) {
+                $(this).toggleClass("active");
+            }
+        });
+
+        $(this).parents(".contact-block").find('h2').removeClass('active');
+        $(this).addClass('active');
+    });
+
     /* map location point hightlight based on location selected in tab*/
     $(".side-tabs li a").click(function() {
         var aherf = $(this).attr("rel");

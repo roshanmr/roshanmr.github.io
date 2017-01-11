@@ -24,6 +24,7 @@
       </figure>
       <div class="page-wrap">
         <div class="main-text">
+          <a class="back-nav" href="/thought-articles"><i class="fa fa-angle-left"></i> Blogs</a>
           <h1>6 Agile Coaches' Take on Transitioning Your Enterprise to Agile</h1>
           <span>And how companies like Srijan will crack the code for quality, transparency and accountability.</span>
           <ul class="post-meta">

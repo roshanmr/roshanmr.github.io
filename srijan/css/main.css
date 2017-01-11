@@ -8487,6 +8487,10 @@ header.sub-header {
 	color: #f2a428;
 }
 
+.article-header .back-nav {
+	color: #f2a428;
+}
+
 .sub-header p {
     margin: 0;
 }
@@ -8799,7 +8803,7 @@ header.sub-header {
     }
     .process-side-nav.page-side-nav li a {
         height: auto;
-        padding: 5px;
+        padding: 10px;
         line-height: 1;
     }
     .process-side-nav > li > a > span {
@@ -8909,6 +8913,14 @@ header.sub-header {
 	    height: auto;
 	    padding: 10px;
 	    line-height: normal;
+	}
+
+	.teams-detail-page .page-side-nav h3 .icon-small {
+		display: inline-block;
+	}
+
+	.teams-detail-page {
+		padding-top: 120px;
 	}
 }
 
@@ -10178,8 +10190,71 @@ header.sub-header {
 
 	.teams-page .ps-wrap.row .team-members {
 		width: 100%;
+		padding: 20px 0;
+	}
+
+	.teams-page .team-members .row {
+		padding-bottom: 0;
+	}
+
+	.teams-page .team-members .item a span {
+		color: #f2a428;
+	}
+
+	.teams-page .team-members .item:hover {
+		background: initial;
+		box-shadow: inherit;
+	}
+
+	.teams-page .team-members .item:hover figure {
+		transform: inherit;
+		filter: grayscale(100%);
+	}
+
+	.teams-detail-page {
+		padding-top: 60px;
+	}
+
+	.teams-detail-page .ps-wrap.row {
+		padding: 15px;
+	}
+
+	.teams-detail-page .team-members-wrap {
+		padding: 20px 0;
+	}
+
+	.team-members-wrap .about-member.row {
+		display: flex;
+		padding: 20px 0;
+	}
+
+	.team-members-wrap .picture {
+		width: 180px;
+	}
+
+	.teams-detail-page .process-side-nav.page-side-nav li a {
+		display: none;
+	}
+
+	.teams-detail-page aside.process-nav {
+		border: 0;
+	}
+
+	.teams-detail-page aside.process-nav .page-side-nav h3 a {
+		display: block;
+	}
+
+	.teams-detail-page .page-side-nav h3 .icon-small {
+		display: inline-block;
+	}
+
+	.teams-detail-page aside.process-nav .page-side-nav h3 .fa {
+		opacity: 1;
+	}
+
+	.teams-detail-page .page-side-nav h3 {
 		padding: 0;
-		padding-bottom: 20px;
+		border: 0;
 	}
 
 	.lab-details .ps-main {
@@ -10204,6 +10279,15 @@ header.sub-header {
     }
     .sponsors ul li {
     	width: 100%;
+    }
+
+    .team-members-wrap .about-member.row {
+    	display: block;
+    	text-align: center;
+    }
+
+    .team-members-wrap .picture {
+    	margin: 0 auto;
     }
 }
 

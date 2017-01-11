@@ -2,38 +2,38 @@
 <ul class="list">
   <li>
     <h3>
-      <a href="#">
+      <a href="/labs">
         <span class="title">Browse Srijan Labs</span>
       </a>
     </h3>
   </li>
   <li>
-    <a href="performance-audit.php">
-      <span class="title">Data Stories</span>
+    <a href="/labs">
+      <span class="title"><i class="fa fa-bar-chart"></i> Data Stories</span>
     </a>
   </li>
 
   <li>
-    <a href="scrum-teams.php">
-      <span class="title">Technologies</span>
+    <a href="/labs">
+      <span class="title"><i class="fa fa-code"></i> Technologies</span>
     </a>
   </li>
 
    <li>
-    <a href="continuous-development.php">
-      <span class="title">Internet of Things</span>
+    <a href="/labs">
+      <span class="title"><i class="fa fa-cogs"></i> Internet of Things</span>
     </a>
   </li>
 
   <li>
-    <a href="automation-qa.php">
-      <span class="title">UI/UX</span>
+    <a href="/labs">
+      <span class="title"><i class="fa fa-cogs"></i> UI/UX</span>
     </a>
   </li>
 
   <li>
-    <a href="pim-ecommerce.php">
-      <span class="title">Drupal</span>
+    <a href="/labs">
+      <span class="title"><i class="fa fa-drupal"></i> Drupal</span>
     </a>
   </li>
 </ul>

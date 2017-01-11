@@ -35,7 +35,7 @@
           </aside>
           <article class="ps-main col-9">
             <section class="article-subsection" id="empoweredTeams">
-              <h4 class="section-title">Data Stories</h4>
+              <h4 class="section-title"><i class="fa fa-bar-chart"></i> Data Stories</h4>
               <h1>Life Expectancy of Females in India</h1>
               <a class="by-text" href="#credits">By Poonam Lata</a>
 
